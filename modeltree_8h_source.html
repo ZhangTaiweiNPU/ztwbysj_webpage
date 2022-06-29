@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VAMS: D:/QT_GL_Workspace/bs/VAMS/modeltree.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VAMS
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('modeltree_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">modeltree.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="modeltree_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef MODELTREE_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define MODELTREE_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QTreeWidget&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QFileDialog&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QInputDialog&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QMessageBox&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QTreeWidgetItem&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QMenu&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QAction&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QContextMenuEvent&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QDebug&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QMatrix4x4&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;QDir&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;QTextCodec&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &quot;<a class="code" href="model_8h.html">model.h</a>&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="engineer_8h.html">engineer.h</a>&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;<a class="code" href="justifier_8h.html">justifier.h</a>&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;<a class="code" href="item__information_8h.html">item_information.h</a>&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="shoot__point_8h.html">shoot_point.h</a>&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;<a class="code" href="util_8hpp.html">util.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_model_tree.html">   38</a></span><span class="keyword">class </span><a class="code hl_class" href="class_model_tree.html">ModelTree</a> : <span class="keyword">public</span> QTreeWidget</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    Q_OBJECT</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_model_tree.html#a58336ab31a6a977923a149b67d95bea1">ModelTree</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_function" href="class_model_tree.html#a296bee60a946627efe54807740bcd8d1">~ModelTree</a>();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a2981e76438d396931650d0150b0dca05">initialtree</a>(QOpenGLContext* <a class="code hl_variable" href="class_model_tree.html#a90968c8bf43e4c5e9b1cdd2c04063315">context</a>,QOpenGLShaderProgram* <a class="code hl_variable" href="class_model_tree.html#a2005fb2e6267230ada5d4bf5602a6271">shaderProgram</a>);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">//菜单内功能的相关操作函数，由于右键菜单相关的某些函数名称与C++关键字相同所以这些函数不采用规范的命名方式了</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a2c310893c6b83f893726c5fcb8f31854">CreateModelMenu</a>();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#ab1116c0b23ce9730270ab9cb60496a7c">Import</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a0d92075133f9cdf624153e03c4400708">UpdateExportInfo</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a9b3ad0a3490ac493b7bed833466cd0ee">Open</a>();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#addc66e780c7cdf30bdf6bd771d8e9166">Export</a>(<span class="keywordtype">bool</span> version);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a74e3733ec59e689df69abc47c8971031">Save</a>();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a31111fcc20b7932ecd1ade3d9a56aed4">DelSeledObj</a>();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#ae36deb03286839c564f3708187353d08">reNew</a>();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a53fbf2d3e30ef3286f4c56f2c29ec817">loadDemo</a>(QString str);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a89db139dd99348b194e7808f9d7a44d0">loadModel</a>(QString str);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#aa90bbd90b8d0dd1dfdd04560f17c3b13">setSelectNum</a>(<span class="keywordtype">bool</span> n);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#ab90778fea736a12bf0519e45ad8540df">draw</a>();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a2fa45f421b075fc80ea16a6d27c4d07d">recalculateMm</a>();</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#ae0c2f07a8f8d4bf44f73a7783ad10448">rotateModelMtx</a>(QMatrix4x4&amp; mtx);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a1de38ad49c4a00072d86f42b0dbf7d8d">zoomModel</a>(<span class="keywordtype">float</span> zoomTimes);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#a762b7527ec7912e912a1da22349b2e47">printpartsinfo</a>();</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model_tree.html#ae4d23b10b61e12a243c77a6f45a33e66">contextMenuEvent</a>(QContextMenuEvent *event);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword">public</span> slots:</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="comment">//菜单内功能的相关的槽函数，由于右键菜单相关的某些函数名称与C++关键字相同所以这些函数不采用规范的命名方式了</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a5137cbcec73cce95c9317908050ea288">AddMenuSection</a>();</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#afb6feaa0d457015068c371c1db0e446b">AddMenuModel</a>();</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#add65f843f7c382e65916f762e2ebdbfe">AddMenuSurface</a>();</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a7a3c51b0b3f46b6f52c3400493cf8893">AddMenuImport</a>();</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a4ca7b785aa4aad80500c045327e80966">Justif_Model</a>();</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a24b720497c386d192d61a6be73fde4e0">DelMenuObj</a>();</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a34d8d383682f0be5c4d40730f98f7abf">CheckModel</a>();</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a5bce9de18be01dde5698c52b4b2b3b5a">RenameObj</a>();</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#af703c486d2c1c0cc693483d1c697b379">Copy</a>();</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a8d1604f48978f2060cd65cb7baf3fff2">Move</a>();</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a4f0f2e480691ddfd5c86a96a523725f9">ToSection</a>();</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a8aad6752291cc62653ce813ea6232528">onSetLebelText</a>(QTreeWidgetItem* item,<span class="keywordtype">int</span> x);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a386c408831e08ecd17cb5b31ed30d573">changeInfo</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">int</span> thickness, <span class="keywordtype">bool</span> mp);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a9bc9b78ef56197c001c9c6bcd0373e66">setShootPoint</a>(<span class="keywordtype">float</span> x,<span class="keywordtype">float</span> y,<span class="keywordtype">float</span> z);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a31323397d5f5b2b47263570ffad2fe62">moveDistance</a>(QVector3D D);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a81b960f383212bc44dfcbc20e77b09f7">rotateIntX</a>(<span class="keywordtype">int</span> iax);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#abe560b25ebe8d5f5da587e21b8c500ae">rotateIntY</a>(<span class="keywordtype">int</span> iay);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a637f9124f505b279075c0ac26165b0e2">rotateIntZ</a>(<span class="keywordtype">int</span> iaz);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#acccc8efcb80b7cdafbbf6d404f8778c2">rotateFloatAngle</a>(QVector3D axis, <span class="keywordtype">float</span> fa);</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a8f174a756774d0816c0963e540103079">zoomAll</a>(<span class="keywordtype">float</span> zoomTimes);</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#adbf7cc1ca8603438b6a264d2a7d38d1a">zoomModelXYZ</a>(<span class="keywordtype">float</span> zoomTimesX, <span class="keywordtype">float</span> zoomTimesY, <span class="keywordtype">float</span> zoomTimesZ);</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_model_tree.html#a9f6a5338bb15299e1757d057da3c2778">initLimit</a>();</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="class_model_tree.html#a60cbe437d5efcdedf6efa4496a5e3a58">  145</a></span>    <a class="code hl_class" href="class_model.html">Model</a>* <a class="code hl_variable" href="class_model_tree.html#a60cbe437d5efcdedf6efa4496a5e3a58">singleSelMdl</a>;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="class_model_tree.html#adbf6272216a60b9009d28bd7f7adc5fa">  146</a></span>    <a class="code hl_class" href="class_part.html">Part</a>* <a class="code hl_variable" href="class_model_tree.html#adbf6272216a60b9009d28bd7f7adc5fa">singleSelPrt</a>;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="class_model_tree.html#aab505c29d0b35f147c28f582f8cab244">  147</a></span>    QVector&lt;Model* &gt; <a class="code hl_variable" href="class_model_tree.html#aab505c29d0b35f147c28f582f8cab244">selMdls</a>;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="class_model_tree.html#a8463fc84b07484b2bb3a0f0f75549df6">  148</a></span>    QVector&lt;Part*&gt; <a class="code hl_variable" href="class_model_tree.html#a8463fc84b07484b2bb3a0f0f75549df6">selPrt</a>;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="class_model_tree.html#a390809eb4da25f507aba7b1dd03b75ba">  149</a></span>    QVector&lt;QTreeWidgetItem*&gt; <a class="code hl_variable" href="class_model_tree.html#a390809eb4da25f507aba7b1dd03b75ba">seledobj</a>;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="class_model_tree.html#a635ed9b26d7d6f37dd9244f184bcf3fd">  150</a></span>    QVector&lt;QTreeWidgetItem*&gt; <a class="code hl_variable" href="class_model_tree.html#a635ed9b26d7d6f37dd9244f184bcf3fd">seledprt</a>;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="class_model_tree.html#a7157b56a12bd3de6dbd7be39f4d8befc">  151</a></span>    QTreeWidgetItem* <a class="code hl_variable" href="class_model_tree.html#a7157b56a12bd3de6dbd7be39f4d8befc">singleseledobj</a>;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="class_model_tree.html#a0f89ff8d478414121c79341d0ce6cebe">  152</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_model_tree.html#a0f89ff8d478414121c79341d0ce6cebe">selectnum</a> = 0;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="class_model_tree.html#ad5b61fa6970c7a706bef148637200b7d">  153</a></span>    <a class="code hl_class" href="class_model.html">Model</a>* <a class="code hl_variable" href="class_model_tree.html#ad5b61fa6970c7a706bef148637200b7d">copyModel</a>;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="class_model_tree.html#a41ef5a4d4b01e9fa1e90a7e2cb06f250">  155</a></span>    QVector3D <a class="code hl_variable" href="class_model_tree.html#a41ef5a4d4b01e9fa1e90a7e2cb06f250">shootPoint</a> = QVector3D(0,0,0);</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno"><a class="line" href="class_model_tree.html#a987d5b600351187131efb8bddad78300">  157</a></span>    <a class="code hl_class" href="classengineer.html">engineer</a> *<a class="code hl_variable" href="class_model_tree.html#a987d5b600351187131efb8bddad78300">engineer_window</a>;</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="class_model_tree.html#aaab12b4c063c5cbac1618c5013407a80">  158</a></span>    <a class="code hl_class" href="class_justifier.html">Justifier</a> *<a class="code hl_variable" href="class_model_tree.html#aaab12b4c063c5cbac1618c5013407a80">justifier_window</a>;</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="class_model_tree.html#a57f2960e441b30f0fe497919203704c4">  159</a></span>    <a class="code hl_class" href="class_item___information.html">Item_Information</a>* <a class="code hl_variable" href="class_model_tree.html#a57f2960e441b30f0fe497919203704c4">II</a>;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="class_model_tree.html#a949245f677f8d39467d2f4317695dd64">  160</a></span>    <a class="code hl_class" href="classshoot__point.html">shoot_point</a>* <a class="code hl_variable" href="class_model_tree.html#a949245f677f8d39467d2f4317695dd64">sp</a>;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="comment">//绘制相关</span></div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="class_model_tree.html#a90968c8bf43e4c5e9b1cdd2c04063315">  166</a></span>    QOpenGLContext* <a class="code hl_variable" href="class_model_tree.html#a90968c8bf43e4c5e9b1cdd2c04063315">context</a>;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="class_model_tree.html#a2005fb2e6267230ada5d4bf5602a6271">  167</a></span>    QOpenGLShaderProgram* <a class="code hl_variable" href="class_model_tree.html#a2005fb2e6267230ada5d4bf5602a6271">shaderProgram</a> ;</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    <span class="comment">//按钮和菜单</span></div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="class_model_tree.html#a8741ae79b613bef981a0bf6b49b4e376">  169</a></span>    QMenu   *<a class="code hl_variable" href="class_model_tree.html#a8741ae79b613bef981a0bf6b49b4e376">m_New_Menu</a>;</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="class_model_tree.html#a2f33035ab64fc722cd7e6a10c91f12d5">  170</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#a2f33035ab64fc722cd7e6a10c91f12d5">m_Add_Menu_Section</a>;</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="class_model_tree.html#acf070b6b1dfd8d99e1481af71e3d34f9">  171</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#acf070b6b1dfd8d99e1481af71e3d34f9">m_Add_Menu_Model</a>;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="class_model_tree.html#adde97cb89c89e4f6ad76dafcd0d1bc53">  172</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#adde97cb89c89e4f6ad76dafcd0d1bc53">m_Add_Menu_Surface</a>;</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno"><a class="line" href="class_model_tree.html#a658e9108dcf9d55b3cce7bd00397173e">  173</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#a658e9108dcf9d55b3cce7bd00397173e">m_Add_Menu_Import</a>;</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="class_model_tree.html#aee5b41aa6bfa01c8ebdf97c8fdf05a9a">  174</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#aee5b41aa6bfa01c8ebdf97c8fdf05a9a">m_Del_Menu_Obj</a>;</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="class_model_tree.html#a7d9af58a964b77e5d89bf5e971d2cfef">  175</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#a7d9af58a964b77e5d89bf5e971d2cfef">m_Check_Model</a>;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="class_model_tree.html#aa997cff49522991c656f2aebc810a69b">  176</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#aa997cff49522991c656f2aebc810a69b">m_Justify_Model</a>;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno"><a class="line" href="class_model_tree.html#af4bbc2caed0d83c17f33ee40594e620b">  177</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#af4bbc2caed0d83c17f33ee40594e620b">m_Copy</a>;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno"><a class="line" href="class_model_tree.html#a05c47df314b550bed63e32bb3ed3a373">  178</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#a05c47df314b550bed63e32bb3ed3a373">m_Move</a>;</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno"><a class="line" href="class_model_tree.html#a97b53b49cc85ef5db9942029cc930228">  179</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#a97b53b49cc85ef5db9942029cc930228">m_To_Section</a>;</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno"><a class="line" href="class_model_tree.html#a1ca08501bed64edede0586be945eb2ae">  180</a></span>    QAction *<a class="code hl_variable" href="class_model_tree.html#a1ca08501bed64edede0586be945eb2ae">m_Rename_Obj</a>;</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="comment">//ModelTree数据</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="class_model_tree.html#a98376f81221c63a840b5a58e3b865a0a">  182</a></span>    QVector&lt;Part *&gt; <a class="code hl_variable" href="class_model_tree.html#a98376f81221c63a840b5a58e3b865a0a">parts</a>;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="class_model_tree.html#a9e9e5b76c98905d6a2549eadf878f9a4">  183</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_model_tree.html#a9e9e5b76c98905d6a2549eadf878f9a4">numofparts</a>;</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="class_model_tree.html#a5f1d6245d0c49ebf583ca6540a843702">  184</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_model_tree.html#a5f1d6245d0c49ebf583ca6540a843702">partID</a>;</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <span class="comment">//输出文件时用到的信息</span></div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno"><a class="line" href="class_model_tree.html#a174fdcb8ad4da0f50f42e0a36bac0f90">  187</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="class_model_tree.html#a174fdcb8ad4da0f50f42e0a36bac0f90">modelNum</a> = 0;</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno"><a class="line" href="class_model_tree.html#a054289344d5627604866ac19e9212aac">  188</a></span>    <span class="keywordtype">long</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_model_tree.html#a054289344d5627604866ac19e9212aac">vertexNum</a> = 0;</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>};</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="preprocessor">#endif </span><span class="comment">// MODELTREE_H</span></div>
+<div class="ttc" id="aclass_item___information_html"><div class="ttname"><a href="class_item___information.html">Item_Information</a></div><div class="ttdoc">类：Item_Information（查案选中项信息）</div><div class="ttdef"><b>Definition:</b> item_information.h:30</div></div>
+<div class="ttc" id="aclass_justifier_html"><div class="ttname"><a href="class_justifier.html">Justifier</a></div><div class="ttdoc">类：Justifier（模型修改）</div><div class="ttdef"><b>Definition:</b> justifier.h:40</div></div>
+<div class="ttc" id="aclass_model_html"><div class="ttname"><a href="class_model.html">Model</a></div><div class="ttdoc">类：Model(部件)</div><div class="ttdef"><b>Definition:</b> model.h:257</div></div>
+<div class="ttc" id="aclass_model_tree_html"><div class="ttname"><a href="class_model_tree.html">ModelTree</a></div><div class="ttdoc">类：型树类</div><div class="ttdef"><b>Definition:</b> modeltree.h:39</div></div>
+<div class="ttc" id="aclass_model_tree_html_a054289344d5627604866ac19e9212aac"><div class="ttname"><a href="class_model_tree.html#a054289344d5627604866ac19e9212aac">ModelTree::vertexNum</a></div><div class="ttdeci">long unsigned int vertexNum</div><div class="ttdoc">所有Model的所有顶点数目</div><div class="ttdef"><b>Definition:</b> modeltree.h:188</div></div>
+<div class="ttc" id="aclass_model_tree_html_a05c47df314b550bed63e32bb3ed3a373"><div class="ttname"><a href="class_model_tree.html#a05c47df314b550bed63e32bb3ed3a373">ModelTree::m_Move</a></div><div class="ttdeci">QAction * m_Move</div><div class="ttdoc">右键菜单剪切</div><div class="ttdef"><b>Definition:</b> modeltree.h:178</div></div>
+<div class="ttc" id="aclass_model_tree_html_a0d92075133f9cdf624153e03c4400708"><div class="ttname"><a href="class_model_tree.html#a0d92075133f9cdf624153e03c4400708">ModelTree::UpdateExportInfo</a></div><div class="ttdeci">void UpdateExportInfo()</div><div class="ttdoc">右键菜单导出为文件之前进行的数据准备</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:379</div></div>
+<div class="ttc" id="aclass_model_tree_html_a0f89ff8d478414121c79341d0ce6cebe"><div class="ttname"><a href="class_model_tree.html#a0f89ff8d478414121c79341d0ce6cebe">ModelTree::selectnum</a></div><div class="ttdeci">bool selectnum</div><div class="ttdoc">模型选择数目，0单选1多选</div><div class="ttdef"><b>Definition:</b> modeltree.h:152</div></div>
+<div class="ttc" id="aclass_model_tree_html_a174fdcb8ad4da0f50f42e0a36bac0f90"><div class="ttname"><a href="class_model_tree.html#a174fdcb8ad4da0f50f42e0a36bac0f90">ModelTree::modelNum</a></div><div class="ttdeci">int modelNum</div><div class="ttdoc">所有Model数目</div><div class="ttdef"><b>Definition:</b> modeltree.h:187</div></div>
+<div class="ttc" id="aclass_model_tree_html_a1ca08501bed64edede0586be945eb2ae"><div class="ttname"><a href="class_model_tree.html#a1ca08501bed64edede0586be945eb2ae">ModelTree::m_Rename_Obj</a></div><div class="ttdeci">QAction * m_Rename_Obj</div><div class="ttdoc">右键菜单重命名</div><div class="ttdef"><b>Definition:</b> modeltree.h:180</div></div>
+<div class="ttc" id="aclass_model_tree_html_a1de38ad49c4a00072d86f42b0dbf7d8d"><div class="ttname"><a href="class_model_tree.html#a1de38ad49c4a00072d86f42b0dbf7d8d">ModelTree::zoomModel</a></div><div class="ttdeci">void zoomModel(float zoomTimes)</div><div class="ttdoc">缩放模型</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1467</div></div>
+<div class="ttc" id="aclass_model_tree_html_a2005fb2e6267230ada5d4bf5602a6271"><div class="ttname"><a href="class_model_tree.html#a2005fb2e6267230ada5d4bf5602a6271">ModelTree::shaderProgram</a></div><div class="ttdeci">QOpenGLShaderProgram * shaderProgram</div><div class="ttdoc">着色器程序</div><div class="ttdef"><b>Definition:</b> modeltree.h:167</div></div>
+<div class="ttc" id="aclass_model_tree_html_a24b720497c386d192d61a6be73fde4e0"><div class="ttname"><a href="class_model_tree.html#a24b720497c386d192d61a6be73fde4e0">ModelTree::DelMenuObj</a></div><div class="ttdeci">void DelMenuObj()</div><div class="ttdoc">右键菜单删除模型信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:898</div></div>
+<div class="ttc" id="aclass_model_tree_html_a296bee60a946627efe54807740bcd8d1"><div class="ttname"><a href="class_model_tree.html#a296bee60a946627efe54807740bcd8d1">ModelTree::~ModelTree</a></div><div class="ttdeci">~ModelTree()</div><div class="ttdoc">析构函数</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:52</div></div>
+<div class="ttc" id="aclass_model_tree_html_a2981e76438d396931650d0150b0dca05"><div class="ttname"><a href="class_model_tree.html#a2981e76438d396931650d0150b0dca05">ModelTree::initialtree</a></div><div class="ttdeci">void initialtree(QOpenGLContext *context, QOpenGLShaderProgram *shaderProgram)</div><div class="ttdoc">初始化ModelTree（实际上被上级MainWindow调用，传过来ModelTree需要的两个参数）</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:70</div></div>
+<div class="ttc" id="aclass_model_tree_html_a2c310893c6b83f893726c5fcb8f31854"><div class="ttname"><a href="class_model_tree.html#a2c310893c6b83f893726c5fcb8f31854">ModelTree::CreateModelMenu</a></div><div class="ttdeci">void CreateModelMenu()</div><div class="ttdoc">右键菜单创建</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:78</div></div>
+<div class="ttc" id="aclass_model_tree_html_a2f33035ab64fc722cd7e6a10c91f12d5"><div class="ttname"><a href="class_model_tree.html#a2f33035ab64fc722cd7e6a10c91f12d5">ModelTree::m_Add_Menu_Section</a></div><div class="ttdeci">QAction * m_Add_Menu_Section</div><div class="ttdoc">右键菜单那新建分组</div><div class="ttdef"><b>Definition:</b> modeltree.h:170</div></div>
+<div class="ttc" id="aclass_model_tree_html_a2fa45f421b075fc80ea16a6d27c4d07d"><div class="ttname"><a href="class_model_tree.html#a2fa45f421b075fc80ea16a6d27c4d07d">ModelTree::recalculateMm</a></div><div class="ttdeci">void recalculateMm()</div><div class="ttdoc">重新计算刚刚修改（选中）的模型的xyz范围</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1428</div></div>
+<div class="ttc" id="aclass_model_tree_html_a31111fcc20b7932ecd1ade3d9a56aed4"><div class="ttname"><a href="class_model_tree.html#a31111fcc20b7932ecd1ade3d9a56aed4">ModelTree::DelSeledObj</a></div><div class="ttdeci">void DelSeledObj()</div><div class="ttdoc">右键菜单删除选中的模型</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:913</div></div>
+<div class="ttc" id="aclass_model_tree_html_a31323397d5f5b2b47263570ffad2fe62"><div class="ttname"><a href="class_model_tree.html#a31323397d5f5b2b47263570ffad2fe62">ModelTree::moveDistance</a></div><div class="ttdeci">void moveDistance(QVector3D D)</div><div class="ttdoc">接收justifier信号移动一段距离</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1486</div></div>
+<div class="ttc" id="aclass_model_tree_html_a34d8d383682f0be5c4d40730f98f7abf"><div class="ttname"><a href="class_model_tree.html#a34d8d383682f0be5c4d40730f98f7abf">ModelTree::CheckModel</a></div><div class="ttdeci">void CheckModel()</div><div class="ttdoc">右键菜单查看信息信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1115</div></div>
+<div class="ttc" id="aclass_model_tree_html_a386c408831e08ecd17cb5b31ed30d573"><div class="ttname"><a href="class_model_tree.html#a386c408831e08ecd17cb5b31ed30d573">ModelTree::changeInfo</a></div><div class="ttdeci">void changeInfo(unsigned int id, int thickness, bool mp)</div><div class="ttdoc">接收Item_Information控件发来的修改信息信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1311</div></div>
+<div class="ttc" id="aclass_model_tree_html_a390809eb4da25f507aba7b1dd03b75ba"><div class="ttname"><a href="class_model_tree.html#a390809eb4da25f507aba7b1dd03b75ba">ModelTree::seledobj</a></div><div class="ttdeci">QVector&lt; QTreeWidgetItem * &gt; seledobj</div><div class="ttdoc">记录多选选中的Model对应的TreeWidget项</div><div class="ttdef"><b>Definition:</b> modeltree.h:149</div></div>
+<div class="ttc" id="aclass_model_tree_html_a41ef5a4d4b01e9fa1e90a7e2cb06f250"><div class="ttname"><a href="class_model_tree.html#a41ef5a4d4b01e9fa1e90a7e2cb06f250">ModelTree::shootPoint</a></div><div class="ttdeci">QVector3D shootPoint</div><div class="ttdoc">整个模型（ModelTree）的瞄准中心</div><div class="ttdef"><b>Definition:</b> modeltree.h:155</div></div>
+<div class="ttc" id="aclass_model_tree_html_a4ca7b785aa4aad80500c045327e80966"><div class="ttname"><a href="class_model_tree.html#a4ca7b785aa4aad80500c045327e80966">ModelTree::Justif_Model</a></div><div class="ttdeci">void Justif_Model()</div><div class="ttdoc">右键菜单调整模型信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1394</div></div>
+<div class="ttc" id="aclass_model_tree_html_a4f0f2e480691ddfd5c86a96a523725f9"><div class="ttname"><a href="class_model_tree.html#a4f0f2e480691ddfd5c86a96a523725f9">ModelTree::ToSection</a></div><div class="ttdeci">void ToSection()</div><div class="ttdoc">右键菜单粘贴信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1276</div></div>
+<div class="ttc" id="aclass_model_tree_html_a5137cbcec73cce95c9317908050ea288"><div class="ttname"><a href="class_model_tree.html#a5137cbcec73cce95c9317908050ea288">ModelTree::AddMenuSection</a></div><div class="ttdeci">void AddMenuSection()</div><div class="ttdoc">右键菜单添加Part信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:735</div></div>
+<div class="ttc" id="aclass_model_tree_html_a53fbf2d3e30ef3286f4c56f2c29ec817"><div class="ttname"><a href="class_model_tree.html#a53fbf2d3e30ef3286f4c56f2c29ec817">ModelTree::loadDemo</a></div><div class="ttdeci">void loadDemo(QString str)</div><div class="ttdoc">从路径加载项目</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:570</div></div>
+<div class="ttc" id="aclass_model_tree_html_a57f2960e441b30f0fe497919203704c4"><div class="ttname"><a href="class_model_tree.html#a57f2960e441b30f0fe497919203704c4">ModelTree::II</a></div><div class="ttdeci">Item_Information * II</div><div class="ttdoc">Item_Information窗口</div><div class="ttdef"><b>Definition:</b> modeltree.h:159</div></div>
+<div class="ttc" id="aclass_model_tree_html_a58336ab31a6a977923a149b67d95bea1"><div class="ttname"><a href="class_model_tree.html#a58336ab31a6a977923a149b67d95bea1">ModelTree::ModelTree</a></div><div class="ttdeci">ModelTree(QWidget *parent=nullptr)</div><div class="ttdoc">构造函数</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:6</div></div>
+<div class="ttc" id="aclass_model_tree_html_a5bce9de18be01dde5698c52b4b2b3b5a"><div class="ttname"><a href="class_model_tree.html#a5bce9de18be01dde5698c52b4b2b3b5a">ModelTree::RenameObj</a></div><div class="ttdeci">void RenameObj()</div><div class="ttdoc">右键菜单重命名信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1340</div></div>
+<div class="ttc" id="aclass_model_tree_html_a5f1d6245d0c49ebf583ca6540a843702"><div class="ttname"><a href="class_model_tree.html#a5f1d6245d0c49ebf583ca6540a843702">ModelTree::partID</a></div><div class="ttdeci">unsigned int partID</div><div class="ttdoc">用于为新添加的Part对象赋予ID,仅在添加Part时++（为了方便后续redo、undo功能，虽然目前还没开发这两个功能）</div><div class="ttdef"><b>Definition:</b> modeltree.h:184</div></div>
+<div class="ttc" id="aclass_model_tree_html_a60cbe437d5efcdedf6efa4496a5e3a58"><div class="ttname"><a href="class_model_tree.html#a60cbe437d5efcdedf6efa4496a5e3a58">ModelTree::singleSelMdl</a></div><div class="ttdeci">Model * singleSelMdl</div><div class="ttdoc">记录单选选中的Model</div><div class="ttdef"><b>Definition:</b> modeltree.h:145</div></div>
+<div class="ttc" id="aclass_model_tree_html_a635ed9b26d7d6f37dd9244f184bcf3fd"><div class="ttname"><a href="class_model_tree.html#a635ed9b26d7d6f37dd9244f184bcf3fd">ModelTree::seledprt</a></div><div class="ttdeci">QVector&lt; QTreeWidgetItem * &gt; seledprt</div><div class="ttdoc">记录多选选中的Part对应的TreeWidget项</div><div class="ttdef"><b>Definition:</b> modeltree.h:150</div></div>
+<div class="ttc" id="aclass_model_tree_html_a637f9124f505b279075c0ac26165b0e2"><div class="ttname"><a href="class_model_tree.html#a637f9124f505b279075c0ac26165b0e2">ModelTree::rotateIntZ</a></div><div class="ttdeci">void rotateIntZ(int iaz)</div><div class="ttdoc">接收justifier信号绕Z轴旋转一定角度</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1541</div></div>
+<div class="ttc" id="aclass_model_tree_html_a658e9108dcf9d55b3cce7bd00397173e"><div class="ttname"><a href="class_model_tree.html#a658e9108dcf9d55b3cce7bd00397173e">ModelTree::m_Add_Menu_Import</a></div><div class="ttdeci">QAction * m_Add_Menu_Import</div><div class="ttdoc">右键菜单从文件导入</div><div class="ttdef"><b>Definition:</b> modeltree.h:173</div></div>
+<div class="ttc" id="aclass_model_tree_html_a7157b56a12bd3de6dbd7be39f4d8befc"><div class="ttname"><a href="class_model_tree.html#a7157b56a12bd3de6dbd7be39f4d8befc">ModelTree::singleseledobj</a></div><div class="ttdeci">QTreeWidgetItem * singleseledobj</div><div class="ttdoc">记录单选选中的项目对应的TreeWidget项</div><div class="ttdef"><b>Definition:</b> modeltree.h:151</div></div>
+<div class="ttc" id="aclass_model_tree_html_a74e3733ec59e689df69abc47c8971031"><div class="ttname"><a href="class_model_tree.html#a74e3733ec59e689df69abc47c8971031">ModelTree::Save</a></div><div class="ttdeci">void Save()</div><div class="ttdoc">右键菜单保存项目</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:474</div></div>
+<div class="ttc" id="aclass_model_tree_html_a762b7527ec7912e912a1da22349b2e47"><div class="ttname"><a href="class_model_tree.html#a762b7527ec7912e912a1da22349b2e47">ModelTree::printpartsinfo</a></div><div class="ttdeci">void printpartsinfo()</div><div class="ttdoc">测试用函数，输出ModelTree中所有Part的信息</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1407</div></div>
+<div class="ttc" id="aclass_model_tree_html_a7a3c51b0b3f46b6f52c3400493cf8893"><div class="ttname"><a href="class_model_tree.html#a7a3c51b0b3f46b6f52c3400493cf8893">ModelTree::AddMenuImport</a></div><div class="ttdeci">void AddMenuImport()</div><div class="ttdoc">右键菜单从文件导入模型信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:855</div></div>
+<div class="ttc" id="aclass_model_tree_html_a7d9af58a964b77e5d89bf5e971d2cfef"><div class="ttname"><a href="class_model_tree.html#a7d9af58a964b77e5d89bf5e971d2cfef">ModelTree::m_Check_Model</a></div><div class="ttdeci">QAction * m_Check_Model</div><div class="ttdoc">右键菜单查看信息</div><div class="ttdef"><b>Definition:</b> modeltree.h:175</div></div>
+<div class="ttc" id="aclass_model_tree_html_a81b960f383212bc44dfcbc20e77b09f7"><div class="ttname"><a href="class_model_tree.html#a81b960f383212bc44dfcbc20e77b09f7">ModelTree::rotateIntX</a></div><div class="ttdeci">void rotateIntX(int iax)</div><div class="ttdoc">接收justifier信号绕X轴旋转一定角度</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1505</div></div>
+<div class="ttc" id="aclass_model_tree_html_a8463fc84b07484b2bb3a0f0f75549df6"><div class="ttname"><a href="class_model_tree.html#a8463fc84b07484b2bb3a0f0f75549df6">ModelTree::selPrt</a></div><div class="ttdeci">QVector&lt; Part * &gt; selPrt</div><div class="ttdoc">记录多选选中的Part</div><div class="ttdef"><b>Definition:</b> modeltree.h:148</div></div>
+<div class="ttc" id="aclass_model_tree_html_a8741ae79b613bef981a0bf6b49b4e376"><div class="ttname"><a href="class_model_tree.html#a8741ae79b613bef981a0bf6b49b4e376">ModelTree::m_New_Menu</a></div><div class="ttdeci">QMenu * m_New_Menu</div><div class="ttdoc">右键菜单那</div><div class="ttdef"><b>Definition:</b> modeltree.h:169</div></div>
+<div class="ttc" id="aclass_model_tree_html_a89db139dd99348b194e7808f9d7a44d0"><div class="ttname"><a href="class_model_tree.html#a89db139dd99348b194e7808f9d7a44d0">ModelTree::loadModel</a></div><div class="ttdeci">void loadModel(QString str)</div><div class="ttdoc">右键从指定路径倒入模型</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:131</div></div>
+<div class="ttc" id="aclass_model_tree_html_a8aad6752291cc62653ce813ea6232528"><div class="ttname"><a href="class_model_tree.html#a8aad6752291cc62653ce813ea6232528">ModelTree::onSetLebelText</a></div><div class="ttdeci">void onSetLebelText(QTreeWidgetItem *item, int x)</div><div class="ttdoc">接收选中的TreeWidget项的信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1637</div></div>
+<div class="ttc" id="aclass_model_tree_html_a8d1604f48978f2060cd65cb7baf3fff2"><div class="ttname"><a href="class_model_tree.html#a8d1604f48978f2060cd65cb7baf3fff2">ModelTree::Move</a></div><div class="ttdeci">void Move()</div><div class="ttdoc">右键菜单剪切信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1150</div></div>
+<div class="ttc" id="aclass_model_tree_html_a8f174a756774d0816c0963e540103079"><div class="ttname"><a href="class_model_tree.html#a8f174a756774d0816c0963e540103079">ModelTree::zoomAll</a></div><div class="ttdeci">void zoomAll(float zoomTimes)</div><div class="ttdoc">接收justifier信号各方向缩放同一倍率</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1579</div></div>
+<div class="ttc" id="aclass_model_tree_html_a90968c8bf43e4c5e9b1cdd2c04063315"><div class="ttname"><a href="class_model_tree.html#a90968c8bf43e4c5e9b1cdd2c04063315">ModelTree::context</a></div><div class="ttdeci">QOpenGLContext * context</div><div class="ttdoc">opengl函数入口</div><div class="ttdef"><b>Definition:</b> modeltree.h:166</div></div>
+<div class="ttc" id="aclass_model_tree_html_a949245f677f8d39467d2f4317695dd64"><div class="ttname"><a href="class_model_tree.html#a949245f677f8d39467d2f4317695dd64">ModelTree::sp</a></div><div class="ttdeci">shoot_point * sp</div><div class="ttdoc">设置瞄准中心窗口</div><div class="ttdef"><b>Definition:</b> modeltree.h:160</div></div>
+<div class="ttc" id="aclass_model_tree_html_a97b53b49cc85ef5db9942029cc930228"><div class="ttname"><a href="class_model_tree.html#a97b53b49cc85ef5db9942029cc930228">ModelTree::m_To_Section</a></div><div class="ttdeci">QAction * m_To_Section</div><div class="ttdoc">右键菜单黏贴</div><div class="ttdef"><b>Definition:</b> modeltree.h:179</div></div>
+<div class="ttc" id="aclass_model_tree_html_a98376f81221c63a840b5a58e3b865a0a"><div class="ttname"><a href="class_model_tree.html#a98376f81221c63a840b5a58e3b865a0a">ModelTree::parts</a></div><div class="ttdeci">QVector&lt; Part * &gt; parts</div><div class="ttdoc">存储ModelTree下的各个Part的容器</div><div class="ttdef"><b>Definition:</b> modeltree.h:182</div></div>
+<div class="ttc" id="aclass_model_tree_html_a987d5b600351187131efb8bddad78300"><div class="ttname"><a href="class_model_tree.html#a987d5b600351187131efb8bddad78300">ModelTree::engineer_window</a></div><div class="ttdeci">engineer * engineer_window</div><div class="ttdoc">engineer窗口</div><div class="ttdef"><b>Definition:</b> modeltree.h:157</div></div>
+<div class="ttc" id="aclass_model_tree_html_a9b3ad0a3490ac493b7bed833466cd0ee"><div class="ttname"><a href="class_model_tree.html#a9b3ad0a3490ac493b7bed833466cd0ee">ModelTree::Open</a></div><div class="ttdeci">void Open()</div><div class="ttdoc">右键菜单打开项目（用户指定路径）</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:214</div></div>
+<div class="ttc" id="aclass_model_tree_html_a9bc9b78ef56197c001c9c6bcd0373e66"><div class="ttname"><a href="class_model_tree.html#a9bc9b78ef56197c001c9c6bcd0373e66">ModelTree::setShootPoint</a></div><div class="ttdeci">void setShootPoint(float x, float y, float z)</div><div class="ttdoc">接收shoot_point设置瞄准中西信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1328</div></div>
+<div class="ttc" id="aclass_model_tree_html_a9e9e5b76c98905d6a2549eadf878f9a4"><div class="ttname"><a href="class_model_tree.html#a9e9e5b76c98905d6a2549eadf878f9a4">ModelTree::numofparts</a></div><div class="ttdeci">unsigned int numofparts</div><div class="ttdoc">MOdelTree中的Part对象数目,添加Part时++，删除ModelPart时–</div><div class="ttdef"><b>Definition:</b> modeltree.h:183</div></div>
+<div class="ttc" id="aclass_model_tree_html_a9f6a5338bb15299e1757d057da3c2778"><div class="ttname"><a href="class_model_tree.html#a9f6a5338bb15299e1757d057da3c2778">ModelTree::initLimit</a></div><div class="ttdeci">void initLimit()</div><div class="ttdoc">重新计算选中部件或分组的范围</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1617</div></div>
+<div class="ttc" id="aclass_model_tree_html_aa90bbd90b8d0dd1dfdd04560f17c3b13"><div class="ttname"><a href="class_model_tree.html#aa90bbd90b8d0dd1dfdd04560f17c3b13">ModelTree::setSelectNum</a></div><div class="ttdeci">void setSelectNum(bool n)</div><div class="ttdoc">设置单选/多选</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1068</div></div>
+<div class="ttc" id="aclass_model_tree_html_aa997cff49522991c656f2aebc810a69b"><div class="ttname"><a href="class_model_tree.html#aa997cff49522991c656f2aebc810a69b">ModelTree::m_Justify_Model</a></div><div class="ttdeci">QAction * m_Justify_Model</div><div class="ttdoc">右键菜单调整部件</div><div class="ttdef"><b>Definition:</b> modeltree.h:176</div></div>
+<div class="ttc" id="aclass_model_tree_html_aaab12b4c063c5cbac1618c5013407a80"><div class="ttname"><a href="class_model_tree.html#aaab12b4c063c5cbac1618c5013407a80">ModelTree::justifier_window</a></div><div class="ttdeci">Justifier * justifier_window</div><div class="ttdoc">justifier窗口</div><div class="ttdef"><b>Definition:</b> modeltree.h:158</div></div>
+<div class="ttc" id="aclass_model_tree_html_aab505c29d0b35f147c28f582f8cab244"><div class="ttname"><a href="class_model_tree.html#aab505c29d0b35f147c28f582f8cab244">ModelTree::selMdls</a></div><div class="ttdeci">QVector&lt; Model * &gt; selMdls</div><div class="ttdoc">记录多选选中的Model</div><div class="ttdef"><b>Definition:</b> modeltree.h:147</div></div>
+<div class="ttc" id="aclass_model_tree_html_ab1116c0b23ce9730270ab9cb60496a7c"><div class="ttname"><a href="class_model_tree.html#ab1116c0b23ce9730270ab9cb60496a7c">ModelTree::Import</a></div><div class="ttdeci">void Import()</div><div class="ttdoc">右键菜单从文件导入模型（用户指定路径）</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:169</div></div>
+<div class="ttc" id="aclass_model_tree_html_ab90778fea736a12bf0519e45ad8540df"><div class="ttname"><a href="class_model_tree.html#ab90778fea736a12bf0519e45ad8540df">ModelTree::draw</a></div><div class="ttdeci">void draw()</div><div class="ttdoc">绘制ModelTree的所有Part中的所有Model</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1417</div></div>
+<div class="ttc" id="aclass_model_tree_html_abe560b25ebe8d5f5da587e21b8c500ae"><div class="ttname"><a href="class_model_tree.html#abe560b25ebe8d5f5da587e21b8c500ae">ModelTree::rotateIntY</a></div><div class="ttdeci">void rotateIntY(int iay)</div><div class="ttdoc">接收justifier信号绕Y轴旋转一定角度</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1523</div></div>
+<div class="ttc" id="aclass_model_tree_html_acccc8efcb80b7cdafbbf6d404f8778c2"><div class="ttname"><a href="class_model_tree.html#acccc8efcb80b7cdafbbf6d404f8778c2">ModelTree::rotateFloatAngle</a></div><div class="ttdeci">void rotateFloatAngle(QVector3D axis, float fa)</div><div class="ttdoc">接收justifier信号绕指定轴axis旋转fa角度</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1560</div></div>
+<div class="ttc" id="aclass_model_tree_html_acf070b6b1dfd8d99e1481af71e3d34f9"><div class="ttname"><a href="class_model_tree.html#acf070b6b1dfd8d99e1481af71e3d34f9">ModelTree::m_Add_Menu_Model</a></div><div class="ttdeci">QAction * m_Add_Menu_Model</div><div class="ttdoc">右键菜单那新建几何体</div><div class="ttdef"><b>Definition:</b> modeltree.h:171</div></div>
+<div class="ttc" id="aclass_model_tree_html_ad5b61fa6970c7a706bef148637200b7d"><div class="ttname"><a href="class_model_tree.html#ad5b61fa6970c7a706bef148637200b7d">ModelTree::copyModel</a></div><div class="ttdeci">Model * copyModel</div><div class="ttdoc">复制剪切时临时存放Model对象</div><div class="ttdef"><b>Definition:</b> modeltree.h:153</div></div>
+<div class="ttc" id="aclass_model_tree_html_adbf6272216a60b9009d28bd7f7adc5fa"><div class="ttname"><a href="class_model_tree.html#adbf6272216a60b9009d28bd7f7adc5fa">ModelTree::singleSelPrt</a></div><div class="ttdeci">Part * singleSelPrt</div><div class="ttdoc">记录单选选中的Part</div><div class="ttdef"><b>Definition:</b> modeltree.h:146</div></div>
+<div class="ttc" id="aclass_model_tree_html_adbf7cc1ca8603438b6a264d2a7d38d1a"><div class="ttname"><a href="class_model_tree.html#adbf7cc1ca8603438b6a264d2a7d38d1a">ModelTree::zoomModelXYZ</a></div><div class="ttdeci">void zoomModelXYZ(float zoomTimesX, float zoomTimesY, float zoomTimesZ)</div><div class="ttdoc">接收justifier信号xyz方向分别缩放不同倍率</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1598</div></div>
+<div class="ttc" id="aclass_model_tree_html_add65f843f7c382e65916f762e2ebdbfe"><div class="ttname"><a href="class_model_tree.html#add65f843f7c382e65916f762e2ebdbfe">ModelTree::AddMenuSurface</a></div><div class="ttdeci">void AddMenuSurface()</div><div class="ttdoc">右键菜单新建几何面信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:810</div></div>
+<div class="ttc" id="aclass_model_tree_html_addc66e780c7cdf30bdf6bd771d8e9166"><div class="ttname"><a href="class_model_tree.html#addc66e780c7cdf30bdf6bd771d8e9166">ModelTree::Export</a></div><div class="ttdeci">void Export(bool version)</div><div class="ttdoc">右键菜单导出为文件</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:396</div></div>
+<div class="ttc" id="aclass_model_tree_html_adde97cb89c89e4f6ad76dafcd0d1bc53"><div class="ttname"><a href="class_model_tree.html#adde97cb89c89e4f6ad76dafcd0d1bc53">ModelTree::m_Add_Menu_Surface</a></div><div class="ttdeci">QAction * m_Add_Menu_Surface</div><div class="ttdoc">右键菜单那新建几何面</div><div class="ttdef"><b>Definition:</b> modeltree.h:172</div></div>
+<div class="ttc" id="aclass_model_tree_html_ae0c2f07a8f8d4bf44f73a7783ad10448"><div class="ttname"><a href="class_model_tree.html#ae0c2f07a8f8d4bf44f73a7783ad10448">ModelTree::rotateModelMtx</a></div><div class="ttdeci">void rotateModelMtx(QMatrix4x4 &amp;mtx)</div><div class="ttdoc">接收旋转变换矩阵，用于旋转</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1449</div></div>
+<div class="ttc" id="aclass_model_tree_html_ae36deb03286839c564f3708187353d08"><div class="ttname"><a href="class_model_tree.html#ae36deb03286839c564f3708187353d08">ModelTree::reNew</a></div><div class="ttdeci">void reNew()</div><div class="ttdoc">清空项目</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:544</div></div>
+<div class="ttc" id="aclass_model_tree_html_ae4d23b10b61e12a243c77a6f45a33e66"><div class="ttname"><a href="class_model_tree.html#ae4d23b10b61e12a243c77a6f45a33e66">ModelTree::contextMenuEvent</a></div><div class="ttdeci">void contextMenuEvent(QContextMenuEvent *event)</div><div class="ttdoc">选中TreeWidget控件中的项的事件监控</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1807</div></div>
+<div class="ttc" id="aclass_model_tree_html_aee5b41aa6bfa01c8ebdf97c8fdf05a9a"><div class="ttname"><a href="class_model_tree.html#aee5b41aa6bfa01c8ebdf97c8fdf05a9a">ModelTree::m_Del_Menu_Obj</a></div><div class="ttdeci">QAction * m_Del_Menu_Obj</div><div class="ttdoc">右键菜单删除</div><div class="ttdef"><b>Definition:</b> modeltree.h:174</div></div>
+<div class="ttc" id="aclass_model_tree_html_af4bbc2caed0d83c17f33ee40594e620b"><div class="ttname"><a href="class_model_tree.html#af4bbc2caed0d83c17f33ee40594e620b">ModelTree::m_Copy</a></div><div class="ttdeci">QAction * m_Copy</div><div class="ttdoc">右键菜单复制</div><div class="ttdef"><b>Definition:</b> modeltree.h:177</div></div>
+<div class="ttc" id="aclass_model_tree_html_af703c486d2c1c0cc693483d1c697b379"><div class="ttname"><a href="class_model_tree.html#af703c486d2c1c0cc693483d1c697b379">ModelTree::Copy</a></div><div class="ttdeci">void Copy()</div><div class="ttdoc">右键菜单复制信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:1201</div></div>
+<div class="ttc" id="aclass_model_tree_html_afb6feaa0d457015068c371c1db0e446b"><div class="ttname"><a href="class_model_tree.html#afb6feaa0d457015068c371c1db0e446b">ModelTree::AddMenuModel</a></div><div class="ttdeci">void AddMenuModel()</div><div class="ttdoc">右键菜单新建几何体模型信号</div><div class="ttdef"><b>Definition:</b> modeltree.cpp:765</div></div>
+<div class="ttc" id="aclass_part_html"><div class="ttname"><a href="class_part.html">Part</a></div><div class="ttdoc">类：Part（分组）</div><div class="ttdef"><b>Definition:</b> model.h:127</div></div>
+<div class="ttc" id="aclassengineer_html"><div class="ttname"><a href="classengineer.html">engineer</a></div><div class="ttdoc">类：engineer（新建模型）</div><div class="ttdef"><b>Definition:</b> engineer.h:72</div></div>
+<div class="ttc" id="aclassshoot__point_html"><div class="ttname"><a href="classshoot__point.html">shoot_point</a></div><div class="ttdoc">类：shoot_point设置瞄准中心</div><div class="ttdef"><b>Definition:</b> shoot_point.h:25</div></div>
+<div class="ttc" id="aengineer_8h_html"><div class="ttname"><a href="engineer_8h.html">engineer.h</a></div></div>
+<div class="ttc" id="aitem__information_8h_html"><div class="ttname"><a href="item__information_8h.html">item_information.h</a></div></div>
+<div class="ttc" id="ajustifier_8h_html"><div class="ttname"><a href="justifier_8h.html">justifier.h</a></div></div>
+<div class="ttc" id="amodel_8h_html"><div class="ttname"><a href="model_8h.html">model.h</a></div></div>
+<div class="ttc" id="ashoot__point_8h_html"><div class="ttname"><a href="shoot__point_8h.html">shoot_point.h</a></div></div>
+<div class="ttc" id="autil_8hpp_html"><div class="ttname"><a href="util_8hpp.html">util.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_038d7fc0aa58c8ee675df0cb4befd1bf.html">QT_GL_Workspace</a></li><li class="navelem"><a class="el" href="dir_365f36bfb38dd99a6c1fec73b30715a7.html">bs</a></li><li class="navelem"><a class="el" href="dir_d064e010914cc808985905912a23f409.html">VAMS</a></li><li class="navelem"><a class="el" href="modeltree_8h.html">modeltree.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

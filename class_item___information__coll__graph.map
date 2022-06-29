@@ -1,0 +1,5 @@
+<map id="Item_Information" name="Item_Information">
+<area shape="rect" id="node1" title="类：Item_Information（查案选中项信息）" alt="" coords="5,171,123,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="22,5,95,32"/>
+<area shape="rect" id="node3" href="$class_material_list.html" title="类：MaterialList（材质列表）" alt="" coords="81,81,170,108"/>
+</map>

@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VAMS: D:/QT_GL_Workspace/bs/VAMS/mainwindow.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VAMS
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('mainwindow_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">mainwindow.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="mainwindow_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef MAINWINDOW_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define MAINWINDOW_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QMainWindow&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QFileDialog&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QDir&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="operating__status_8hpp.html">operating_status.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="util_8hpp.html">util.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="modeltree_8h.html">modeltree.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="materiallist_8h.html">materiallist.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>QT_BEGIN_NAMESPACE</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_ui.html">Ui</a> { <span class="keyword">class </span><a class="code hl_class" href="class_main_window.html">MainWindow</a>; }</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>QT_END_NAMESPACE</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_main_window.html">   33</a></span><span class="keyword">class </span><a class="code hl_class" href="class_main_window.html">MainWindow</a> : <span class="keyword">public</span> QMainWindow</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    Q_OBJECT</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_function" href="class_main_window.html#a996c5a2b6f77944776856f08ec30858d">MainWindow</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <a class="code hl_function" href="class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a4cb85ad13d3f07ed9c6c67fd2f868b7f">on_initModelTree</a>(QOpenGLContext *context, QOpenGLShaderProgram *shaderProgram);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="comment">//顶部工具栏</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">//文件操作</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#aed8d4c16aaa87ae02a2de2edd5fc91c7">on_actionNew_triggered</a>();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a2b20e21e52d24366e7c990db888cbf1c">on_actionOpenProj_triggered</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a43516d23bdc14b289c3a66d02cdc372c">on_actionOpenFile_triggered</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#aa338456139d90abbb6898625332f8c6d">on_actionSaveProj_triggered</a>();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#aba11a6cb237237f93a7daa658da2496e">on_actionSaveFile_triggered</a>();</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="comment">//视角操作</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#ab8797a123ed7957c46f97610a511cc27">on_actionTrans_triggered</a>();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a1cb0f675cbb32f1399ede2df0f7db04e">on_actionOrientate_triggered</a>();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a8e46a1f3edcdb30c0dcd7121b6ddc179">on_actionFromZ_triggered</a>();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a0c5e2fad24e5528389f04279aa7ae638">on_actionFromY_triggered</a>();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#aa67a80bbfe0c5a5089a5de7d4e8cfa14">on_actionFromX_triggered</a>();</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#adfd368dd4a8cd397e82e3a7b26ace0ff">on_actionDefaultView_triggered</a>();</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="comment">//视图操作</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#aa668402f91919a762a49a2b04b959043">on_actionShowAxis_triggered</a>();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#ae2659828e97f3c252fbf1f3156f01c00">on_actionModelView_triggered</a>();</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a32d6cab483c59f368c04e30baac06b91">on_actionWiredView_triggered</a>();</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a66c80f996ae8dc5af8b99076e549457a">on_actionModelTree_triggered</a>();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="comment">//设置</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#ab755936a381edd36f0a630b413d45992">on_actionSensitivity_triggered</a>();</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a8fdd0348b9993bc5b33f07bab1b8770e">on_actionMaterial_triggered</a>();</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a2f998e54fa5abda7ddac03c7dd18ea2b">on_actionShootPoint_triggered</a>();</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a4f3ebda1ba39e0ef4d678b44893c9c7f">on_actionAbout_triggered</a>();</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="comment">//左侧工具栏</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a723573a6fb06dcc3d8253587922d3a3f">on_actionSelect_triggered</a>();</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#ae657acea5000e417bc0c22e4f2b33eca">on_actionJustify_triggered</a>();</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a745782a9906013b802d6ac517bbcaec4">on_actionBunchSelect_triggered</a>();</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#aade768fb972a277f623c0e9f5126f536">on_actionMovebyMouse_triggered</a>();</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a5581eab4a19bc77f56949b954771fb02">on_actionRotbyMouse_triggered</a>();</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a2197d35e9e582fd167ac2fe211a22702">on_actionDeleteModel_triggered</a>();</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="comment">//建模</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a03ba9bcc696b977b48f8705bc511fb4e">on_actionAddModel_triggered</a>();</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a8a3bcc55fc371f3df8abee56f8b23e2e">on_actionAddSurface_triggered</a>();</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a6b23077bde9e15406acdcd63745039fd">on_actionAddBall_triggered</a>();</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#af8173f0f66fa5c69a7a85e9c724cf99e">on_actionAddCube_triggered</a>();</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#ab65a11c34f898cda52cf278586163ec3">on_actionAddCube0_triggered</a>();</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a566d626ef041c4d86d9fcefa58bf7e1b">on_actionAddCylinder_triggered</a>();</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a1be32ecf848476a23a471270f045807c">on_actionAddCylinder0_triggered</a>();</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a5491ff230e1205f24b3c4f73843c283a">on_actionAddCone_triggered</a>();</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a6986c566142f9cae1e8d7eb9fa2de009">on_actionAddCone0_triggered</a>();</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a5e4915f0907af8cbc35ac6dfea77b67d">on_actionAddFrustum_triggered</a>();</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a2f4af255eec4796651f4e42666cba01d">on_actionAddFrustum0_triggered</a>();</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#abf5aa06df3ee719167c9975c1d5ebece">on_actionEngine_triggered</a>();</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a82c74d774f4245d5ab53cb55993bc423">on_actionPropeller_triggered</a>();</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a49998b3006cc5384847dded7690fc988">on_actionWing_triggered</a>();</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#a3d5e3289307128edb8091ced842faba2">on_actionPilot_triggered</a>();</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#adbf719b4f27e6da34804afaf2e33d963">on_actionSeat_triggered</a>();</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_window.html#afc20ded57b798458679e6293ef294736">on_actionPlane_triggered</a>();</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <span class="comment">//特殊操作（未完成，结合Log模块完成）</span></div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="comment">//redo、undo</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="comment">//子窗口</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="class_main_window.html#a7612a86c427bf1c7a8707eb31b7285c8">  145</a></span>    <a class="code hl_class" href="class_material_list.html">MaterialList</a>* <a class="code hl_variable" href="class_main_window.html#a7612a86c427bf1c7a8707eb31b7285c8">ML</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="comment">//状态栏</span></div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="class_main_window.html#a22cdee9387da35cdf7f7ade6f8893b1d">  147</a></span>    QLabel *<a class="code hl_variable" href="class_main_window.html#a22cdee9387da35cdf7f7ade6f8893b1d">status_info</a>;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="class_main_window.html#a5ec5e45dad13a0bcbb60e1038669992b">  148</a></span>    QLabel *<a class="code hl_variable" href="class_main_window.html#a5ec5e45dad13a0bcbb60e1038669992b">status_Viewmode</a>;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="class_main_window.html#a6965f1251f0668829c310a5e97f99790">  149</a></span>    QLabel *<a class="code hl_variable" href="class_main_window.html#a6965f1251f0668829c310a5e97f99790">status_Operatingmode</a>;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="class_main_window.html#a7a8facd3e71c37fd2b35e5b0bdea8b63">  150</a></span>    QLabel *<a class="code hl_variable" href="class_main_window.html#a7a8facd3e71c37fd2b35e5b0bdea8b63">status_Selectmode</a>;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="class_main_window.html#a98e22b8e133160ee437f76b550963e29">  151</a></span>    QLabel *<a class="code hl_variable" href="class_main_window.html#a98e22b8e133160ee437f76b550963e29">status_Specialmode</a>;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="comment">//UI</span></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="class_main_window.html#a35466a70ed47252a0191168126a352a5">  153</a></span>    Ui::MainWindow *<a class="code hl_variable" href="class_main_window.html#a35466a70ed47252a0191168126a352a5">ui</a>;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>};</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span><span class="preprocessor">#endif </span><span class="comment">// MAINWINDOW_H</span></div>
+<div class="ttc" id="aclass_main_window_html"><div class="ttname"><a href="class_main_window.html">MainWindow</a></div><div class="ttdoc">类：MainWindow程序主窗口</div><div class="ttdef"><b>Definition:</b> mainwindow.h:34</div></div>
+<div class="ttc" id="aclass_main_window_html_a03ba9bcc696b977b48f8705bc511fb4e"><div class="ttname"><a href="class_main_window.html#a03ba9bcc696b977b48f8705bc511fb4e">MainWindow::on_actionAddModel_triggered</a></div><div class="ttdeci">void on_actionAddModel_triggered()</div><div class="ttdoc">建立几何体模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:501</div></div>
+<div class="ttc" id="aclass_main_window_html_a0c5e2fad24e5528389f04279aa7ae638"><div class="ttname"><a href="class_main_window.html#a0c5e2fad24e5528389f04279aa7ae638">MainWindow::on_actionFromY_triggered</a></div><div class="ttdeci">void on_actionFromY_triggered()</div><div class="ttdoc">设设置视角从Y轴正方向看向原点</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:293</div></div>
+<div class="ttc" id="aclass_main_window_html_a1be32ecf848476a23a471270f045807c"><div class="ttname"><a href="class_main_window.html#a1be32ecf848476a23a471270f045807c">MainWindow::on_actionAddCylinder0_triggered</a></div><div class="ttdeci">void on_actionAddCylinder0_triggered()</div><div class="ttdoc">添加一个开口柱体模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:639</div></div>
+<div class="ttc" id="aclass_main_window_html_a1cb0f675cbb32f1399ede2df0f7db04e"><div class="ttname"><a href="class_main_window.html#a1cb0f675cbb32f1399ede2df0f7db04e">MainWindow::on_actionOrientate_triggered</a></div><div class="ttdeci">void on_actionOrientate_triggered()</div><div class="ttdoc">将按下右键时移动的行为设置为旋转视角操作</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:255</div></div>
+<div class="ttc" id="aclass_main_window_html_a2197d35e9e582fd167ac2fe211a22702"><div class="ttname"><a href="class_main_window.html#a2197d35e9e582fd167ac2fe211a22702">MainWindow::on_actionDeleteModel_triggered</a></div><div class="ttdeci">void on_actionDeleteModel_triggered()</div><div class="ttdoc">删除选中的模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:474</div></div>
+<div class="ttc" id="aclass_main_window_html_a22cdee9387da35cdf7f7ade6f8893b1d"><div class="ttname"><a href="class_main_window.html#a22cdee9387da35cdf7f7ade6f8893b1d">MainWindow::status_info</a></div><div class="ttdeci">QLabel * status_info</div><div class="ttdoc">信息</div><div class="ttdef"><b>Definition:</b> mainwindow.h:147</div></div>
+<div class="ttc" id="aclass_main_window_html_a2b20e21e52d24366e7c990db888cbf1c"><div class="ttname"><a href="class_main_window.html#a2b20e21e52d24366e7c990db888cbf1c">MainWindow::on_actionOpenProj_triggered</a></div><div class="ttdeci">void on_actionOpenProj_triggered()</div><div class="ttdoc">打开项目</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:172</div></div>
+<div class="ttc" id="aclass_main_window_html_a2f4af255eec4796651f4e42666cba01d"><div class="ttname"><a href="class_main_window.html#a2f4af255eec4796651f4e42666cba01d">MainWindow::on_actionAddFrustum0_triggered</a></div><div class="ttdeci">void on_actionAddFrustum0_triggered()</div><div class="ttdoc">添加一个开口圆台模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:723</div></div>
+<div class="ttc" id="aclass_main_window_html_a2f998e54fa5abda7ddac03c7dd18ea2b"><div class="ttname"><a href="class_main_window.html#a2f998e54fa5abda7ddac03c7dd18ea2b">MainWindow::on_actionShootPoint_triggered</a></div><div class="ttdeci">void on_actionShootPoint_triggered()</div><div class="ttdoc">打开设置瞄准中心窗口</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:352</div></div>
+<div class="ttc" id="aclass_main_window_html_a32d6cab483c59f368c04e30baac06b91"><div class="ttname"><a href="class_main_window.html#a32d6cab483c59f368c04e30baac06b91">MainWindow::on_actionWiredView_triggered</a></div><div class="ttdeci">void on_actionWiredView_triggered()</div><div class="ttdoc">设置为线框模式绘制</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:328</div></div>
+<div class="ttc" id="aclass_main_window_html_a35466a70ed47252a0191168126a352a5"><div class="ttname"><a href="class_main_window.html#a35466a70ed47252a0191168126a352a5">MainWindow::ui</a></div><div class="ttdeci">Ui::MainWindow * ui</div><div class="ttdoc">UI</div><div class="ttdef"><b>Definition:</b> mainwindow.h:153</div></div>
+<div class="ttc" id="aclass_main_window_html_a3d5e3289307128edb8091ced842faba2"><div class="ttname"><a href="class_main_window.html#a3d5e3289307128edb8091ced842faba2">MainWindow::on_actionPilot_triggered</a></div><div class="ttdeci">void on_actionPilot_triggered()</div><div class="ttdoc">添加一个驾驶员(人物)模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:807</div></div>
+<div class="ttc" id="aclass_main_window_html_a43516d23bdc14b289c3a66d02cdc372c"><div class="ttname"><a href="class_main_window.html#a43516d23bdc14b289c3a66d02cdc372c">MainWindow::on_actionOpenFile_triggered</a></div><div class="ttdeci">void on_actionOpenFile_triggered()</div><div class="ttdoc">打开（导入）模型文件</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:203</div></div>
+<div class="ttc" id="aclass_main_window_html_a49998b3006cc5384847dded7690fc988"><div class="ttname"><a href="class_main_window.html#a49998b3006cc5384847dded7690fc988">MainWindow::on_actionWing_triggered</a></div><div class="ttdeci">void on_actionWing_triggered()</div><div class="ttdoc">添加一个机翼模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:786</div></div>
+<div class="ttc" id="aclass_main_window_html_a4cb85ad13d3f07ed9c6c67fd2f868b7f"><div class="ttname"><a href="class_main_window.html#a4cb85ad13d3f07ed9c6c67fd2f868b7f">MainWindow::on_initModelTree</a></div><div class="ttdeci">void on_initModelTree(QOpenGLContext *context, QOpenGLShaderProgram *shaderProgram)</div><div class="ttdoc">接收GL控件发来的用于初始化ModelTree的信号</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:110</div></div>
+<div class="ttc" id="aclass_main_window_html_a4f3ebda1ba39e0ef4d678b44893c9c7f"><div class="ttname"><a href="class_main_window.html#a4f3ebda1ba39e0ef4d678b44893c9c7f">MainWindow::on_actionAbout_triggered</a></div><div class="ttdeci">void on_actionAbout_triggered()</div><div class="ttdoc">打开显示相关信息窗口</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:371</div></div>
+<div class="ttc" id="aclass_main_window_html_a5491ff230e1205f24b3c4f73843c283a"><div class="ttname"><a href="class_main_window.html#a5491ff230e1205f24b3c4f73843c283a">MainWindow::on_actionAddCone_triggered</a></div><div class="ttdeci">void on_actionAddCone_triggered()</div><div class="ttdoc">添加一个圆锥模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:660</div></div>
+<div class="ttc" id="aclass_main_window_html_a5581eab4a19bc77f56949b954771fb02"><div class="ttname"><a href="class_main_window.html#a5581eab4a19bc77f56949b954771fb02">MainWindow::on_actionRotbyMouse_triggered</a></div><div class="ttdeci">void on_actionRotbyMouse_triggered()</div><div class="ttdoc">将按下左键时移动的行为设置为旋转模型操作</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:459</div></div>
+<div class="ttc" id="aclass_main_window_html_a566d626ef041c4d86d9fcefa58bf7e1b"><div class="ttname"><a href="class_main_window.html#a566d626ef041c4d86d9fcefa58bf7e1b">MainWindow::on_actionAddCylinder_triggered</a></div><div class="ttdeci">void on_actionAddCylinder_triggered()</div><div class="ttdoc">添加一个柱体模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:618</div></div>
+<div class="ttc" id="aclass_main_window_html_a5e4915f0907af8cbc35ac6dfea77b67d"><div class="ttname"><a href="class_main_window.html#a5e4915f0907af8cbc35ac6dfea77b67d">MainWindow::on_actionAddFrustum_triggered</a></div><div class="ttdeci">void on_actionAddFrustum_triggered()</div><div class="ttdoc">添加一个圆台模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:702</div></div>
+<div class="ttc" id="aclass_main_window_html_a5ec5e45dad13a0bcbb60e1038669992b"><div class="ttname"><a href="class_main_window.html#a5ec5e45dad13a0bcbb60e1038669992b">MainWindow::status_Viewmode</a></div><div class="ttdeci">QLabel * status_Viewmode</div><div class="ttdoc">视角操作状态</div><div class="ttdef"><b>Definition:</b> mainwindow.h:148</div></div>
+<div class="ttc" id="aclass_main_window_html_a66c80f996ae8dc5af8b99076e549457a"><div class="ttname"><a href="class_main_window.html#a66c80f996ae8dc5af8b99076e549457a">MainWindow::on_actionModelTree_triggered</a></div><div class="ttdeci">void on_actionModelTree_triggered()</div><div class="ttdoc">显示模型树控件</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:321</div></div>
+<div class="ttc" id="aclass_main_window_html_a6965f1251f0668829c310a5e97f99790"><div class="ttname"><a href="class_main_window.html#a6965f1251f0668829c310a5e97f99790">MainWindow::status_Operatingmode</a></div><div class="ttdeci">QLabel * status_Operatingmode</div><div class="ttdoc">模型操作状态</div><div class="ttdef"><b>Definition:</b> mainwindow.h:149</div></div>
+<div class="ttc" id="aclass_main_window_html_a6986c566142f9cae1e8d7eb9fa2de009"><div class="ttname"><a href="class_main_window.html#a6986c566142f9cae1e8d7eb9fa2de009">MainWindow::on_actionAddCone0_triggered</a></div><div class="ttdeci">void on_actionAddCone0_triggered()</div><div class="ttdoc">添加一个无底圆锥模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:681</div></div>
+<div class="ttc" id="aclass_main_window_html_a6b23077bde9e15406acdcd63745039fd"><div class="ttname"><a href="class_main_window.html#a6b23077bde9e15406acdcd63745039fd">MainWindow::on_actionAddBall_triggered</a></div><div class="ttdeci">void on_actionAddBall_triggered()</div><div class="ttdoc">添加一个球体模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:552</div></div>
+<div class="ttc" id="aclass_main_window_html_a723573a6fb06dcc3d8253587922d3a3f"><div class="ttname"><a href="class_main_window.html#a723573a6fb06dcc3d8253587922d3a3f">MainWindow::on_actionSelect_triggered</a></div><div class="ttdeci">void on_actionSelect_triggered()</div><div class="ttdoc">设置为单选模式</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:409</div></div>
+<div class="ttc" id="aclass_main_window_html_a745782a9906013b802d6ac517bbcaec4"><div class="ttname"><a href="class_main_window.html#a745782a9906013b802d6ac517bbcaec4">MainWindow::on_actionBunchSelect_triggered</a></div><div class="ttdeci">void on_actionBunchSelect_triggered()</div><div class="ttdoc">设置为多选模式</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:426</div></div>
+<div class="ttc" id="aclass_main_window_html_a7612a86c427bf1c7a8707eb31b7285c8"><div class="ttname"><a href="class_main_window.html#a7612a86c427bf1c7a8707eb31b7285c8">MainWindow::ML</a></div><div class="ttdeci">MaterialList * ML</div><div class="ttdoc">材质列表</div><div class="ttdef"><b>Definition:</b> mainwindow.h:145</div></div>
+<div class="ttc" id="aclass_main_window_html_a7a8facd3e71c37fd2b35e5b0bdea8b63"><div class="ttname"><a href="class_main_window.html#a7a8facd3e71c37fd2b35e5b0bdea8b63">MainWindow::status_Selectmode</a></div><div class="ttdeci">QLabel * status_Selectmode</div><div class="ttdoc">选择模式</div><div class="ttdef"><b>Definition:</b> mainwindow.h:150</div></div>
+<div class="ttc" id="aclass_main_window_html_a82c74d774f4245d5ab53cb55993bc423"><div class="ttname"><a href="class_main_window.html#a82c74d774f4245d5ab53cb55993bc423">MainWindow::on_actionPropeller_triggered</a></div><div class="ttdeci">void on_actionPropeller_triggered()</div><div class="ttdoc">添加一个螺旋桨模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:765</div></div>
+<div class="ttc" id="aclass_main_window_html_a8a3bcc55fc371f3df8abee56f8b23e2e"><div class="ttname"><a href="class_main_window.html#a8a3bcc55fc371f3df8abee56f8b23e2e">MainWindow::on_actionAddSurface_triggered</a></div><div class="ttdeci">void on_actionAddSurface_triggered()</div><div class="ttdoc">建立几何面模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:528</div></div>
+<div class="ttc" id="aclass_main_window_html_a8e46a1f3edcdb30c0dcd7121b6ddc179"><div class="ttname"><a href="class_main_window.html#a8e46a1f3edcdb30c0dcd7121b6ddc179">MainWindow::on_actionFromZ_triggered</a></div><div class="ttdeci">void on_actionFromZ_triggered()</div><div class="ttdoc">设置视角从Z轴正方向看向原点</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:286</div></div>
+<div class="ttc" id="aclass_main_window_html_a8fdd0348b9993bc5b33f07bab1b8770e"><div class="ttname"><a href="class_main_window.html#a8fdd0348b9993bc5b33f07bab1b8770e">MainWindow::on_actionMaterial_triggered</a></div><div class="ttdeci">void on_actionMaterial_triggered()</div><div class="ttdoc">打开模型列表窗口</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:344</div></div>
+<div class="ttc" id="aclass_main_window_html_a98e22b8e133160ee437f76b550963e29"><div class="ttname"><a href="class_main_window.html#a98e22b8e133160ee437f76b550963e29">MainWindow::status_Specialmode</a></div><div class="ttdeci">QLabel * status_Specialmode</div><div class="ttdoc">特殊操作</div><div class="ttdef"><b>Definition:</b> mainwindow.h:151</div></div>
+<div class="ttc" id="aclass_main_window_html_a996c5a2b6f77944776856f08ec30858d"><div class="ttname"><a href="class_main_window.html#a996c5a2b6f77944776856f08ec30858d">MainWindow::MainWindow</a></div><div class="ttdeci">MainWindow(QWidget *parent=nullptr)</div><div class="ttdoc">构造函数</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:9</div></div>
+<div class="ttc" id="aclass_main_window_html_aa338456139d90abbb6898625332f8c6d"><div class="ttname"><a href="class_main_window.html#aa338456139d90abbb6898625332f8c6d">MainWindow::on_actionSaveProj_triggered</a></div><div class="ttdeci">void on_actionSaveProj_triggered()</div><div class="ttdoc">保存项目</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:212</div></div>
+<div class="ttc" id="aclass_main_window_html_aa668402f91919a762a49a2b04b959043"><div class="ttname"><a href="class_main_window.html#aa668402f91919a762a49a2b04b959043">MainWindow::on_actionShowAxis_triggered</a></div><div class="ttdeci">void on_actionShowAxis_triggered()</div><div class="ttdoc">设置是否显示坐标轴</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:314</div></div>
+<div class="ttc" id="aclass_main_window_html_aa67a80bbfe0c5a5089a5de7d4e8cfa14"><div class="ttname"><a href="class_main_window.html#aa67a80bbfe0c5a5089a5de7d4e8cfa14">MainWindow::on_actionFromX_triggered</a></div><div class="ttdeci">void on_actionFromX_triggered()</div><div class="ttdoc">设置视角从X轴正方向看向原点</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:300</div></div>
+<div class="ttc" id="aclass_main_window_html_aade768fb972a277f623c0e9f5126f536"><div class="ttname"><a href="class_main_window.html#aade768fb972a277f623c0e9f5126f536">MainWindow::on_actionMovebyMouse_triggered</a></div><div class="ttdeci">void on_actionMovebyMouse_triggered()</div><div class="ttdoc">将按下左键时移动的行为设置为平移模型操作</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:444</div></div>
+<div class="ttc" id="aclass_main_window_html_ab65a11c34f898cda52cf278586163ec3"><div class="ttname"><a href="class_main_window.html#ab65a11c34f898cda52cf278586163ec3">MainWindow::on_actionAddCube0_triggered</a></div><div class="ttdeci">void on_actionAddCube0_triggered()</div><div class="ttdoc">添加一个开口立方体模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:597</div></div>
+<div class="ttc" id="aclass_main_window_html_ab755936a381edd36f0a630b413d45992"><div class="ttname"><a href="class_main_window.html#ab755936a381edd36f0a630b413d45992">MainWindow::on_actionSensitivity_triggered</a></div><div class="ttdeci">void on_actionSensitivity_triggered()</div><div class="ttdoc">打开设置灵敏度窗口</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:359</div></div>
+<div class="ttc" id="aclass_main_window_html_ab8797a123ed7957c46f97610a511cc27"><div class="ttname"><a href="class_main_window.html#ab8797a123ed7957c46f97610a511cc27">MainWindow::on_actionTrans_triggered</a></div><div class="ttdeci">void on_actionTrans_triggered()</div><div class="ttdoc">将按下右键时移动的行为设置为平移视角操作</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:271</div></div>
+<div class="ttc" id="aclass_main_window_html_aba11a6cb237237f93a7daa658da2496e"><div class="ttname"><a href="class_main_window.html#aba11a6cb237237f93a7daa658da2496e">MainWindow::on_actionSaveFile_triggered</a></div><div class="ttdeci">void on_actionSaveFile_triggered()</div><div class="ttdoc">保存为文件</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:227</div></div>
+<div class="ttc" id="aclass_main_window_html_abf5aa06df3ee719167c9975c1d5ebece"><div class="ttname"><a href="class_main_window.html#abf5aa06df3ee719167c9975c1d5ebece">MainWindow::on_actionEngine_triggered</a></div><div class="ttdeci">void on_actionEngine_triggered()</div><div class="ttdoc">添加一个引擎模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:744</div></div>
+<div class="ttc" id="aclass_main_window_html_adbf719b4f27e6da34804afaf2e33d963"><div class="ttname"><a href="class_main_window.html#adbf719b4f27e6da34804afaf2e33d963">MainWindow::on_actionSeat_triggered</a></div><div class="ttdeci">void on_actionSeat_triggered()</div><div class="ttdoc">添加一个座椅模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:829</div></div>
+<div class="ttc" id="aclass_main_window_html_adfd368dd4a8cd397e82e3a7b26ace0ff"><div class="ttname"><a href="class_main_window.html#adfd368dd4a8cd397e82e3a7b26ace0ff">MainWindow::on_actionDefaultView_triggered</a></div><div class="ttdeci">void on_actionDefaultView_triggered()</div><div class="ttdoc">设置视角到默认位置</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:307</div></div>
+<div class="ttc" id="aclass_main_window_html_ae2659828e97f3c252fbf1f3156f01c00"><div class="ttname"><a href="class_main_window.html#ae2659828e97f3c252fbf1f3156f01c00">MainWindow::on_actionModelView_triggered</a></div><div class="ttdeci">void on_actionModelView_triggered()</div><div class="ttdoc">设置为填充模式绘制</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:336</div></div>
+<div class="ttc" id="aclass_main_window_html_ae657acea5000e417bc0c22e4f2b33eca"><div class="ttname"><a href="class_main_window.html#ae657acea5000e417bc0c22e4f2b33eca">MainWindow::on_actionJustify_triggered</a></div><div class="ttdeci">void on_actionJustify_triggered()</div><div class="ttdoc">打开调整模型窗口</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:487</div></div>
+<div class="ttc" id="aclass_main_window_html_ae98d00a93bc118200eeef9f9bba1dba7"><div class="ttname"><a href="class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7">MainWindow::~MainWindow</a></div><div class="ttdeci">~MainWindow()</div><div class="ttdoc">析构函数</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:101</div></div>
+<div class="ttc" id="aclass_main_window_html_aed8d4c16aaa87ae02a2de2edd5fc91c7"><div class="ttname"><a href="class_main_window.html#aed8d4c16aaa87ae02a2de2edd5fc91c7">MainWindow::on_actionNew_triggered</a></div><div class="ttdeci">void on_actionNew_triggered()</div><div class="ttdoc">新建项目</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:147</div></div>
+<div class="ttc" id="aclass_main_window_html_af8173f0f66fa5c69a7a85e9c724cf99e"><div class="ttname"><a href="class_main_window.html#af8173f0f66fa5c69a7a85e9c724cf99e">MainWindow::on_actionAddCube_triggered</a></div><div class="ttdeci">void on_actionAddCube_triggered()</div><div class="ttdoc">添加一个立方体模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:576</div></div>
+<div class="ttc" id="aclass_main_window_html_afc20ded57b798458679e6293ef294736"><div class="ttname"><a href="class_main_window.html#afc20ded57b798458679e6293ef294736">MainWindow::on_actionPlane_triggered</a></div><div class="ttdeci">void on_actionPlane_triggered()</div><div class="ttdoc">添加一个飞机模型</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:850</div></div>
+<div class="ttc" id="aclass_material_list_html"><div class="ttname"><a href="class_material_list.html">MaterialList</a></div><div class="ttdoc">类：MaterialList（材质列表）</div><div class="ttdef"><b>Definition:</b> materiallist.h:43</div></div>
+<div class="ttc" id="amateriallist_8h_html"><div class="ttname"><a href="materiallist_8h.html">materiallist.h</a></div></div>
+<div class="ttc" id="amodeltree_8h_html"><div class="ttname"><a href="modeltree_8h.html">modeltree.h</a></div></div>
+<div class="ttc" id="anamespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> engineer.h:28</div></div>
+<div class="ttc" id="aoperating__status_8hpp_html"><div class="ttname"><a href="operating__status_8hpp.html">operating_status.hpp</a></div></div>
+<div class="ttc" id="autil_8hpp_html"><div class="ttname"><a href="util_8hpp.html">util.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_038d7fc0aa58c8ee675df0cb4befd1bf.html">QT_GL_Workspace</a></li><li class="navelem"><a class="el" href="dir_365f36bfb38dd99a6c1fec73b30715a7.html">bs</a></li><li class="navelem"><a class="el" href="dir_d064e010914cc808985905912a23f409.html">VAMS</a></li><li class="navelem"><a class="el" href="mainwindow_8h.html">mainwindow.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,602 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VAMS: Sensitivity_Adaptor类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VAMS
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_sensitivity___adaptor.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pri-slots">Private 槽</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="class_sensitivity___adaptor-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">Sensitivity_Adaptor类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>类：sensitivity_adaptor灵敏度调整  
+ <a href="class_sensitivity___adaptor.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="sensitivity__adaptor_8h_source.html">sensitivity_adaptor.h</a>&gt;</code></p>
+<div class="dynheader">
+类 Sensitivity_Adaptor 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_sensitivity___adaptor__inherit__graph.png" border="0" usemap="#a_sensitivity___adaptor_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_sensitivity___adaptor_inherit__map" id="a_sensitivity___adaptor_inherit__map">
+<area shape="rect" title="类：sensitivity_adaptor灵敏度调整" alt="" coords="5,80,139,107"/>
+<area shape="rect" title=" " alt="" coords="35,5,109,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+Sensitivity_Adaptor 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_sensitivity___adaptor__coll__graph.png" border="0" usemap="#a_sensitivity___adaptor_coll__map" alt="Collaboration graph"/></div>
+<map name="a_sensitivity___adaptor_coll__map" id="a_sensitivity___adaptor_coll__map">
+<area shape="rect" title="类：sensitivity_adaptor灵敏度调整" alt="" coords="5,80,139,107"/>
+<area shape="rect" title=" " alt="" coords="35,5,109,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:a9fa4d213d8855638f312245f5f72daf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#a9fa4d213d8855638f312245f5f72daf2">sensitivityLM</a> (float s)</td></tr>
+<tr class="memdesc:a9fa4d213d8855638f312245f5f72daf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">LM控件参数值变化的信号（用于发送给GL绘图控件）  <a href="class_sensitivity___adaptor.html#a9fa4d213d8855638f312245f5f72daf2">更多...</a><br /></td></tr>
+<tr class="separator:a9fa4d213d8855638f312245f5f72daf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6959c7f45923d0631c8b3a74cfb7ee2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#aa6959c7f45923d0631c8b3a74cfb7ee2">sensitivityLR</a> (float s)</td></tr>
+<tr class="memdesc:aa6959c7f45923d0631c8b3a74cfb7ee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">LR控件参数值变化的信号（用于发送给GL绘图控件）  <a href="class_sensitivity___adaptor.html#aa6959c7f45923d0631c8b3a74cfb7ee2">更多...</a><br /></td></tr>
+<tr class="separator:aa6959c7f45923d0631c8b3a74cfb7ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9d69489a6669631338ea096624c301e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#aa9d69489a6669631338ea096624c301e">sensitivityRT</a> (float s)</td></tr>
+<tr class="memdesc:aa9d69489a6669631338ea096624c301e"><td class="mdescLeft">&#160;</td><td class="mdescRight">RT控件参数值变化的信号（用于发送给GL绘图控件）  <a href="class_sensitivity___adaptor.html#aa9d69489a6669631338ea096624c301e">更多...</a><br /></td></tr>
+<tr class="separator:aa9d69489a6669631338ea096624c301e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a863e30c5afa16fc85b5a4c0b1d4123d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#a863e30c5afa16fc85b5a4c0b1d4123d7">sensitivityRO</a> (float s)</td></tr>
+<tr class="memdesc:a863e30c5afa16fc85b5a4c0b1d4123d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">RO控件参数值变化的信号（用于发送给GL绘图控件）  <a href="class_sensitivity___adaptor.html#a863e30c5afa16fc85b5a4c0b1d4123d7">更多...</a><br /></td></tr>
+<tr class="separator:a863e30c5afa16fc85b5a4c0b1d4123d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa217559431d8db7e608aa5ded2a7646a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#aa217559431d8db7e608aa5ded2a7646a">sensitivityS</a> (float s)</td></tr>
+<tr class="memdesc:aa217559431d8db7e608aa5ded2a7646a"><td class="mdescLeft">&#160;</td><td class="mdescRight">S控件参数值变化的信号（用于发送给GL绘图控件）  <a href="class_sensitivity___adaptor.html#aa217559431d8db7e608aa5ded2a7646a">更多...</a><br /></td></tr>
+<tr class="separator:aa217559431d8db7e608aa5ded2a7646a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a2c27bd8d6b2869fa9b622bfd5b47e67e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#a2c27bd8d6b2869fa9b622bfd5b47e67e">Sensitivity_Adaptor</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a2c27bd8d6b2869fa9b622bfd5b47e67e"><td class="mdescLeft">&#160;</td><td class="mdescRight">构造函数  <a href="class_sensitivity___adaptor.html#a2c27bd8d6b2869fa9b622bfd5b47e67e">更多...</a><br /></td></tr>
+<tr class="separator:a2c27bd8d6b2869fa9b622bfd5b47e67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c01f5e3e48410a562f879791cd123d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#a5c01f5e3e48410a562f879791cd123d3">~Sensitivity_Adaptor</a> ()</td></tr>
+<tr class="memdesc:a5c01f5e3e48410a562f879791cd123d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">析构函数  <a href="class_sensitivity___adaptor.html#a5c01f5e3e48410a562f879791cd123d3">更多...</a><br /></td></tr>
+<tr class="separator:a5c01f5e3e48410a562f879791cd123d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c864ce14bf4203c33f1bad4e46437d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#a2c864ce14bf4203c33f1bad4e46437d6">initSA</a> (float LM, float LR, float RT, float RO, float S)</td></tr>
+<tr class="memdesc:a2c864ce14bf4203c33f1bad4e46437d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化窗口中各控件值的函数  <a href="class_sensitivity___adaptor.html#a2c864ce14bf4203c33f1bad4e46437d6">更多...</a><br /></td></tr>
+<tr class="separator:a2c864ce14bf4203c33f1bad4e46437d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
+Private 槽</h2></td></tr>
+<tr class="memitem:afd5f8274b1765870d6695e0489bfe0bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#afd5f8274b1765870d6695e0489bfe0bb">on_horizontalSlider_LM_valueChanged</a> (int value)</td></tr>
+<tr class="memdesc:afd5f8274b1765870d6695e0489bfe0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收LM控件参数值变化的信号  <a href="class_sensitivity___adaptor.html#afd5f8274b1765870d6695e0489bfe0bb">更多...</a><br /></td></tr>
+<tr class="separator:afd5f8274b1765870d6695e0489bfe0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59dc3c0fc5474b63c99fa18de5aad188"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#a59dc3c0fc5474b63c99fa18de5aad188">on_horizontalSlider_LR_valueChanged</a> (int value)</td></tr>
+<tr class="memdesc:a59dc3c0fc5474b63c99fa18de5aad188"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收LR控件参数值变化的信号  <a href="class_sensitivity___adaptor.html#a59dc3c0fc5474b63c99fa18de5aad188">更多...</a><br /></td></tr>
+<tr class="separator:a59dc3c0fc5474b63c99fa18de5aad188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7e2a79b4ae3a2a2a6571c3590765e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#aee7e2a79b4ae3a2a2a6571c3590765e6">on_horizontalSlider_RT_valueChanged</a> (int value)</td></tr>
+<tr class="memdesc:aee7e2a79b4ae3a2a2a6571c3590765e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收RT控件参数值变化的信号  <a href="class_sensitivity___adaptor.html#aee7e2a79b4ae3a2a2a6571c3590765e6">更多...</a><br /></td></tr>
+<tr class="separator:aee7e2a79b4ae3a2a2a6571c3590765e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc958ebcf13695942d53ede014a09ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#a5dc958ebcf13695942d53ede014a09ad">on_horizontalSlider_RO_valueChanged</a> (int value)</td></tr>
+<tr class="memdesc:a5dc958ebcf13695942d53ede014a09ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收RO控件参数值变化的信号  <a href="class_sensitivity___adaptor.html#a5dc958ebcf13695942d53ede014a09ad">更多...</a><br /></td></tr>
+<tr class="separator:a5dc958ebcf13695942d53ede014a09ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5852a75ff35ac4e52d3a5b32daaf52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#a1b5852a75ff35ac4e52d3a5b32daaf52">on_horizontalSlider_S_valueChanged</a> (int value)</td></tr>
+<tr class="memdesc:a1b5852a75ff35ac4e52d3a5b32daaf52"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收S控件参数值变化的信号  <a href="class_sensitivity___adaptor.html#a1b5852a75ff35ac4e52d3a5b32daaf52">更多...</a><br /></td></tr>
+<tr class="separator:a1b5852a75ff35ac4e52d3a5b32daaf52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:aa39c9c48269017965ce7e27ff377759c"><td class="memItemLeft" align="right" valign="top">Ui::Sensitivity_Adaptor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensitivity___adaptor.html#aa39c9c48269017965ce7e27ff377759c">ui</a></td></tr>
+<tr class="memdesc:aa39c9c48269017965ce7e27ff377759c"><td class="mdescLeft">&#160;</td><td class="mdescRight">UI  <a href="class_sensitivity___adaptor.html#aa39c9c48269017965ce7e27ff377759c">更多...</a><br /></td></tr>
+<tr class="separator:aa39c9c48269017965ce7e27ff377759c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p >类：sensitivity_adaptor灵敏度调整 </p>
+<pre>
+包含一个窗口控件
+用于实现调整鼠标操作时的灵敏度倍率
+</pre> </div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a2c27bd8d6b2869fa9b622bfd5b47e67e" name="a2c27bd8d6b2869fa9b622bfd5b47e67e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c27bd8d6b2869fa9b622bfd5b47e67e">&#9670;&nbsp;</a></span>Sensitivity_Adaptor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sensitivity_Adaptor::Sensitivity_Adaptor </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>构造函数 </p>
+
+</div>
+</div>
+<a id="a5c01f5e3e48410a562f879791cd123d3" name="a5c01f5e3e48410a562f879791cd123d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c01f5e3e48410a562f879791cd123d3">&#9670;&nbsp;</a></span>~Sensitivity_Adaptor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sensitivity_Adaptor::~Sensitivity_Adaptor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>析构函数 </p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a2c864ce14bf4203c33f1bad4e46437d6" name="a2c864ce14bf4203c33f1bad4e46437d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c864ce14bf4203c33f1bad4e46437d6">&#9670;&nbsp;</a></span>initSA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::initSA </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>LM</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>LR</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>RT</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>RO</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>S</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初始化窗口中各控件值的函数 </p>
+
+</div>
+</div>
+<a id="afd5f8274b1765870d6695e0489bfe0bb" name="afd5f8274b1765870d6695e0489bfe0bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd5f8274b1765870d6695e0489bfe0bb">&#9670;&nbsp;</a></span>on_horizontalSlider_LM_valueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::on_horizontalSlider_LM_valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收LM控件参数值变化的信号 </p>
+
+</div>
+</div>
+<a id="a59dc3c0fc5474b63c99fa18de5aad188" name="a59dc3c0fc5474b63c99fa18de5aad188"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59dc3c0fc5474b63c99fa18de5aad188">&#9670;&nbsp;</a></span>on_horizontalSlider_LR_valueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::on_horizontalSlider_LR_valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收LR控件参数值变化的信号 </p>
+
+</div>
+</div>
+<a id="a5dc958ebcf13695942d53ede014a09ad" name="a5dc958ebcf13695942d53ede014a09ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dc958ebcf13695942d53ede014a09ad">&#9670;&nbsp;</a></span>on_horizontalSlider_RO_valueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::on_horizontalSlider_RO_valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收RO控件参数值变化的信号 </p>
+
+</div>
+</div>
+<a id="aee7e2a79b4ae3a2a2a6571c3590765e6" name="aee7e2a79b4ae3a2a2a6571c3590765e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7e2a79b4ae3a2a2a6571c3590765e6">&#9670;&nbsp;</a></span>on_horizontalSlider_RT_valueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::on_horizontalSlider_RT_valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收RT控件参数值变化的信号 </p>
+
+</div>
+</div>
+<a id="a1b5852a75ff35ac4e52d3a5b32daaf52" name="a1b5852a75ff35ac4e52d3a5b32daaf52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b5852a75ff35ac4e52d3a5b32daaf52">&#9670;&nbsp;</a></span>on_horizontalSlider_S_valueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::on_horizontalSlider_S_valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收S控件参数值变化的信号 </p>
+
+</div>
+</div>
+<a id="a9fa4d213d8855638f312245f5f72daf2" name="a9fa4d213d8855638f312245f5f72daf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fa4d213d8855638f312245f5f72daf2">&#9670;&nbsp;</a></span>sensitivityLM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::sensitivityLM </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>LM控件参数值变化的信号（用于发送给GL绘图控件） </p>
+
+</div>
+</div>
+<a id="aa6959c7f45923d0631c8b3a74cfb7ee2" name="aa6959c7f45923d0631c8b3a74cfb7ee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6959c7f45923d0631c8b3a74cfb7ee2">&#9670;&nbsp;</a></span>sensitivityLR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::sensitivityLR </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>LR控件参数值变化的信号（用于发送给GL绘图控件） </p>
+
+</div>
+</div>
+<a id="a863e30c5afa16fc85b5a4c0b1d4123d7" name="a863e30c5afa16fc85b5a4c0b1d4123d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a863e30c5afa16fc85b5a4c0b1d4123d7">&#9670;&nbsp;</a></span>sensitivityRO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::sensitivityRO </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>RO控件参数值变化的信号（用于发送给GL绘图控件） </p>
+
+</div>
+</div>
+<a id="aa9d69489a6669631338ea096624c301e" name="aa9d69489a6669631338ea096624c301e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9d69489a6669631338ea096624c301e">&#9670;&nbsp;</a></span>sensitivityRT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::sensitivityRT </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>RT控件参数值变化的信号（用于发送给GL绘图控件） </p>
+
+</div>
+</div>
+<a id="aa217559431d8db7e608aa5ded2a7646a" name="aa217559431d8db7e608aa5ded2a7646a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa217559431d8db7e608aa5ded2a7646a">&#9670;&nbsp;</a></span>sensitivityS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sensitivity_Adaptor::sensitivityS </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>S控件参数值变化的信号（用于发送给GL绘图控件） </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="aa39c9c48269017965ce7e27ff377759c" name="aa39c9c48269017965ce7e27ff377759c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa39c9c48269017965ce7e27ff377759c">&#9670;&nbsp;</a></span>ui</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ui::Sensitivity_Adaptor* Sensitivity_Adaptor::ui</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>UI </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>D:/QT_GL_Workspace/bs/VAMS/<a class="el" href="sensitivity__adaptor_8h_source.html">sensitivity_adaptor.h</a></li>
+<li>D:/QT_GL_Workspace/bs/VAMS/<a class="el" href="sensitivity__adaptor_8cpp.html">sensitivity_adaptor.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_sensitivity___adaptor.html">Sensitivity_Adaptor</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

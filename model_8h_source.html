@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VAMS: D:/QT_GL_Workspace/bs/VAMS/model.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VAMS
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('model_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">model.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="model_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef MODEL_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define MODEL_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QDir&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QVector&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QVector2D&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QVector3D&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QOpenGLShaderProgram&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QOpenGLBuffer&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QOpenGLVertexArrayObject&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QOpenGLExtraFunctions&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QOpenGLTexture&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;QOpenGLContext&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;QOpenGLWidget&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;QtOpenGLExtensions/QOpenGLExtensions&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;assimp/Importer.hpp&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;assimp/scene.h&gt;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;assimp/postprocess.h&gt;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="util_8hpp.html">util.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">class </span><a class="code hl_class" href="class_model.html">Model</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">class </span><a class="code hl_class" href="class_part.html">Part</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="struct_vertex.html">   41</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_vertex.html">Vertex</a></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>{</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="struct_vertex.html#a2cde7f9b6606dbec59b61f0138e920e7">   43</a></span>    QVector3D <a class="code hl_variable" href="struct_vertex.html#a2cde7f9b6606dbec59b61f0138e920e7">Position</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="struct_vertex.html#ac7975f444d329d8f9cf2b3809ec9ec37">   44</a></span>    QVector3D <a class="code hl_variable" href="struct_vertex.html#ac7975f444d329d8f9cf2b3809ec9ec37">Normal</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="struct_vertex.html#af3eb8ff110866d086446d58ed8ba8f69">   45</a></span>    QVector2D <a class="code hl_variable" href="struct_vertex.html#af3eb8ff110866d086446d58ed8ba8f69">TexCoords</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="struct_vertex.html#a9fc7f056b9fcedb1d343861bb129f520">   46</a></span>    QVector3D <a class="code hl_variable" href="struct_vertex.html#a9fc7f056b9fcedb1d343861bb129f520">Tangent</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="struct_vertex.html#a4ed3ba2cbb7e921db86ed2be2b5af968">   47</a></span>    QVector3D <a class="code hl_variable" href="struct_vertex.html#a4ed3ba2cbb7e921db86ed2be2b5af968">Bitangent</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="struct_texture.html">   60</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_texture.html">Texture</a></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>{</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="struct_texture.html#a37608f2ae844347456d6efa9906d0f44">   62</a></span>    QOpenGLTexture <a class="code hl_variable" href="struct_texture.html#a37608f2ae844347456d6efa9906d0f44">texture</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="struct_texture.html#a07da53f322ec8526742cf93addfcc5b3">   63</a></span>    QString <a class="code hl_variable" href="struct_texture.html#a07da53f322ec8526742cf93addfcc5b3">type</a>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="struct_texture.html#a60e318a58b176da5654fc91bd4d91d5e">   64</a></span>    QString <a class="code hl_variable" href="struct_texture.html#a60e318a58b176da5654fc91bd4d91d5e">path</a>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="struct_texture.html#a6c275e3f186675ff6ed73ccf970e552f">   66</a></span>    <a class="code hl_function" href="struct_texture.html#a6c275e3f186675ff6ed73ccf970e552f">Texture</a>():<a class="code hl_variable" href="struct_texture.html#a37608f2ae844347456d6efa9906d0f44">texture</a>(QOpenGLTexture::Target2D){</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <a class="code hl_variable" href="struct_texture.html#a37608f2ae844347456d6efa9906d0f44">texture</a>.create();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_variable" href="struct_texture.html#a37608f2ae844347456d6efa9906d0f44">texture</a>.setWrapMode(QOpenGLTexture::DirectionS,QOpenGLTexture::Repeat);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <a class="code hl_variable" href="struct_texture.html#a37608f2ae844347456d6efa9906d0f44">texture</a>.setWrapMode(QOpenGLTexture::DirectionT,QOpenGLTexture::Repeat);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <a class="code hl_variable" href="struct_texture.html#a37608f2ae844347456d6efa9906d0f44">texture</a>.setMinMagFilters(QOpenGLTexture::LinearMipMapLinear,QOpenGLTexture::Linear);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>};</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="struct_model_i_d.html">   83</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_model_i_d.html">ModelID</a></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>{</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="struct_model_i_d.html#a817aa6ad19cf850ae25097302d6b3154">   85</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_model_i_d.html#a817aa6ad19cf850ae25097302d6b3154">partID</a>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="struct_model_i_d.html#a1edf71b27cbb39b4ff90f25d7555abbb">   86</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_model_i_d.html#a1edf71b27cbb39b4ff90f25d7555abbb">modelID</a>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="struct_model_i_d.html#a195a1ae106621d5aefe9ce6112115450">   88</a></span>    QString <a class="code hl_function" href="struct_model_i_d.html#a195a1ae106621d5aefe9ce6112115450">getModelID</a>()<span class="keyword">const</span>{</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordflow">return</span> QString::number(<a class="code hl_variable" href="struct_model_i_d.html#a817aa6ad19cf850ae25097302d6b3154">partID</a>,10)+<span class="stringliteral">&quot;-&quot;</span>+QString::number(<a class="code hl_variable" href="struct_model_i_d.html#a1edf71b27cbb39b4ff90f25d7555abbb">modelID</a>,10);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    }</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="struct_model_i_d.html#a70d89faa90857486cd09f83cdab92a8d">   92</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="struct_model_i_d.html#a70d89faa90857486cd09f83cdab92a8d">changePartID</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> pid){</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <a class="code hl_variable" href="struct_model_i_d.html#a817aa6ad19cf850ae25097302d6b3154">partID</a> = pid;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    }</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>};</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="class_part.html">  127</a></span><span class="keyword">class </span><a class="code hl_class" href="class_part.html">Part</a>{</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="class_part.html#a6d7bf2c2b02f06b49812e06b1fccbeef">  129</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_part.html#a6d7bf2c2b02f06b49812e06b1fccbeef">ID</a>;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="class_part.html#a335c2f7579807368848c4452107bca5f">  130</a></span>    QString <a class="code hl_variable" href="class_part.html#a335c2f7579807368848c4452107bca5f">NAME</a>;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="class_part.html#aab7c25b55f2b7050831fa818a3b618c5">  131</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_part.html#aab7c25b55f2b7050831fa818a3b618c5">numofmodels</a> = 0;</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="class_part.html#aa88509d980e1e575fe1f832c87566760">  132</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_part.html#aa88509d980e1e575fe1f832c87566760">modelID</a> = 0;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="class_part.html#a36328a95e3a0d4af9768bf24e75aeb20">  133</a></span>    QMatrix4x4 <a class="code hl_variable" href="class_part.html#a36328a95e3a0d4af9768bf24e75aeb20">partmatrix</a>;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="class_part.html#a58f4d66af124885d39ea6d86ba64fd7c">  134</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_part.html#a58f4d66af124885d39ea6d86ba64fd7c">thickness</a> = 0;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="class_part.html#aa0db7726593f73b955f275e8e2de9f87">  135</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_part.html#aa0db7726593f73b955f275e8e2de9f87">material</a> = 0;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="comment">//图形绘制相关</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="class_part.html#a39a2cee725290c2214778639e227d829">  137</a></span>    QOpenGLContext* <a class="code hl_variable" href="class_part.html#a39a2cee725290c2214778639e227d829">context</a>;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="class_part.html#a81a841fbecc6eb4a24158c6cc3e38dbd">  138</a></span>    QOpenGLShaderProgram* <a class="code hl_variable" href="class_part.html#a81a841fbecc6eb4a24158c6cc3e38dbd">shaderProgram</a> ;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="class_part.html#ae794b0a58adbf1efbe690cbba4b25313">  139</a></span>    QVector&lt;Texture*&gt;<a class="code hl_variable" href="class_part.html#ae794b0a58adbf1efbe690cbba4b25313">textures_loaded</a>;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="comment">//import信息</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="class_part.html#a6fc18b008447ad4fdd957e5a68af4071">  141</a></span>    QDir <a class="code hl_variable" href="class_part.html#a6fc18b008447ad4fdd957e5a68af4071">directory</a>;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="class_part.html#a4387d2256f2365fa3844be7f7df7e3c4">  142</a></span>    QVector&lt;Model*&gt; <a class="code hl_variable" href="class_part.html#a4387d2256f2365fa3844be7f7df7e3c4">models</a>;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    <span class="comment">//选中状态</span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="class_part.html#aef19b74041b46c39092aa9f12578a30e">  144</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_part.html#aef19b74041b46c39092aa9f12578a30e">ifselected</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <span class="comment">//模型的XYZ范围</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="class_part.html#a7960027f735721ce97f0a8ad3544dfb5">  146</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_part.html#a7960027f735721ce97f0a8ad3544dfb5">minX</a> = 0;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="class_part.html#aa5640bd5ed23ea95f032660390a2398d">  147</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_part.html#aa5640bd5ed23ea95f032660390a2398d">minY</a> = 0;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="class_part.html#a542094921691b43980918d094110214d">  148</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_part.html#a542094921691b43980918d094110214d">minZ</a> = 0;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="class_part.html#a13a48fa5d225268f41dded19b7a9f2fe">  149</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_part.html#a13a48fa5d225268f41dded19b7a9f2fe">maxX</a> = 0;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="class_part.html#a49b6e8d6aaf23ba83ca2e6f45410ca7f">  150</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_part.html#a49b6e8d6aaf23ba83ca2e6f45410ca7f">maxY</a> = 0;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="class_part.html#a665a31a5cbb03bb5822d847a1ee38577">  151</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_part.html#a665a31a5cbb03bb5822d847a1ee38577">maxZ</a> = 0;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="class_part.html#a89061e3aad4c54d69e2c8dfb9201fb72">  152</a></span>    QVector3D <a class="code hl_variable" href="class_part.html#a89061e3aad4c54d69e2c8dfb9201fb72">partCenter</a>;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="comment">//文件写入时所需</span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="class_part.html#afc8ae3a1ed2556755fad23eba548a94d">  154</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="class_part.html#afc8ae3a1ed2556755fad23eba548a94d">faceNum</a> = 0;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="class_part.html#ad3e2b02464c9d93d9809cb3c25a401a6">  160</a></span>    <a class="code hl_function" href="class_part.html#ad3e2b02464c9d93d9809cb3c25a401a6">Part</a>(QOpenGLContext* <a class="code hl_variable" href="class_part.html#a39a2cee725290c2214778639e227d829">context</a>, QOpenGLShaderProgram* <a class="code hl_variable" href="class_part.html#a81a841fbecc6eb4a24158c6cc3e38dbd">shaderProgram</a>, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>, QString name)</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        : <a class="code hl_variable" href="class_part.html#a6d7bf2c2b02f06b49812e06b1fccbeef">ID</a>(id),<a class="code hl_variable" href="class_part.html#a335c2f7579807368848c4452107bca5f">NAME</a>(name),</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>          <a class="code hl_variable" href="class_part.html#a39a2cee725290c2214778639e227d829">context</a>(<a class="code hl_variable" href="class_part.html#a39a2cee725290c2214778639e227d829">context</a>), <a class="code hl_variable" href="class_part.html#a81a841fbecc6eb4a24158c6cc3e38dbd">shaderProgram</a>(<a class="code hl_variable" href="class_part.html#a81a841fbecc6eb4a24158c6cc3e38dbd">shaderProgram</a>)</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    {</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>        <a class="code hl_variable" href="class_part.html#aab7c25b55f2b7050831fa818a3b618c5">numofmodels</a> = 0;</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    };</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="class_part.html#a1710faabd37355a2a4380b904ea37642">  167</a></span>    <a class="code hl_function" href="class_part.html#a1710faabd37355a2a4380b904ea37642">~Part</a>(){</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        <span class="keywordflow">for</span>(<a class="code hl_struct" href="struct_texture.html">Texture</a>* &amp;it : <a class="code hl_variable" href="class_part.html#ae794b0a58adbf1efbe690cbba4b25313">textures_loaded</a>){</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>            it-&gt;texture.destroy();</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>            <span class="keyword">delete</span> it;</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        }</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        <a class="code hl_variable" href="class_part.html#ae794b0a58adbf1efbe690cbba4b25313">textures_loaded</a>.clear();</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        <span class="keywordflow">for</span>(<a class="code hl_class" href="class_model.html">Model</a>* &amp;it : <a class="code hl_variable" href="class_part.html#a4387d2256f2365fa3844be7f7df7e3c4">models</a>){</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>            <span class="keyword">delete</span> it;</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        }</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        <a class="code hl_variable" href="class_part.html#a4387d2256f2365fa3844be7f7df7e3c4">models</a>.clear();</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    };</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#a2a0131b72de63649cbdefe7fe4772b8c">addModel</a>(<a class="code hl_class" href="class_model.html">Model</a>* m);</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#a2a0131b72de63649cbdefe7fe4772b8c">addModel</a>();</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_part.html#a1f41c1d2fe7f983fe8f153911de8a7cc">delModel</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_part.html#af1e35180bfdb88ba8526a9e21cafa873">moveModel</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#aef72dcc36649fd25aabf4da6a461104d">rename</a>(QString n);</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#ad774591ece02e61f4bf2ae334f26c55c">initPartLimit</a>();</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <a class="code hl_class" href="class_model.html">Model</a>* <a class="code hl_function" href="class_part.html#ac64a9bacc307b2259d093dc085918c9f">getModelptr</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>)<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_part.html#a31721b6119c3bb8a1fd76a2fcd79b423">getpartID</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_part.html#a22a332d71e21dac374f76a9acd75f8af">getmodelID</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_part.html#af218d5a12a49c519a20de4cd3a78b42a">getnumofmodels</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#ae5ef412ad400061a25e647e65c5553a3">printpartinfo</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#a374874d2464bf43b513c30a5746118ad">printmodelsinfo</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#a2126e77e7d7148caf163ebdaf7213630">draw</a>();</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#ae0ec7098f91588364c8aed9cda54e821">destroy</a>();</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    <span class="comment">//从文件导入模型（实际上导入模型应该写在ModelTree中，但是为了方便导入各种格式的模型文件使用了Assimp库，为了适应该库的操作逻辑将导入功能写在这）</span></div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#a1ff96381fecda627123a0ce38c46afb2">importModel</a>(QString path);</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_part.html#a61e84b19bccbad38a90337b8ea55ce92">processNode</a>(aiNode *node, <span class="keyword">const</span> aiScene *scene,aiMatrix4x4 mat4=aiMatrix4x4());</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    <a class="code hl_class" href="class_model.html">Model</a>* <a class="code hl_function" href="class_part.html#aa82fd3728435036781bbfed95c4c27f1">processMesh</a>(aiMesh *mesh, <span class="keyword">const</span> aiScene *scene, aiMatrix4x4 model);</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    QVector&lt;Texture*&gt; <a class="code hl_function" href="class_part.html#a02b598de6ea81e6dd0d11fb4de488c3b">loadMaterialTextures</a>(aiMaterial *mat, aiTextureType type,QString typeName);</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>};</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno"><a class="line" href="class_model.html">  256</a></span><span class="keyword">class </span><a class="code hl_class" href="class_model.html">Model</a></div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>{</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno"><a class="line" href="class_model.html#a3463229b900e579cce11fe8c8cb2c070">  259</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_model.html#a3463229b900e579cce11fe8c8cb2c070">ifnative</a> = 0;</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    <span class="comment">//glfunction及shader</span></div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno"><a class="line" href="class_model.html#a4f87c3dc5eeb66c3b060e8914b99e36f">  261</a></span>    QOpenGLFunctions* <a class="code hl_variable" href="class_model.html#a4f87c3dc5eeb66c3b060e8914b99e36f">glFunc</a>;</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno"><a class="line" href="class_model.html#a4064e0867c605f499cf65e5bb13c7e9e">  262</a></span>    QOpenGLShaderProgram* <a class="code hl_variable" href="class_model.html#a4064e0867c605f499cf65e5bb13c7e9e">shaderProgram</a>;</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <span class="comment">//modeltree信息</span></div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno"><a class="line" href="class_model.html#ad03ba1d0b0fe335d471a11ecc00021de">  264</a></span>    <a class="code hl_struct" href="struct_model_i_d.html">ModelID</a> <a class="code hl_variable" href="class_model.html#ad03ba1d0b0fe335d471a11ecc00021de">ID</a>;</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno"><a class="line" href="class_model.html#a36644b16a68645be3281d6fa7cc56d9d">  265</a></span>    QString <a class="code hl_variable" href="class_model.html#a36644b16a68645be3281d6fa7cc56d9d">NAME</a>;</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno"><a class="line" href="class_model.html#ab219ae16413637f082f8d5bfdae57822">  266</a></span>    <a class="code hl_class" href="class_part.html">Part</a>* <a class="code hl_variable" href="class_model.html#ab219ae16413637f082f8d5bfdae57822">father</a>;</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    <span class="comment">//model数据信息</span></div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno"><a class="line" href="class_model.html#a7e3a558f43bbeaf6fa332e217d2d53b7">  268</a></span>    QVector&lt;Vertex&gt; <a class="code hl_variable" href="class_model.html#a7e3a558f43bbeaf6fa332e217d2d53b7">vertices</a>;</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno"><a class="line" href="class_model.html#a26058cb89e31a3537cc275f682935f83">  269</a></span>    QVector&lt;unsigned int&gt; <a class="code hl_variable" href="class_model.html#a26058cb89e31a3537cc275f682935f83">indices</a>;</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno"><a class="line" href="class_model.html#af6189965ff5216f475595c3909866500">  270</a></span>    QVector&lt;Texture*&gt; <a class="code hl_variable" href="class_model.html#af6189965ff5216f475595c3909866500">textures</a>;</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    <span class="comment">//model属性信息</span></div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno"><a class="line" href="class_model.html#a1d2fb127fdb22fee54000b697ef7f1cd">  272</a></span>    QMatrix4x4 <a class="code hl_variable" href="class_model.html#a1d2fb127fdb22fee54000b697ef7f1cd">modelmatrix</a>;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno"><a class="line" href="class_model.html#ad8e0e329673243229a66a63646be18d7">  273</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_model.html#ad8e0e329673243229a66a63646be18d7">thickness</a> = 0;</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno"><a class="line" href="class_model.html#a562f3fb4bf8b9936b524b5e99fc26247">  274</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_model.html#a562f3fb4bf8b9936b524b5e99fc26247">material</a> = 0;</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <span class="comment">//操作状态</span></div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno"><a class="line" href="class_model.html#a7a12163fc9df82830bdfc60284177ac3">  276</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_model.html#a7a12163fc9df82830bdfc60284177ac3">ifdraw</a> = 1;</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno"><a class="line" href="class_model.html#adbef964ac9899b5de62b6735c7defb8f">  277</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_model.html#adbef964ac9899b5de62b6735c7defb8f">ifselected</a>=0;</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    <span class="comment">//模型的XYZ范围</span></div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno"><a class="line" href="class_model.html#acbc7fd56ab4621bdff603c95f81931db">  279</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_model.html#acbc7fd56ab4621bdff603c95f81931db">minX</a> = 0;</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno"><a class="line" href="class_model.html#a06b2ca7e8ac43bb02802af72091de195">  280</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_model.html#a06b2ca7e8ac43bb02802af72091de195">minY</a> = 0;</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno"><a class="line" href="class_model.html#a680f311c07fad93c6a1ae114d9fc4a42">  281</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_model.html#a680f311c07fad93c6a1ae114d9fc4a42">minZ</a> = 0;</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno"><a class="line" href="class_model.html#a12d1bd808e8dfee62e4817fd27d42856">  282</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_model.html#a12d1bd808e8dfee62e4817fd27d42856">maxX</a> = 0;</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno"><a class="line" href="class_model.html#ad933e1a18a8534462ed9d6b714b5cd49">  283</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_model.html#ad933e1a18a8534462ed9d6b714b5cd49">maxY</a> = 0;</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno"><a class="line" href="class_model.html#aa4d4c679e0c4b74b433db82168223584">  284</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_model.html#aa4d4c679e0c4b74b433db82168223584">maxZ</a> = 0;</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno"><a class="line" href="class_model.html#a42f92ee7d1da4d4a24e630ac96bab9cf">  285</a></span>    QVector3D <a class="code hl_variable" href="class_model.html#a42f92ee7d1da4d4a24e630ac96bab9cf">modelCenter</a>;</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span> </div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    <span class="comment">//VAO、VBO、EBO</span></div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno"><a class="line" href="class_model.html#aa1721c3029a5efc491e9b7dcf87d6919">  291</a></span>    QOpenGLVertexArrayObject <a class="code hl_variable" href="class_model.html#aa1721c3029a5efc491e9b7dcf87d6919">VAO</a>;</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="class_model.html#a56a7403207bdf412f366aca845673e08">  292</a></span>    QOpenGLBuffer <a class="code hl_variable" href="class_model.html#a480198bdb16227183a009913e4006ffc">VBO</a>,<a class="code hl_variable" href="class_model.html#a56a7403207bdf412f366aca845673e08">EBO</a>;</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span> </div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span> </div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno"><a class="line" href="class_model.html#a3c676d5e0077094a392a92b8bd38ab77">  299</a></span>    <a class="code hl_function" href="class_model.html#a3c676d5e0077094a392a92b8bd38ab77">Model</a>(QOpenGLFunctions* <a class="code hl_variable" href="class_model.html#a4f87c3dc5eeb66c3b060e8914b99e36f">glFunc</a>, QOpenGLShaderProgram* <a class="code hl_variable" href="class_model.html#a4064e0867c605f499cf65e5bb13c7e9e">shaderProgram</a>,</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>          <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>, QString name, <a class="code hl_class" href="class_part.html">Part</a>* <a class="code hl_variable" href="class_model.html#ab219ae16413637f082f8d5bfdae57822">father</a>,  QMatrix4x4 mdlmtrx,</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>          <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_model.html#ad8e0e329673243229a66a63646be18d7">thickness</a> = 0,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_model.html#a562f3fb4bf8b9936b524b5e99fc26247">material</a> = 0)</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>        : <a class="code hl_variable" href="class_model.html#a4f87c3dc5eeb66c3b060e8914b99e36f">glFunc</a>(<a class="code hl_variable" href="class_model.html#a4f87c3dc5eeb66c3b060e8914b99e36f">glFunc</a>), <a class="code hl_variable" href="class_model.html#a4064e0867c605f499cf65e5bb13c7e9e">shaderProgram</a>(<a class="code hl_variable" href="class_model.html#a4064e0867c605f499cf65e5bb13c7e9e">shaderProgram</a>),</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>          <a class="code hl_variable" href="class_model.html#a36644b16a68645be3281d6fa7cc56d9d">NAME</a>(name),<a class="code hl_variable" href="class_model.html#ab219ae16413637f082f8d5bfdae57822">father</a>(<a class="code hl_variable" href="class_model.html#ab219ae16413637f082f8d5bfdae57822">father</a>),<a class="code hl_variable" href="class_model.html#a1d2fb127fdb22fee54000b697ef7f1cd">modelmatrix</a>(mdlmtrx),<a class="code hl_variable" href="class_model.html#ad8e0e329673243229a66a63646be18d7">thickness</a>(<a class="code hl_variable" href="class_model.html#ad8e0e329673243229a66a63646be18d7">thickness</a>),<a class="code hl_variable" href="class_model.html#a562f3fb4bf8b9936b524b5e99fc26247">material</a>(<a class="code hl_variable" href="class_model.html#a562f3fb4bf8b9936b524b5e99fc26247">material</a>),</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>          <a class="code hl_variable" href="class_model.html#a480198bdb16227183a009913e4006ffc">VBO</a>(QOpenGLBuffer::VertexBuffer), <a class="code hl_variable" href="class_model.html#a56a7403207bdf412f366aca845673e08">EBO</a>(QOpenGLBuffer::IndexBuffer)</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>    {</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>        <span class="comment">//初始化modeltree信息</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>        <a class="code hl_variable" href="class_model.html#ad03ba1d0b0fe335d471a11ecc00021de">ID</a>.<a class="code hl_variable" href="struct_model_i_d.html#a817aa6ad19cf850ae25097302d6b3154">partID</a> = <a class="code hl_variable" href="class_model.html#ab219ae16413637f082f8d5bfdae57822">father</a>-&gt;<a class="code hl_function" href="class_part.html#a31721b6119c3bb8a1fd76a2fcd79b423">getpartID</a>();</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>        <a class="code hl_variable" href="class_model.html#ad03ba1d0b0fe335d471a11ecc00021de">ID</a>.<a class="code hl_variable" href="struct_model_i_d.html#a1edf71b27cbb39b4ff90f25d7555abbb">modelID</a> = id;</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>    };</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno"><a class="line" href="class_model.html#ad6ebd2062a0b823db841a0b88baac4c0">  311</a></span>    <a class="code hl_function" href="class_model.html#ad6ebd2062a0b823db841a0b88baac4c0">~Model</a>(){</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>        <a class="code hl_variable" href="class_model.html#ab219ae16413637f082f8d5bfdae57822">father</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>        <a class="code hl_variable" href="class_model.html#a7e3a558f43bbeaf6fa332e217d2d53b7">vertices</a>.clear();</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>        <a class="code hl_variable" href="class_model.html#af6189965ff5216f475595c3909866500">textures</a>.clear();</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>        <a class="code hl_variable" href="class_model.html#a26058cb89e31a3537cc275f682935f83">indices</a>.clear();</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>    };</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a4a4d270839585321da30c2eb390ec6e0">getLimit</a>();</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a48188a4ba2396f45c921812359b686db">getCenter</a>();</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a1022bb59ae145084d19d0210399a234a">moveADistance</a>(QVector3D Distance);</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a500aad05d1671b0ac6c4683c34849ca2">rotateIntX</a>(<span class="keywordtype">int</span> iax, <span class="keywordtype">bool</span> modepm, QVector3D center = QVector3D(0,0,0));</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a849dacd5e5a1f02c08ada3b567b3ca66">rotateIntY</a>(<span class="keywordtype">int</span> iay, <span class="keywordtype">bool</span> modepm, QVector3D center = QVector3D(0,0,0));</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a7e787d0186f984fb61f0b69346e66d85">rotateIntZ</a>(<span class="keywordtype">int</span> iaz, <span class="keywordtype">bool</span> modepm, QVector3D center = QVector3D(0,0,0));</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a5fea253d5212acffc2366370ba835444">rotateFloatAngle</a>(QVector3D axis, <span class="keywordtype">float</span> fa, <span class="keywordtype">bool</span> modepm, QVector3D center = QVector3D(0,0,0));</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a90cfb2893537198c6a6febcea84d0a2b">mtxVert</a>(QMatrix4x4 mtx, <span class="keywordtype">bool</span> modepm, QVector3D center = QVector3D(0,0,0));</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#aac562ebb38c5901b9d94abc61d0e7dee">zoomVert</a>(<span class="keywordtype">float</span> zoomtimes, <span class="keywordtype">bool</span> modepm, QVector3D center = QVector3D(0,0,0));</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a8a8e351586523c7443f244d211ec8347">zoomXYZ</a>(<span class="keywordtype">float</span> zoomtimesX, <span class="keywordtype">float</span> zoomtimesY, <span class="keywordtype">float</span> zoomtimesZ, <span class="keywordtype">bool</span> modepm, QVector3D center = QVector3D(0,0,0));</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_model.html#ae0f37812a3d16c6e19af2e20352a3b82">getModelIDint</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    QString <a class="code hl_function" href="class_model.html#a622e9254425db9aca7e32f216978f121">getModelName</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#ac5f51b569db5db8a2772b95903b85436">rename</a>(QString n);</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#aab6da2f314fdcbe974720d5c4c02d91b">printmodelinfo</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#ad2af17317c6d0ae3b42c3cb53ec9e445">printfatherpartinfo</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span> </div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#a1c956a2ec86688a8d844ef4f349d53e3">setupmodel</a>();</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_model.html#ac7b168fc3a84f9ac2b558d1019869ca7">draw</a>();</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span> </div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span> </div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span> </div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>};</div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span> </div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span> </div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span> </div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span> </div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span> </div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span> </div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span><span class="preprocessor">#endif </span><span class="comment">// MODEL_H</span></div>
+<div class="ttc" id="aclass_model_html"><div class="ttname"><a href="class_model.html">Model</a></div><div class="ttdoc">类：Model(部件)</div><div class="ttdef"><b>Definition:</b> model.h:257</div></div>
+<div class="ttc" id="aclass_model_html_a06b2ca7e8ac43bb02802af72091de195"><div class="ttname"><a href="class_model.html#a06b2ca7e8ac43bb02802af72091de195">Model::minY</a></div><div class="ttdeci">float minY</div><div class="ttdoc">Model的X方向上的最大值</div><div class="ttdef"><b>Definition:</b> model.h:280</div></div>
+<div class="ttc" id="aclass_model_html_a1022bb59ae145084d19d0210399a234a"><div class="ttname"><a href="class_model.html#a1022bb59ae145084d19d0210399a234a">Model::moveADistance</a></div><div class="ttdeci">void moveADistance(QVector3D Distance)</div><div class="ttdoc">按传入向量平移</div><div class="ttdef"><b>Definition:</b> model.cpp:566</div></div>
+<div class="ttc" id="aclass_model_html_a12d1bd808e8dfee62e4817fd27d42856"><div class="ttname"><a href="class_model.html#a12d1bd808e8dfee62e4817fd27d42856">Model::maxX</a></div><div class="ttdeci">float maxX</div><div class="ttdoc">Model的Y方向上的最大值</div><div class="ttdef"><b>Definition:</b> model.h:282</div></div>
+<div class="ttc" id="aclass_model_html_a1c956a2ec86688a8d844ef4f349d53e3"><div class="ttname"><a href="class_model.html#a1c956a2ec86688a8d844ef4f349d53e3">Model::setupmodel</a></div><div class="ttdeci">void setupmodel()</div><div class="ttdoc">为Model配置VAO、VBO、EBO</div><div class="ttdef"><b>Definition:</b> model.cpp:397</div></div>
+<div class="ttc" id="aclass_model_html_a1d2fb127fdb22fee54000b697ef7f1cd"><div class="ttname"><a href="class_model.html#a1d2fb127fdb22fee54000b697ef7f1cd">Model::modelmatrix</a></div><div class="ttdeci">QMatrix4x4 modelmatrix</div><div class="ttdoc">model矩阵，绘制时传入着色器</div><div class="ttdef"><b>Definition:</b> model.h:272</div></div>
+<div class="ttc" id="aclass_model_html_a26058cb89e31a3537cc275f682935f83"><div class="ttname"><a href="class_model.html#a26058cb89e31a3537cc275f682935f83">Model::indices</a></div><div class="ttdeci">QVector&lt; unsigned int &gt; indices</div><div class="ttdoc">索引数据</div><div class="ttdef"><b>Definition:</b> model.h:269</div></div>
+<div class="ttc" id="aclass_model_html_a3463229b900e579cce11fe8c8cb2c070"><div class="ttname"><a href="class_model.html#a3463229b900e579cce11fe8c8cb2c070">Model::ifnative</a></div><div class="ttdeci">bool ifnative</div><div class="ttdoc">记录Model对象是否为通过本软件提供的方式建立的</div><div class="ttdef"><b>Definition:</b> model.h:259</div></div>
+<div class="ttc" id="aclass_model_html_a36644b16a68645be3281d6fa7cc56d9d"><div class="ttname"><a href="class_model.html#a36644b16a68645be3281d6fa7cc56d9d">Model::NAME</a></div><div class="ttdeci">QString NAME</div><div class="ttdoc">部件名称</div><div class="ttdef"><b>Definition:</b> model.h:265</div></div>
+<div class="ttc" id="aclass_model_html_a3c676d5e0077094a392a92b8bd38ab77"><div class="ttname"><a href="class_model.html#a3c676d5e0077094a392a92b8bd38ab77">Model::Model</a></div><div class="ttdeci">Model(QOpenGLFunctions *glFunc, QOpenGLShaderProgram *shaderProgram, unsigned int id, QString name, Part *father, QMatrix4x4 mdlmtrx, unsigned int thickness=0, unsigned int material=0)</div><div class="ttdoc">构造函数，创建Model时需要上下文（指针）、着色器（指针）、modelID（父Part负责计算生成）、Model名称、父part、model矩阵、厚度和材质</div><div class="ttdef"><b>Definition:</b> model.h:299</div></div>
+<div class="ttc" id="aclass_model_html_a4064e0867c605f499cf65e5bb13c7e9e"><div class="ttname"><a href="class_model.html#a4064e0867c605f499cf65e5bb13c7e9e">Model::shaderProgram</a></div><div class="ttdeci">QOpenGLShaderProgram * shaderProgram</div><div class="ttdoc">着色器程序</div><div class="ttdef"><b>Definition:</b> model.h:262</div></div>
+<div class="ttc" id="aclass_model_html_a42f92ee7d1da4d4a24e630ac96bab9cf"><div class="ttname"><a href="class_model.html#a42f92ee7d1da4d4a24e630ac96bab9cf">Model::modelCenter</a></div><div class="ttdeci">QVector3D modelCenter</div><div class="ttdoc">Model的中心坐标（包围盒中心）</div><div class="ttdef"><b>Definition:</b> model.h:285</div></div>
+<div class="ttc" id="aclass_model_html_a480198bdb16227183a009913e4006ffc"><div class="ttname"><a href="class_model.html#a480198bdb16227183a009913e4006ffc">Model::VBO</a></div><div class="ttdeci">QOpenGLBuffer VBO</div><div class="ttdef"><b>Definition:</b> model.h:292</div></div>
+<div class="ttc" id="aclass_model_html_a48188a4ba2396f45c921812359b686db"><div class="ttname"><a href="class_model.html#a48188a4ba2396f45c921812359b686db">Model::getCenter</a></div><div class="ttdeci">void getCenter()</div><div class="ttdoc">获取Model包围盒中心（顶点的最大最小XYZ/2）</div><div class="ttdef"><b>Definition:</b> model.cpp:522</div></div>
+<div class="ttc" id="aclass_model_html_a4a4d270839585321da30c2eb390ec6e0"><div class="ttname"><a href="class_model.html#a4a4d270839585321da30c2eb390ec6e0">Model::getLimit</a></div><div class="ttdeci">void getLimit()</div><div class="ttdoc">获取Model顶点的XYZ最大最小值</div><div class="ttdef"><b>Definition:</b> model.cpp:492</div></div>
+<div class="ttc" id="aclass_model_html_a4f87c3dc5eeb66c3b060e8914b99e36f"><div class="ttname"><a href="class_model.html#a4f87c3dc5eeb66c3b060e8914b99e36f">Model::glFunc</a></div><div class="ttdeci">QOpenGLFunctions * glFunc</div><div class="ttdoc">opengl函数入口</div><div class="ttdef"><b>Definition:</b> model.h:261</div></div>
+<div class="ttc" id="aclass_model_html_a500aad05d1671b0ac6c4683c34849ca2"><div class="ttname"><a href="class_model.html#a500aad05d1671b0ac6c4683c34849ca2">Model::rotateIntX</a></div><div class="ttdeci">void rotateIntX(int iax, bool modepm, QVector3D center=QVector3D(0, 0, 0))</div><div class="ttdoc">绕X轴旋转</div><div class="ttdef"><b>Definition:</b> model.cpp:575</div></div>
+<div class="ttc" id="aclass_model_html_a562f3fb4bf8b9936b524b5e99fc26247"><div class="ttname"><a href="class_model.html#a562f3fb4bf8b9936b524b5e99fc26247">Model::material</a></div><div class="ttdeci">unsigned int material</div><div class="ttdoc">材质(导出的旧格式文件写入此数据，一个Part的所有部件使用各自不同材质数据)</div><div class="ttdef"><b>Definition:</b> model.h:274</div></div>
+<div class="ttc" id="aclass_model_html_a56a7403207bdf412f366aca845673e08"><div class="ttname"><a href="class_model.html#a56a7403207bdf412f366aca845673e08">Model::EBO</a></div><div class="ttdeci">QOpenGLBuffer EBO</div><div class="ttdoc">本Model对象绘制时用到的VBO、EBO</div><div class="ttdef"><b>Definition:</b> model.h:292</div></div>
+<div class="ttc" id="aclass_model_html_a5fea253d5212acffc2366370ba835444"><div class="ttname"><a href="class_model.html#a5fea253d5212acffc2366370ba835444">Model::rotateFloatAngle</a></div><div class="ttdeci">void rotateFloatAngle(QVector3D axis, float fa, bool modepm, QVector3D center=QVector3D(0, 0, 0))</div><div class="ttdoc">绕指定轴axis旋转fa角度</div><div class="ttdef"><b>Definition:</b> model.cpp:648</div></div>
+<div class="ttc" id="aclass_model_html_a622e9254425db9aca7e32f216978f121"><div class="ttname"><a href="class_model.html#a622e9254425db9aca7e32f216978f121">Model::getModelName</a></div><div class="ttdeci">QString getModelName() const</div><div class="ttdoc">获取Model名称</div><div class="ttdef"><b>Definition:</b> model.cpp:761</div></div>
+<div class="ttc" id="aclass_model_html_a680f311c07fad93c6a1ae114d9fc4a42"><div class="ttname"><a href="class_model.html#a680f311c07fad93c6a1ae114d9fc4a42">Model::minZ</a></div><div class="ttdeci">float minZ</div><div class="ttdoc">Model的Y方向上的最小值</div><div class="ttdef"><b>Definition:</b> model.h:281</div></div>
+<div class="ttc" id="aclass_model_html_a7a12163fc9df82830bdfc60284177ac3"><div class="ttname"><a href="class_model.html#a7a12163fc9df82830bdfc60284177ac3">Model::ifdraw</a></div><div class="ttdeci">bool ifdraw</div><div class="ttdoc">是否开始绘制（未完成数据准备时设置为0）</div><div class="ttdef"><b>Definition:</b> model.h:276</div></div>
+<div class="ttc" id="aclass_model_html_a7e3a558f43bbeaf6fa332e217d2d53b7"><div class="ttname"><a href="class_model.html#a7e3a558f43bbeaf6fa332e217d2d53b7">Model::vertices</a></div><div class="ttdeci">QVector&lt; Vertex &gt; vertices</div><div class="ttdoc">存储部件的所有顶点数据的容器</div><div class="ttdef"><b>Definition:</b> model.h:268</div></div>
+<div class="ttc" id="aclass_model_html_a7e787d0186f984fb61f0b69346e66d85"><div class="ttname"><a href="class_model.html#a7e787d0186f984fb61f0b69346e66d85">Model::rotateIntZ</a></div><div class="ttdeci">void rotateIntZ(int iaz, bool modepm, QVector3D center=QVector3D(0, 0, 0))</div><div class="ttdoc">绕Z轴旋转</div><div class="ttdef"><b>Definition:</b> model.cpp:623</div></div>
+<div class="ttc" id="aclass_model_html_a849dacd5e5a1f02c08ada3b567b3ca66"><div class="ttname"><a href="class_model.html#a849dacd5e5a1f02c08ada3b567b3ca66">Model::rotateIntY</a></div><div class="ttdeci">void rotateIntY(int iay, bool modepm, QVector3D center=QVector3D(0, 0, 0))</div><div class="ttdoc">绕Y轴旋转</div><div class="ttdef"><b>Definition:</b> model.cpp:599</div></div>
+<div class="ttc" id="aclass_model_html_a8a8e351586523c7443f244d211ec8347"><div class="ttname"><a href="class_model.html#a8a8e351586523c7443f244d211ec8347">Model::zoomXYZ</a></div><div class="ttdeci">void zoomXYZ(float zoomtimesX, float zoomtimesY, float zoomtimesZ, bool modepm, QVector3D center=QVector3D(0, 0, 0))</div><div class="ttdoc">XYZ方向分别乘以不同倍数</div><div class="ttdef"><b>Definition:</b> model.cpp:724</div></div>
+<div class="ttc" id="aclass_model_html_a90cfb2893537198c6a6febcea84d0a2b"><div class="ttname"><a href="class_model.html#a90cfb2893537198c6a6febcea84d0a2b">Model::mtxVert</a></div><div class="ttdeci">void mtxVert(QMatrix4x4 mtx, bool modepm, QVector3D center=QVector3D(0, 0, 0))</div><div class="ttdoc">接收一个变换矩阵matrix，按照该矩阵旋转模型</div><div class="ttdef"><b>Definition:</b> model.cpp:672</div></div>
+<div class="ttc" id="aclass_model_html_aa1721c3029a5efc491e9b7dcf87d6919"><div class="ttname"><a href="class_model.html#aa1721c3029a5efc491e9b7dcf87d6919">Model::VAO</a></div><div class="ttdeci">QOpenGLVertexArrayObject VAO</div><div class="ttdoc">本Model对象绘制时用到的VAO</div><div class="ttdef"><b>Definition:</b> model.h:291</div></div>
+<div class="ttc" id="aclass_model_html_aa4d4c679e0c4b74b433db82168223584"><div class="ttname"><a href="class_model.html#aa4d4c679e0c4b74b433db82168223584">Model::maxZ</a></div><div class="ttdeci">float maxZ</div><div class="ttdoc">Model的Z方向上的最大值</div><div class="ttdef"><b>Definition:</b> model.h:284</div></div>
+<div class="ttc" id="aclass_model_html_aab6da2f314fdcbe974720d5c4c02d91b"><div class="ttname"><a href="class_model.html#aab6da2f314fdcbe974720d5c4c02d91b">Model::printmodelinfo</a></div><div class="ttdeci">void printmodelinfo() const</div><div class="ttdoc">测试用函数：输出模型信息(name、ID、厚度、材质)</div><div class="ttdef"><b>Definition:</b> model.cpp:775</div></div>
+<div class="ttc" id="aclass_model_html_aac562ebb38c5901b9d94abc61d0e7dee"><div class="ttname"><a href="class_model.html#aac562ebb38c5901b9d94abc61d0e7dee">Model::zoomVert</a></div><div class="ttdeci">void zoomVert(float zoomtimes, bool modepm, QVector3D center=QVector3D(0, 0, 0))</div><div class="ttdoc">各方向按同一个倍数缩放</div><div class="ttdef"><b>Definition:</b> model.cpp:693</div></div>
+<div class="ttc" id="aclass_model_html_ab219ae16413637f082f8d5bfdae57822"><div class="ttname"><a href="class_model.html#ab219ae16413637f082f8d5bfdae57822">Model::father</a></div><div class="ttdeci">Part * father</div><div class="ttdoc">所属分组</div><div class="ttdef"><b>Definition:</b> model.h:266</div></div>
+<div class="ttc" id="aclass_model_html_ac5f51b569db5db8a2772b95903b85436"><div class="ttname"><a href="class_model.html#ac5f51b569db5db8a2772b95903b85436">Model::rename</a></div><div class="ttdeci">void rename(QString n)</div><div class="ttdoc">重命名Model</div><div class="ttdef"><b>Definition:</b> model.cpp:768</div></div>
+<div class="ttc" id="aclass_model_html_ac7b168fc3a84f9ac2b558d1019869ca7"><div class="ttname"><a href="class_model.html#ac7b168fc3a84f9ac2b558d1019869ca7">Model::draw</a></div><div class="ttdeci">void draw()</div><div class="ttdoc">绘制Model</div><div class="ttdef"><b>Definition:</b> model.cpp:438</div></div>
+<div class="ttc" id="aclass_model_html_acbc7fd56ab4621bdff603c95f81931db"><div class="ttname"><a href="class_model.html#acbc7fd56ab4621bdff603c95f81931db">Model::minX</a></div><div class="ttdeci">float minX</div><div class="ttdoc">Model的X方向上的最小值</div><div class="ttdef"><b>Definition:</b> model.h:279</div></div>
+<div class="ttc" id="aclass_model_html_ad03ba1d0b0fe335d471a11ecc00021de"><div class="ttname"><a href="class_model.html#ad03ba1d0b0fe335d471a11ecc00021de">Model::ID</a></div><div class="ttdeci">ModelID ID</div><div class="ttdoc">部件ID</div><div class="ttdef"><b>Definition:</b> model.h:264</div></div>
+<div class="ttc" id="aclass_model_html_ad2af17317c6d0ae3b42c3cb53ec9e445"><div class="ttname"><a href="class_model.html#ad2af17317c6d0ae3b42c3cb53ec9e445">Model::printfatherpartinfo</a></div><div class="ttdeci">void printfatherpartinfo() const</div><div class="ttdoc">测试用函数：输出所属分组信息（name、ID、模型数目)</div><div class="ttdef"><b>Definition:</b> model.cpp:791</div></div>
+<div class="ttc" id="aclass_model_html_ad6ebd2062a0b823db841a0b88baac4c0"><div class="ttname"><a href="class_model.html#ad6ebd2062a0b823db841a0b88baac4c0">Model::~Model</a></div><div class="ttdeci">~Model()</div><div class="ttdoc">析构函数，指针置空、容器清零</div><div class="ttdef"><b>Definition:</b> model.h:311</div></div>
+<div class="ttc" id="aclass_model_html_ad8e0e329673243229a66a63646be18d7"><div class="ttname"><a href="class_model.html#ad8e0e329673243229a66a63646be18d7">Model::thickness</a></div><div class="ttdeci">unsigned int thickness</div><div class="ttdoc">厚度(导出的旧格式文件写入此数据，一个Part的不同部件使用各自不同厚度数据)</div><div class="ttdef"><b>Definition:</b> model.h:273</div></div>
+<div class="ttc" id="aclass_model_html_ad933e1a18a8534462ed9d6b714b5cd49"><div class="ttname"><a href="class_model.html#ad933e1a18a8534462ed9d6b714b5cd49">Model::maxY</a></div><div class="ttdeci">float maxY</div><div class="ttdoc">Model的Z方向上的最小值</div><div class="ttdef"><b>Definition:</b> model.h:283</div></div>
+<div class="ttc" id="aclass_model_html_adbef964ac9899b5de62b6735c7defb8f"><div class="ttname"><a href="class_model.html#adbef964ac9899b5de62b6735c7defb8f">Model::ifselected</a></div><div class="ttdeci">bool ifselected</div><div class="ttdoc">是否被选中</div><div class="ttdef"><b>Definition:</b> model.h:277</div></div>
+<div class="ttc" id="aclass_model_html_ae0f37812a3d16c6e19af2e20352a3b82"><div class="ttname"><a href="class_model.html#ae0f37812a3d16c6e19af2e20352a3b82">Model::getModelIDint</a></div><div class="ttdeci">unsigned int getModelIDint() const</div><div class="ttdoc">获取modelID（ModelID = “partID-modelID”）</div><div class="ttdef"><b>Definition:</b> model.cpp:754</div></div>
+<div class="ttc" id="aclass_model_html_af6189965ff5216f475595c3909866500"><div class="ttname"><a href="class_model.html#af6189965ff5216f475595c3909866500">Model::textures</a></div><div class="ttdeci">QVector&lt; Texture * &gt; textures</div><div class="ttdoc">纹理数据</div><div class="ttdef"><b>Definition:</b> model.h:270</div></div>
+<div class="ttc" id="aclass_part_html"><div class="ttname"><a href="class_part.html">Part</a></div><div class="ttdoc">类：Part（分组）</div><div class="ttdef"><b>Definition:</b> model.h:127</div></div>
+<div class="ttc" id="aclass_part_html_a02b598de6ea81e6dd0d11fb4de488c3b"><div class="ttname"><a href="class_part.html#a02b598de6ea81e6dd0d11fb4de488c3b">Part::loadMaterialTextures</a></div><div class="ttdeci">QVector&lt; Texture * &gt; loadMaterialTextures(aiMaterial *mat, aiTextureType type, QString typeName)</div><div class="ttdoc">从文件导入模型时，加载材质纹理</div><div class="ttdef"><b>Definition:</b> model.cpp:163</div></div>
+<div class="ttc" id="aclass_part_html_a13a48fa5d225268f41dded19b7a9f2fe"><div class="ttname"><a href="class_part.html#a13a48fa5d225268f41dded19b7a9f2fe">Part::maxX</a></div><div class="ttdeci">float maxX</div><div class="ttdoc">Part中所有Model的Y方向上的最大值</div><div class="ttdef"><b>Definition:</b> model.h:149</div></div>
+<div class="ttc" id="aclass_part_html_a1710faabd37355a2a4380b904ea37642"><div class="ttname"><a href="class_part.html#a1710faabd37355a2a4380b904ea37642">Part::~Part</a></div><div class="ttdeci">~Part()</div><div class="ttdoc">析构函数，所有容器清零，所有指针置空</div><div class="ttdef"><b>Definition:</b> model.h:167</div></div>
+<div class="ttc" id="aclass_part_html_a1f41c1d2fe7f983fe8f153911de8a7cc"><div class="ttname"><a href="class_part.html#a1f41c1d2fe7f983fe8f153911de8a7cc">Part::delModel</a></div><div class="ttdeci">bool delModel(unsigned int id)</div><div class="ttdef"><b>Definition:</b> model.cpp:204</div></div>
+<div class="ttc" id="aclass_part_html_a1ff96381fecda627123a0ce38c46afb2"><div class="ttname"><a href="class_part.html#a1ff96381fecda627123a0ce38c46afb2">Part::importModel</a></div><div class="ttdeci">void importModel(QString path)</div><div class="ttdoc">从文件导入模型</div><div class="ttdef"><b>Definition:</b> model.cpp:23</div></div>
+<div class="ttc" id="aclass_part_html_a2126e77e7d7148caf163ebdaf7213630"><div class="ttname"><a href="class_part.html#a2126e77e7d7148caf163ebdaf7213630">Part::draw</a></div><div class="ttdeci">void draw()</div><div class="ttdoc">绘制Part中的所有Model（实际是遍历调用parts中各个Model的绘制函数）</div><div class="ttdef"><b>Definition:</b> model.cpp:344</div></div>
+<div class="ttc" id="aclass_part_html_a22a332d71e21dac374f76a9acd75f8af"><div class="ttname"><a href="class_part.html#a22a332d71e21dac374f76a9acd75f8af">Part::getmodelID</a></div><div class="ttdeci">unsigned int getmodelID() const</div><div class="ttdoc">获取modelID(初始化新Model对象时使用)</div><div class="ttdef"><b>Definition:</b> model.cpp:311</div></div>
+<div class="ttc" id="aclass_part_html_a2a0131b72de63649cbdefe7fe4772b8c"><div class="ttname"><a href="class_part.html#a2a0131b72de63649cbdefe7fe4772b8c">Part::addModel</a></div><div class="ttdeci">void addModel()</div><div class="ttdoc">添加模型（仅计数用，因为有时不通过传参Model*来向Part添加Model对象，此时添加Model对象后只需要计数调整）</div><div class="ttdef"><b>Definition:</b> model.cpp:15</div></div>
+<div class="ttc" id="aclass_part_html_a31721b6119c3bb8a1fd76a2fcd79b423"><div class="ttname"><a href="class_part.html#a31721b6119c3bb8a1fd76a2fcd79b423">Part::getpartID</a></div><div class="ttdeci">unsigned int getpartID() const</div><div class="ttdoc">获取partID(初始化新Model对象时使用)</div><div class="ttdef"><b>Definition:</b> model.cpp:304</div></div>
+<div class="ttc" id="aclass_part_html_a335c2f7579807368848c4452107bca5f"><div class="ttname"><a href="class_part.html#a335c2f7579807368848c4452107bca5f">Part::NAME</a></div><div class="ttdeci">QString NAME</div><div class="ttdoc">分组名称</div><div class="ttdef"><b>Definition:</b> model.h:130</div></div>
+<div class="ttc" id="aclass_part_html_a36328a95e3a0d4af9768bf24e75aeb20"><div class="ttname"><a href="class_part.html#a36328a95e3a0d4af9768bf24e75aeb20">Part::partmatrix</a></div><div class="ttdeci">QMatrix4x4 partmatrix</div><div class="ttdoc">Part矩阵，仅在从外部文件导入模型时使用，作为导入模型的model矩阵，与Model对象中的真正的model矩阵不可混用</div><div class="ttdef"><b>Definition:</b> model.h:133</div></div>
+<div class="ttc" id="aclass_part_html_a374874d2464bf43b513c30a5746118ad"><div class="ttname"><a href="class_part.html#a374874d2464bf43b513c30a5746118ad">Part::printmodelsinfo</a></div><div class="ttdeci">void printmodelsinfo() const</div><div class="ttdoc">测试用函数：输出各个模型信息(name、ID)</div><div class="ttdef"><b>Definition:</b> model.cpp:334</div></div>
+<div class="ttc" id="aclass_part_html_a39a2cee725290c2214778639e227d829"><div class="ttname"><a href="class_part.html#a39a2cee725290c2214778639e227d829">Part::context</a></div><div class="ttdeci">QOpenGLContext * context</div><div class="ttdoc">opengl函数入口</div><div class="ttdef"><b>Definition:</b> model.h:137</div></div>
+<div class="ttc" id="aclass_part_html_a4387d2256f2365fa3844be7f7df7e3c4"><div class="ttname"><a href="class_part.html#a4387d2256f2365fa3844be7f7df7e3c4">Part::models</a></div><div class="ttdeci">QVector&lt; Model * &gt; models</div><div class="ttdoc">存储属于改Part的各个Model对象（指针）的容器</div><div class="ttdef"><b>Definition:</b> model.h:142</div></div>
+<div class="ttc" id="aclass_part_html_a49b6e8d6aaf23ba83ca2e6f45410ca7f"><div class="ttname"><a href="class_part.html#a49b6e8d6aaf23ba83ca2e6f45410ca7f">Part::maxY</a></div><div class="ttdeci">float maxY</div><div class="ttdoc">Part中所有Model的Z方向上的最小值</div><div class="ttdef"><b>Definition:</b> model.h:150</div></div>
+<div class="ttc" id="aclass_part_html_a542094921691b43980918d094110214d"><div class="ttname"><a href="class_part.html#a542094921691b43980918d094110214d">Part::minZ</a></div><div class="ttdeci">float minZ</div><div class="ttdoc">Part中所有Model的Y方向上的最小值</div><div class="ttdef"><b>Definition:</b> model.h:148</div></div>
+<div class="ttc" id="aclass_part_html_a58f4d66af124885d39ea6d86ba64fd7c"><div class="ttname"><a href="class_part.html#a58f4d66af124885d39ea6d86ba64fd7c">Part::thickness</a></div><div class="ttdeci">unsigned int thickness</div><div class="ttdoc">厚度(导出的旧格式文件写入此数据，一个Part的所有部件使用同一厚度数据)</div><div class="ttdef"><b>Definition:</b> model.h:134</div></div>
+<div class="ttc" id="aclass_part_html_a61e84b19bccbad38a90337b8ea55ce92"><div class="ttname"><a href="class_part.html#a61e84b19bccbad38a90337b8ea55ce92">Part::processNode</a></div><div class="ttdeci">void processNode(aiNode *node, const aiScene *scene, aiMatrix4x4 mat4=aiMatrix4x4())</div><div class="ttdoc">从文件导入模型时，递归遍历节点</div><div class="ttdef"><b>Definition:</b> model.cpp:48</div></div>
+<div class="ttc" id="aclass_part_html_a665a31a5cbb03bb5822d847a1ee38577"><div class="ttname"><a href="class_part.html#a665a31a5cbb03bb5822d847a1ee38577">Part::maxZ</a></div><div class="ttdeci">float maxZ</div><div class="ttdoc">Part中所有Model的Z方向上的最大值</div><div class="ttdef"><b>Definition:</b> model.h:151</div></div>
+<div class="ttc" id="aclass_part_html_a6d7bf2c2b02f06b49812e06b1fccbeef"><div class="ttname"><a href="class_part.html#a6d7bf2c2b02f06b49812e06b1fccbeef">Part::ID</a></div><div class="ttdeci">unsigned int ID</div><div class="ttdoc">分组ID</div><div class="ttdef"><b>Definition:</b> model.h:129</div></div>
+<div class="ttc" id="aclass_part_html_a6fc18b008447ad4fdd957e5a68af4071"><div class="ttname"><a href="class_part.html#a6fc18b008447ad4fdd957e5a68af4071">Part::directory</a></div><div class="ttdeci">QDir directory</div><div class="ttdoc">从外部文件导入模型时模型所在路径</div><div class="ttdef"><b>Definition:</b> model.h:141</div></div>
+<div class="ttc" id="aclass_part_html_a7960027f735721ce97f0a8ad3544dfb5"><div class="ttname"><a href="class_part.html#a7960027f735721ce97f0a8ad3544dfb5">Part::minX</a></div><div class="ttdeci">float minX</div><div class="ttdoc">Part中所有Model的X方向上的最小值</div><div class="ttdef"><b>Definition:</b> model.h:146</div></div>
+<div class="ttc" id="aclass_part_html_a81a841fbecc6eb4a24158c6cc3e38dbd"><div class="ttname"><a href="class_part.html#a81a841fbecc6eb4a24158c6cc3e38dbd">Part::shaderProgram</a></div><div class="ttdeci">QOpenGLShaderProgram * shaderProgram</div><div class="ttdoc">着色器程序</div><div class="ttdef"><b>Definition:</b> model.h:138</div></div>
+<div class="ttc" id="aclass_part_html_a89061e3aad4c54d69e2c8dfb9201fb72"><div class="ttname"><a href="class_part.html#a89061e3aad4c54d69e2c8dfb9201fb72">Part::partCenter</a></div><div class="ttdeci">QVector3D partCenter</div><div class="ttdoc">Part中所有Model的中心坐标（包围盒中心）</div><div class="ttdef"><b>Definition:</b> model.h:152</div></div>
+<div class="ttc" id="aclass_part_html_aa0db7726593f73b955f275e8e2de9f87"><div class="ttname"><a href="class_part.html#aa0db7726593f73b955f275e8e2de9f87">Part::material</a></div><div class="ttdeci">unsigned int material</div><div class="ttdoc">材质(导出的旧格式文件写入此数据，一个Part的所有部件使用同一材质数据)</div><div class="ttdef"><b>Definition:</b> model.h:135</div></div>
+<div class="ttc" id="aclass_part_html_aa5640bd5ed23ea95f032660390a2398d"><div class="ttname"><a href="class_part.html#aa5640bd5ed23ea95f032660390a2398d">Part::minY</a></div><div class="ttdeci">float minY</div><div class="ttdoc">Part中所有Model的X方向上的最大值</div><div class="ttdef"><b>Definition:</b> model.h:147</div></div>
+<div class="ttc" id="aclass_part_html_aa82fd3728435036781bbfed95c4c27f1"><div class="ttname"><a href="class_part.html#aa82fd3728435036781bbfed95c4c27f1">Part::processMesh</a></div><div class="ttdeci">Model * processMesh(aiMesh *mesh, const aiScene *scene, aiMatrix4x4 model)</div><div class="ttdoc">从文件导入模型时，加载模型的各个分部件数据到Model对象</div><div class="ttdef"><b>Definition:</b> model.cpp:67</div></div>
+<div class="ttc" id="aclass_part_html_aa88509d980e1e575fe1f832c87566760"><div class="ttname"><a href="class_part.html#aa88509d980e1e575fe1f832c87566760">Part::modelID</a></div><div class="ttdeci">unsigned int modelID</div><div class="ttdoc">用于为新添加的Model对象赋予ID,仅在添加Model时++（为了方便后续redo、undo功能，虽然目前还没开发这两个功能）</div><div class="ttdef"><b>Definition:</b> model.h:132</div></div>
+<div class="ttc" id="aclass_part_html_aab7c25b55f2b7050831fa818a3b618c5"><div class="ttname"><a href="class_part.html#aab7c25b55f2b7050831fa818a3b618c5">Part::numofmodels</a></div><div class="ttdeci">unsigned int numofmodels</div><div class="ttdoc">Part中的Model对象数目,添加Model时++，删除Model时–</div><div class="ttdef"><b>Definition:</b> model.h:131</div></div>
+<div class="ttc" id="aclass_part_html_ac64a9bacc307b2259d093dc085918c9f"><div class="ttname"><a href="class_part.html#ac64a9bacc307b2259d093dc085918c9f">Part::getModelptr</a></div><div class="ttdeci">Model * getModelptr(unsigned int id) const</div><div class="ttdoc">获取指定modelID的Model对象（指针）</div><div class="ttdef"><b>Definition:</b> model.cpp:290</div></div>
+<div class="ttc" id="aclass_part_html_ad3e2b02464c9d93d9809cb3c25a401a6"><div class="ttname"><a href="class_part.html#ad3e2b02464c9d93d9809cb3c25a401a6">Part::Part</a></div><div class="ttdeci">Part(QOpenGLContext *context, QOpenGLShaderProgram *shaderProgram, unsigned int id, QString name)</div><div class="ttdoc">构造函数，创建Part时需要上下文（指针）、着色器（指针）、PartID、Part名称</div><div class="ttdef"><b>Definition:</b> model.h:160</div></div>
+<div class="ttc" id="aclass_part_html_ad774591ece02e61f4bf2ae334f26c55c"><div class="ttname"><a href="class_part.html#ad774591ece02e61f4bf2ae334f26c55c">Part::initPartLimit</a></div><div class="ttdeci">void initPartLimit()</div><div class="ttdoc">计算Part的中心和范围</div><div class="ttdef"><b>Definition:</b> model.cpp:263</div></div>
+<div class="ttc" id="aclass_part_html_ae0ec7098f91588364c8aed9cda54e821"><div class="ttname"><a href="class_part.html#ae0ec7098f91588364c8aed9cda54e821">Part::destroy</a></div><div class="ttdeci">void destroy()</div><div class="ttdoc">销毁part</div><div class="ttdef"><b>Definition:</b> model.cpp:357</div></div>
+<div class="ttc" id="aclass_part_html_ae5ef412ad400061a25e647e65c5553a3"><div class="ttname"><a href="class_part.html#ae5ef412ad400061a25e647e65c5553a3">Part::printpartinfo</a></div><div class="ttdeci">void printpartinfo() const</div><div class="ttdoc">测试用函数：输出分组信息（name、ID、模型数目）</div><div class="ttdef"><b>Definition:</b> model.cpp:326</div></div>
+<div class="ttc" id="aclass_part_html_ae794b0a58adbf1efbe690cbba4b25313"><div class="ttname"><a href="class_part.html#ae794b0a58adbf1efbe690cbba4b25313">Part::textures_loaded</a></div><div class="ttdeci">QVector&lt; Texture * &gt; textures_loaded</div><div class="ttdoc">纹理</div><div class="ttdef"><b>Definition:</b> model.h:139</div></div>
+<div class="ttc" id="aclass_part_html_aef19b74041b46c39092aa9f12578a30e"><div class="ttname"><a href="class_part.html#aef19b74041b46c39092aa9f12578a30e">Part::ifselected</a></div><div class="ttdeci">bool ifselected</div><div class="ttdoc">标记该分组是否被选中（后续可以优化，不使用该方式标记选中，而是通过ModelTree中一系列用于标记选中项的对象实现相关功能）</div><div class="ttdef"><b>Definition:</b> model.h:144</div></div>
+<div class="ttc" id="aclass_part_html_aef72dcc36649fd25aabf4da6a461104d"><div class="ttname"><a href="class_part.html#aef72dcc36649fd25aabf4da6a461104d">Part::rename</a></div><div class="ttdeci">void rename(QString n)</div><div class="ttdoc">重命名分组</div><div class="ttdef"><b>Definition:</b> model.cpp:256</div></div>
+<div class="ttc" id="aclass_part_html_af1e35180bfdb88ba8526a9e21cafa873"><div class="ttname"><a href="class_part.html#af1e35180bfdb88ba8526a9e21cafa873">Part::moveModel</a></div><div class="ttdeci">bool moveModel(unsigned int id)</div><div class="ttdoc">剪切模型（从parts容器中移除对应modelID的Model*）</div><div class="ttdef"><b>Definition:</b> model.cpp:231</div></div>
+<div class="ttc" id="aclass_part_html_af218d5a12a49c519a20de4cd3a78b42a"><div class="ttname"><a href="class_part.html#af218d5a12a49c519a20de4cd3a78b42a">Part::getnumofmodels</a></div><div class="ttdeci">unsigned int getnumofmodels() const</div><div class="ttdoc">获取分组内的部件数目</div><div class="ttdef"><b>Definition:</b> model.cpp:318</div></div>
+<div class="ttc" id="aclass_part_html_afc8ae3a1ed2556755fad23eba548a94d"><div class="ttname"><a href="class_part.html#afc8ae3a1ed2556755fad23eba548a94d">Part::faceNum</a></div><div class="ttdeci">int faceNum</div><div class="ttdoc">Part中所有Model包含的的面元数量（数据写入文件时使用）</div><div class="ttdef"><b>Definition:</b> model.h:154</div></div>
+<div class="ttc" id="astruct_model_i_d_html"><div class="ttname"><a href="struct_model_i_d.html">ModelID</a></div><div class="ttdoc">结构体：ModelID（模型ID）</div><div class="ttdef"><b>Definition:</b> model.h:84</div></div>
+<div class="ttc" id="astruct_model_i_d_html_a195a1ae106621d5aefe9ce6112115450"><div class="ttname"><a href="struct_model_i_d.html#a195a1ae106621d5aefe9ce6112115450">ModelID::getModelID</a></div><div class="ttdeci">QString getModelID() const</div><div class="ttdoc">返回最终的ModelID = “partID-modelID”</div><div class="ttdef"><b>Definition:</b> model.h:88</div></div>
+<div class="ttc" id="astruct_model_i_d_html_a1edf71b27cbb39b4ff90f25d7555abbb"><div class="ttname"><a href="struct_model_i_d.html#a1edf71b27cbb39b4ff90f25d7555abbb">ModelID::modelID</a></div><div class="ttdeci">int modelID</div><div class="ttdoc">model的ID</div><div class="ttdef"><b>Definition:</b> model.h:86</div></div>
+<div class="ttc" id="astruct_model_i_d_html_a70d89faa90857486cd09f83cdab92a8d"><div class="ttname"><a href="struct_model_i_d.html#a70d89faa90857486cd09f83cdab92a8d">ModelID::changePartID</a></div><div class="ttdeci">void changePartID(unsigned int pid)</div><div class="ttdoc">修改ID中的partID部分，用于实现剪切model对象功能</div><div class="ttdef"><b>Definition:</b> model.h:92</div></div>
+<div class="ttc" id="astruct_model_i_d_html_a817aa6ad19cf850ae25097302d6b3154"><div class="ttname"><a href="struct_model_i_d.html#a817aa6ad19cf850ae25097302d6b3154">ModelID::partID</a></div><div class="ttdeci">int partID</div><div class="ttdoc">父part的ID</div><div class="ttdef"><b>Definition:</b> model.h:85</div></div>
+<div class="ttc" id="astruct_texture_html"><div class="ttname"><a href="struct_texture.html">Texture</a></div><div class="ttdoc">结构体：Texture（纹理）</div><div class="ttdef"><b>Definition:</b> model.h:61</div></div>
+<div class="ttc" id="astruct_texture_html_a07da53f322ec8526742cf93addfcc5b3"><div class="ttname"><a href="struct_texture.html#a07da53f322ec8526742cf93addfcc5b3">Texture::type</a></div><div class="ttdeci">QString type</div><div class="ttdoc">纹理类型，该名称用于标记纹理类型从而分别送至着色器不同通道</div><div class="ttdef"><b>Definition:</b> model.h:63</div></div>
+<div class="ttc" id="astruct_texture_html_a37608f2ae844347456d6efa9906d0f44"><div class="ttname"><a href="struct_texture.html#a37608f2ae844347456d6efa9906d0f44">Texture::texture</a></div><div class="ttdeci">QOpenGLTexture texture</div><div class="ttdoc">纹理对象</div><div class="ttdef"><b>Definition:</b> model.h:62</div></div>
+<div class="ttc" id="astruct_texture_html_a60e318a58b176da5654fc91bd4d91d5e"><div class="ttname"><a href="struct_texture.html#a60e318a58b176da5654fc91bd4d91d5e">Texture::path</a></div><div class="ttdeci">QString path</div><div class="ttdoc">纹理图片路径</div><div class="ttdef"><b>Definition:</b> model.h:64</div></div>
+<div class="ttc" id="astruct_texture_html_a6c275e3f186675ff6ed73ccf970e552f"><div class="ttname"><a href="struct_texture.html#a6c275e3f186675ff6ed73ccf970e552f">Texture::Texture</a></div><div class="ttdeci">Texture()</div><div class="ttdoc">构造函数</div><div class="ttdef"><b>Definition:</b> model.h:66</div></div>
+<div class="ttc" id="astruct_vertex_html"><div class="ttname"><a href="struct_vertex.html">Vertex</a></div><div class="ttdoc">结构体：Vertex（顶点）</div><div class="ttdef"><b>Definition:</b> model.h:42</div></div>
+<div class="ttc" id="astruct_vertex_html_a2cde7f9b6606dbec59b61f0138e920e7"><div class="ttname"><a href="struct_vertex.html#a2cde7f9b6606dbec59b61f0138e920e7">Vertex::Position</a></div><div class="ttdeci">QVector3D Position</div><div class="ttdoc">位置坐标</div><div class="ttdef"><b>Definition:</b> model.h:43</div></div>
+<div class="ttc" id="astruct_vertex_html_a4ed3ba2cbb7e921db86ed2be2b5af968"><div class="ttname"><a href="struct_vertex.html#a4ed3ba2cbb7e921db86ed2be2b5af968">Vertex::Bitangent</a></div><div class="ttdeci">QVector3D Bitangent</div><div class="ttdoc">顶点bitan值，可用于替代法向量信息用于绘制光照效果</div><div class="ttdef"><b>Definition:</b> model.h:47</div></div>
+<div class="ttc" id="astruct_vertex_html_a9fc7f056b9fcedb1d343861bb129f520"><div class="ttname"><a href="struct_vertex.html#a9fc7f056b9fcedb1d343861bb129f520">Vertex::Tangent</a></div><div class="ttdeci">QVector3D Tangent</div><div class="ttdoc">顶点tan值，可用于替代法向量信息用于绘制光照效果</div><div class="ttdef"><b>Definition:</b> model.h:46</div></div>
+<div class="ttc" id="astruct_vertex_html_ac7975f444d329d8f9cf2b3809ec9ec37"><div class="ttname"><a href="struct_vertex.html#ac7975f444d329d8f9cf2b3809ec9ec37">Vertex::Normal</a></div><div class="ttdeci">QVector3D Normal</div><div class="ttdoc">顶点法向量</div><div class="ttdef"><b>Definition:</b> model.h:44</div></div>
+<div class="ttc" id="astruct_vertex_html_af3eb8ff110866d086446d58ed8ba8f69"><div class="ttname"><a href="struct_vertex.html#af3eb8ff110866d086446d58ed8ba8f69">Vertex::TexCoords</a></div><div class="ttdeci">QVector2D TexCoords</div><div class="ttdoc">纹理坐标</div><div class="ttdef"><b>Definition:</b> model.h:45</div></div>
+<div class="ttc" id="autil_8hpp_html"><div class="ttname"><a href="util_8hpp.html">util.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_038d7fc0aa58c8ee675df0cb4befd1bf.html">QT_GL_Workspace</a></li><li class="navelem"><a class="el" href="dir_365f36bfb38dd99a6c1fec73b30715a7.html">bs</a></li><li class="navelem"><a class="el" href="dir_d064e010914cc808985905912a23f409.html">VAMS</a></li><li class="navelem"><a class="el" href="model_8h.html">model.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

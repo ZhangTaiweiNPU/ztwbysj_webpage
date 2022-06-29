@@ -1,0 +1,981 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VAMS: Viewer类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VAMS
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_viewer.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pri-methods">Private 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="class_viewer-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">Viewer类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>类：观察者  
+ <a href="class_viewer.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="viewer_8hpp_source.html">viewer.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a4d0f54c16ae05390afa5c64f3b02ccbc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a4d0f54c16ae05390afa5c64f3b02ccbc">Viewer</a> (QVector3D position=QVector3D(0.0f, 0.0f, 10.0f), QVector3D front=QVector3D(0.0f, 0.0f, -1.0f), QVector3D up=QVector3D(0.0f, 1.0f, 0.0f))</td></tr>
+<tr class="memdesc:a4d0f54c16ae05390afa5c64f3b02ccbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">构造函数1（通过QVector构造，含默认位置参数）  <a href="class_viewer.html#a4d0f54c16ae05390afa5c64f3b02ccbc">更多...</a><br /></td></tr>
+<tr class="separator:a4d0f54c16ae05390afa5c64f3b02ccbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40723fa3d84524024dd9696171a01cfc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a40723fa3d84524024dd9696171a01cfc">Viewer</a> (float posX, float posY, float posZ, float upX, float upY, float upZ, float frontX, float frontY, float frontZ)</td></tr>
+<tr class="memdesc:a40723fa3d84524024dd9696171a01cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">构造函数2（通过float构造，不含默认位置参数）  <a href="class_viewer.html#a40723fa3d84524024dd9696171a01cfc">更多...</a><br /></td></tr>
+<tr class="separator:a40723fa3d84524024dd9696171a01cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af38fb5712d7970062cfcda6655704810"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#af38fb5712d7970062cfcda6655704810">resetView</a> (QVector3D position=QVector3D(0.0f, 0.0f, 10.0f), QVector3D front=QVector3D(0.0f, 0.0f, -1.0f), QVector3D up=QVector3D(0.0f, 1.0f, 0.0f))</td></tr>
+<tr class="memdesc:af38fb5712d7970062cfcda6655704810"><td class="mdescLeft">&#160;</td><td class="mdescRight">修改视角初始位置方式1（通过QVector，含默认位置参数）  <a href="class_viewer.html#af38fb5712d7970062cfcda6655704810">更多...</a><br /></td></tr>
+<tr class="separator:af38fb5712d7970062cfcda6655704810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9650f67e579ec83736ae0d9f3972be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a2b9650f67e579ec83736ae0d9f3972be">resetView</a> (const float &amp;posX, const float &amp;posY, const float &amp;posZ, const float &amp;upX, const float &amp;upY, const float &amp;upZ, const float &amp;frontX, const float &amp;frontY, const float &amp;frontZ)</td></tr>
+<tr class="memdesc:a2b9650f67e579ec83736ae0d9f3972be"><td class="mdescLeft">&#160;</td><td class="mdescRight">修改视角初始位置方式2（通过float，不含默认位置参数）  <a href="class_viewer.html#a2b9650f67e579ec83736ae0d9f3972be">更多...</a><br /></td></tr>
+<tr class="separator:a2b9650f67e579ec83736ae0d9f3972be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add20ace46ac9a0c6ec37ba561c4ec135"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#add20ace46ac9a0c6ec37ba561c4ec135">getUP</a> ()</td></tr>
+<tr class="memdesc:add20ace46ac9a0c6ec37ba561c4ec135"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取UPVector  <a href="class_viewer.html#add20ace46ac9a0c6ec37ba561c4ec135">更多...</a><br /></td></tr>
+<tr class="separator:add20ace46ac9a0c6ec37ba561c4ec135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc75a5e96dfd19f83d783384273e5e4"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a3dc75a5e96dfd19f83d783384273e5e4">getRight</a> ()</td></tr>
+<tr class="memdesc:a3dc75a5e96dfd19f83d783384273e5e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取RightVector  <a href="class_viewer.html#a3dc75a5e96dfd19f83d783384273e5e4">更多...</a><br /></td></tr>
+<tr class="separator:a3dc75a5e96dfd19f83d783384273e5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d2af2e386faa97cbeb4cfe5c7aedee4"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a3d2af2e386faa97cbeb4cfe5c7aedee4">getFront</a> ()</td></tr>
+<tr class="memdesc:a3d2af2e386faa97cbeb4cfe5c7aedee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取UPVector  <a href="class_viewer.html#a3d2af2e386faa97cbeb4cfe5c7aedee4">更多...</a><br /></td></tr>
+<tr class="separator:a3d2af2e386faa97cbeb4cfe5c7aedee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612743e3540f6a814cb9fa89d33bba42"><td class="memItemLeft" align="right" valign="top">QMatrix4x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a612743e3540f6a814cb9fa89d33bba42">getViewMatrix</a> () const</td></tr>
+<tr class="memdesc:a612743e3540f6a814cb9fa89d33bba42"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取当前m_View矩阵  <a href="class_viewer.html#a612743e3540f6a814cb9fa89d33bba42">更多...</a><br /></td></tr>
+<tr class="separator:a612743e3540f6a814cb9fa89d33bba42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874cc61be166393d1b1080682f0c32d6"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a874cc61be166393d1b1080682f0c32d6">ScreenToPlane</a> (const QVector3D &amp;atScreen) const</td></tr>
+<tr class="separator:a874cc61be166393d1b1080682f0c32d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a271043ad38e9d5add6e5f5a6beb3cad8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a271043ad38e9d5add6e5f5a6beb3cad8">orientateView</a> (float yoffset, float xoffset, float sensitivity=0.5f)</td></tr>
+<tr class="memdesc:a271043ad38e9d5add6e5f5a6beb3cad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">旋转视角  <a href="class_viewer.html#a271043ad38e9d5add6e5f5a6beb3cad8">更多...</a><br /></td></tr>
+<tr class="separator:a271043ad38e9d5add6e5f5a6beb3cad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93fe0fc08c370a53549dcfb375839c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#aa93fe0fc08c370a53549dcfb375839c5">transXYView</a> (float xoffset, float yoffset, float sensitivity=0.005f)</td></tr>
+<tr class="memdesc:aa93fe0fc08c370a53549dcfb375839c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">沿着m_Up和m_Right方向移动视角  <a href="class_viewer.html#aa93fe0fc08c370a53549dcfb375839c5">更多...</a><br /></td></tr>
+<tr class="separator:aa93fe0fc08c370a53549dcfb375839c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7b762b0b8c0bdc812e58c91ec72031c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#af7b762b0b8c0bdc812e58c91ec72031c">transZView</a> (float zoffset, float speed=0.05f)</td></tr>
+<tr class="memdesc:af7b762b0b8c0bdc812e58c91ec72031c"><td class="mdescLeft">&#160;</td><td class="mdescRight">沿着m_Front方向移动视角，实际功能为缩放  <a href="class_viewer.html#af7b762b0b8c0bdc812e58c91ec72031c">更多...</a><br /></td></tr>
+<tr class="separator:af7b762b0b8c0bdc812e58c91ec72031c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private 成员函数</h2></td></tr>
+<tr class="memitem:a8d45ecd5cd281c33770951b8bdd32d21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a8d45ecd5cd281c33770951b8bdd32d21">updateViewerVectors</a> ()</td></tr>
+<tr class="memdesc:a8d45ecd5cd281c33770951b8bdd32d21"><td class="mdescLeft">&#160;</td><td class="mdescRight">缩放倍率，当缩放时调整倍率，移动旋转时根据此倍率调整灵敏度  <a href="class_viewer.html#a8d45ecd5cd281c33770951b8bdd32d21">更多...</a><br /></td></tr>
+<tr class="separator:a8d45ecd5cd281c33770951b8bdd32d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:a97325fd7926234b5aeb018ad64d81a41"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a></td></tr>
+<tr class="memdesc:a97325fd7926234b5aeb018ad64d81a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">屏幕坐标系下Viewer的位置向量  <a href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">更多...</a><br /></td></tr>
+<tr class="separator:a97325fd7926234b5aeb018ad64d81a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4414e565395fc983c95d371d90955be1"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a></td></tr>
+<tr class="memdesc:a4414e565395fc983c95d371d90955be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">屏幕坐标系下Viewer的前向向量  <a href="class_viewer.html#a4414e565395fc983c95d371d90955be1">更多...</a><br /></td></tr>
+<tr class="separator:a4414e565395fc983c95d371d90955be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20a841eb7e92f7206823c784b68894f9"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">m_Up</a></td></tr>
+<tr class="memdesc:a20a841eb7e92f7206823c784b68894f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">屏幕坐标系下Viewer的上向向量  <a href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">更多...</a><br /></td></tr>
+<tr class="separator:a20a841eb7e92f7206823c784b68894f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1ffb20ca34bff77fc04aaa8ab1652b8"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">m_Right</a></td></tr>
+<tr class="memdesc:ae1ffb20ca34bff77fc04aaa8ab1652b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">屏幕坐标系下Viewer的右向向量  <a href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">更多...</a><br /></td></tr>
+<tr class="separator:ae1ffb20ca34bff77fc04aaa8ab1652b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81fe3dbbfb3c5d851fb7e878ee5e830"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">m_World_Up</a></td></tr>
+<tr class="memdesc:ab81fe3dbbfb3c5d851fb7e878ee5e830"><td class="mdescLeft">&#160;</td><td class="mdescRight">屏幕坐标系下Viewer的上向向量(此程序中用到的m_World_Up，可以完全替换为m_Up）  <a href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">更多...</a><br /></td></tr>
+<tr class="separator:ab81fe3dbbfb3c5d851fb7e878ee5e830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77d97200763d9e253baa3790aead0a6"><td class="memItemLeft" align="right" valign="top">QMatrix4x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a></td></tr>
+<tr class="memdesc:ab77d97200763d9e253baa3790aead0a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">用于实现旋转视角的矩阵之一  <a href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">更多...</a><br /></td></tr>
+<tr class="separator:ab77d97200763d9e253baa3790aead0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5365fb8398b776a6e43faf6f9bc2a956"><td class="memItemLeft" align="right" valign="top">QMatrix4x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">m_View</a></td></tr>
+<tr class="memdesc:a5365fb8398b776a6e43faf6f9bc2a956"><td class="mdescLeft">&#160;</td><td class="mdescRight">用于实现旋转视角的矩阵之一  <a href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">更多...</a><br /></td></tr>
+<tr class="separator:a5365fb8398b776a6e43faf6f9bc2a956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b28a388bb264c4018b203beec13eda"><td class="memItemLeft" align="right" valign="top">QMatrix4x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">m_Plane_Rot</a></td></tr>
+<tr class="memdesc:a83b28a388bb264c4018b203beec13eda"><td class="mdescLeft">&#160;</td><td class="mdescRight">用于记录自初始位置起(初始化或重置之后)，共进行了那些旋转的矩阵  <a href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">更多...</a><br /></td></tr>
+<tr class="separator:a83b28a388bb264c4018b203beec13eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206d215c8b58dd21104686847637f460"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a206d215c8b58dd21104686847637f460">zoomtimes</a> = 1</td></tr>
+<tr class="separator:a206d215c8b58dd21104686847637f460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p >类：观察者 </p>
+<pre>
+1.初始化：
+设置观察者的位置、前向向量、上向向量，通过右手定则计算右向向量
+2.重设：
+重设观察者的位置、前向向量、上向向量，通过右手定则计算右向向量
+3.工作过程：
+函数m_Updatem_ViewerVectors()通过给出的m_World_Up、m_Front
+   计算出一个标准化的m_Front、m_Up、m_Right向量
+函数Get_m_View_Matrix()通过m_Position、m_Up、m_Front、m_Right四个向量
+   计算出shader需要的view矩阵并返回
+4.实现的主要功能：
+（1）旋转视角
+     原理为：
+     shader中有矩阵projection * view * model
+     此处让view = qmTransmView * m_Temp_View_Rot * m_View
+     其中qmTransmView记录了对视角的平移
+     而对视角的旋转分别记录在m_Temp_View_Rot 和 m_View两个矩阵
+     每次旋转过程中，更新m_Temp_View_Rot的x方向和y方向旋转量
+     然后将m_View = m_Temp_View_Rot * m_View并将m_Temp_View_Rot重置为单位阵
+     来解决万向锁问题
+     原因：
+     鼠标事件调用RotateView的频率很高、每次的步进值很小
+     因而projection * qmTransmView * m_Temp_View_Rot * m_View * model
+     将m_View * model看成一个整体，每次选小旋转时操作m_Temp_View_Rot
+     而旋转后更新m_View * model整体的旋转状态，下次小旋转就变成相对于该状态的旋转
+     进而消除因多次旋转顺序记忆导致的万向锁问题
+     弊端是导致了两次额外的4*4矩阵的乘法计算开销，但是该开销其实很小
+     采用四元数可以完美解决万向锁，但是开发者懒，不想改
+（2）平移视角
+     TransXYView()通过改变m_Position实现沿着m_Up和m_Right方向移动视角
+     TransZView()通过改变m_Position实现沿着m_Front方向移动视角
+     注意：函数名称中含有的XYZ，实质是三维屏幕坐标系
+</pre> </div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a4d0f54c16ae05390afa5c64f3b02ccbc" name="a4d0f54c16ae05390afa5c64f3b02ccbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d0f54c16ae05390afa5c64f3b02ccbc">&#9670;&nbsp;</a></span>Viewer() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Viewer::Viewer </td>
+          <td>(</td>
+          <td class="paramtype">QVector3D&#160;</td>
+          <td class="paramname"><em>position</em> = <code>QVector3D(0.0f,&#160;0.0f,&#160;10.0f)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector3D&#160;</td>
+          <td class="paramname"><em>front</em> = <code>QVector3D(0.0f,&#160;0.0f,&#160;-1.0f)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector3D&#160;</td>
+          <td class="paramname"><em>up</em> = <code>QVector3D(0.0f,&#160;1.0f,&#160;0.0f)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>构造函数1（通过QVector构造，含默认位置参数） </p>
+
+</div>
+</div>
+<a id="a40723fa3d84524024dd9696171a01cfc" name="a40723fa3d84524024dd9696171a01cfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40723fa3d84524024dd9696171a01cfc">&#9670;&nbsp;</a></span>Viewer() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Viewer::Viewer </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>posX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>posY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>posZ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upZ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>frontX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>frontY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>frontZ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>构造函数2（通过float构造，不含默认位置参数） </p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a3d2af2e386faa97cbeb4cfe5c7aedee4" name="a3d2af2e386faa97cbeb4cfe5c7aedee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d2af2e386faa97cbeb4cfe5c7aedee4">&#9670;&nbsp;</a></span>getFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D Viewer::getFront </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取UPVector </p>
+
+</div>
+</div>
+<a id="a3dc75a5e96dfd19f83d783384273e5e4" name="a3dc75a5e96dfd19f83d783384273e5e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc75a5e96dfd19f83d783384273e5e4">&#9670;&nbsp;</a></span>getRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D Viewer::getRight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取RightVector </p>
+
+</div>
+</div>
+<a id="add20ace46ac9a0c6ec37ba561c4ec135" name="add20ace46ac9a0c6ec37ba561c4ec135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add20ace46ac9a0c6ec37ba561c4ec135">&#9670;&nbsp;</a></span>getUP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D Viewer::getUP </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取UPVector </p>
+
+</div>
+</div>
+<a id="a612743e3540f6a814cb9fa89d33bba42" name="a612743e3540f6a814cb9fa89d33bba42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612743e3540f6a814cb9fa89d33bba42">&#9670;&nbsp;</a></span>getViewMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMatrix4x4 Viewer::getViewMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取当前m_View矩阵 </p>
+
+</div>
+</div>
+<a id="a271043ad38e9d5add6e5f5a6beb3cad8" name="a271043ad38e9d5add6e5f5a6beb3cad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a271043ad38e9d5add6e5f5a6beb3cad8">&#9670;&nbsp;</a></span>orientateView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Viewer::orientateView </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>yoffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>xoffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>sensitivity</em> = <code>0.5f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>旋转视角 </p>
+
+</div>
+</div>
+<a id="a2b9650f67e579ec83736ae0d9f3972be" name="a2b9650f67e579ec83736ae0d9f3972be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b9650f67e579ec83736ae0d9f3972be">&#9670;&nbsp;</a></span>resetView() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Viewer::resetView </td>
+          <td>(</td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>posX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>posY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>posZ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>upX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>upY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>upZ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>frontX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>frontY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>frontZ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>修改视角初始位置方式2（通过float，不含默认位置参数） </p>
+
+</div>
+</div>
+<a id="af38fb5712d7970062cfcda6655704810" name="af38fb5712d7970062cfcda6655704810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af38fb5712d7970062cfcda6655704810">&#9670;&nbsp;</a></span>resetView() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Viewer::resetView </td>
+          <td>(</td>
+          <td class="paramtype">QVector3D&#160;</td>
+          <td class="paramname"><em>position</em> = <code>QVector3D(0.0f,&#160;0.0f,&#160;10.0f)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector3D&#160;</td>
+          <td class="paramname"><em>front</em> = <code>QVector3D(0.0f,&#160;0.0f,&#160;-1.0f)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector3D&#160;</td>
+          <td class="paramname"><em>up</em> = <code>QVector3D(0.0f,&#160;1.0f,&#160;0.0f)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>修改视角初始位置方式1（通过QVector，含默认位置参数） </p>
+
+</div>
+</div>
+<a id="a874cc61be166393d1b1080682f0c32d6" name="a874cc61be166393d1b1080682f0c32d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a874cc61be166393d1b1080682f0c32d6">&#9670;&nbsp;</a></span>ScreenToPlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D Viewer::ScreenToPlane </td>
+          <td>(</td>
+          <td class="paramtype">const QVector3D &amp;&#160;</td>
+          <td class="paramname"><em>atScreen</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa93fe0fc08c370a53549dcfb375839c5" name="aa93fe0fc08c370a53549dcfb375839c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa93fe0fc08c370a53549dcfb375839c5">&#9670;&nbsp;</a></span>transXYView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Viewer::transXYView </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>xoffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>yoffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>sensitivity</em> = <code>0.005f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>沿着m_Up和m_Right方向移动视角 </p>
+
+</div>
+</div>
+<a id="af7b762b0b8c0bdc812e58c91ec72031c" name="af7b762b0b8c0bdc812e58c91ec72031c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7b762b0b8c0bdc812e58c91ec72031c">&#9670;&nbsp;</a></span>transZView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Viewer::transZView </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>zoffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>speed</em> = <code>0.05f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>沿着m_Front方向移动视角，实际功能为缩放 </p>
+
+</div>
+</div>
+<a id="a8d45ecd5cd281c33770951b8bdd32d21" name="a8d45ecd5cd281c33770951b8bdd32d21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d45ecd5cd281c33770951b8bdd32d21">&#9670;&nbsp;</a></span>updateViewerVectors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Viewer::updateViewerVectors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>缩放倍率，当缩放时调整倍率，移动旋转时根据此倍率调整灵敏度 </p>
+<p >更新m_Viewer的m_Front、m_Up、m_Right向量 </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a4414e565395fc983c95d371d90955be1" name="a4414e565395fc983c95d371d90955be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4414e565395fc983c95d371d90955be1">&#9670;&nbsp;</a></span>m_Front</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D Viewer::m_Front</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>屏幕坐标系下Viewer的前向向量 </p>
+
+</div>
+</div>
+<a id="a83b28a388bb264c4018b203beec13eda" name="a83b28a388bb264c4018b203beec13eda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b28a388bb264c4018b203beec13eda">&#9670;&nbsp;</a></span>m_Plane_Rot</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMatrix4x4 Viewer::m_Plane_Rot</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>用于记录自初始位置起(初始化或重置之后)，共进行了那些旋转的矩阵 </p>
+
+</div>
+</div>
+<a id="a97325fd7926234b5aeb018ad64d81a41" name="a97325fd7926234b5aeb018ad64d81a41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97325fd7926234b5aeb018ad64d81a41">&#9670;&nbsp;</a></span>m_Position</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D Viewer::m_Position</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>屏幕坐标系下Viewer的位置向量 </p>
+
+</div>
+</div>
+<a id="ae1ffb20ca34bff77fc04aaa8ab1652b8" name="ae1ffb20ca34bff77fc04aaa8ab1652b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1ffb20ca34bff77fc04aaa8ab1652b8">&#9670;&nbsp;</a></span>m_Right</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D Viewer::m_Right</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>屏幕坐标系下Viewer的右向向量 </p>
+
+</div>
+</div>
+<a id="ab77d97200763d9e253baa3790aead0a6" name="ab77d97200763d9e253baa3790aead0a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab77d97200763d9e253baa3790aead0a6">&#9670;&nbsp;</a></span>m_Temp_View_Rot</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMatrix4x4 Viewer::m_Temp_View_Rot</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>用于实现旋转视角的矩阵之一 </p>
+
+</div>
+</div>
+<a id="a20a841eb7e92f7206823c784b68894f9" name="a20a841eb7e92f7206823c784b68894f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20a841eb7e92f7206823c784b68894f9">&#9670;&nbsp;</a></span>m_Up</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D Viewer::m_Up</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>屏幕坐标系下Viewer的上向向量 </p>
+
+</div>
+</div>
+<a id="a5365fb8398b776a6e43faf6f9bc2a956" name="a5365fb8398b776a6e43faf6f9bc2a956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5365fb8398b776a6e43faf6f9bc2a956">&#9670;&nbsp;</a></span>m_View</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMatrix4x4 Viewer::m_View</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>用于实现旋转视角的矩阵之一 </p>
+
+</div>
+</div>
+<a id="ab81fe3dbbfb3c5d851fb7e878ee5e830" name="ab81fe3dbbfb3c5d851fb7e878ee5e830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81fe3dbbfb3c5d851fb7e878ee5e830">&#9670;&nbsp;</a></span>m_World_Up</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D Viewer::m_World_Up</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>屏幕坐标系下Viewer的上向向量(此程序中用到的m_World_Up，可以完全替换为m_Up） </p>
+
+</div>
+</div>
+<a id="a206d215c8b58dd21104686847637f460" name="a206d215c8b58dd21104686847637f460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a206d215c8b58dd21104686847637f460">&#9670;&nbsp;</a></span>zoomtimes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Viewer::zoomtimes = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>D:/QT_GL_Workspace/bs/VAMS/<a class="el" href="viewer_8hpp_source.html">viewer.hpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_viewer.html">Viewer</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

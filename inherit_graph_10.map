@@ -1,0 +1,8 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,79,133"/>
+<area shape="rect" id="node2" href="$class_item___information.html" title="类：Item_Information（查案选中项信息）" alt="" coords="135,5,252,32"/>
+<area shape="rect" id="node3" href="$class_justifier.html" title="类：Justifier（模型修改）" alt="" coords="160,56,227,83"/>
+<area shape="rect" id="node4" href="$class_material_list.html" title="类：MaterialList（材质列表）" alt="" coords="149,107,238,133"/>
+<area shape="rect" id="node5" href="$class_sensitivity___adaptor.html" title="类：sensitivity_adaptor灵敏度调整" alt="" coords="127,157,260,184"/>
+<area shape="rect" id="node6" href="$classshoot__point.html" title="类：shoot_point设置瞄准中心" alt="" coords="149,208,238,235"/>
+</map>

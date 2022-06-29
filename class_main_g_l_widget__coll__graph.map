@@ -1,0 +1,19 @@
+<map id="MainGLWidget" name="MainGLWidget">
+<area shape="rect" id="node1" title="类：MainGL（GL绘图控件）" alt="" coords="963,413,1071,440"/>
+<area shape="rect" id="node2" title=" " alt="" coords="721,225,843,252"/>
+<area shape="rect" id="node3" title=" " alt="" coords="707,277,857,318"/>
+<area shape="rect" id="node4" href="$class_model_tree.html" title="类：型树类" alt="" coords="741,343,823,369"/>
+<area shape="rect" id="node5" title=" " alt="" coords="417,271,516,297"/>
+<area shape="rect" id="node6" href="$class_model.html" title="类：Model(部件)" alt="" coords="189,136,246,163"/>
+<area shape="rect" id="node9" href="$classengineer.html" title="类：engineer（新建模型）" alt="" coords="431,131,502,157"/>
+<area shape="rect" id="node7" href="$struct_model_i_d.html" title="结构体：ModelID（模型ID）" alt="" coords="7,136,77,163"/>
+<area shape="rect" id="node8" href="$class_part.html" title="类：Part（分组）" alt="" coords="19,56,65,83"/>
+<area shape="rect" id="node10" title=" " alt="" coords="164,85,271,112"/>
+<area shape="rect" id="node11" href="$class_material_list.html" title="类：MaterialList（材质列表）" alt="" coords="173,271,262,297"/>
+<area shape="rect" id="node14" href="$class_item___information.html" title="类：Item_Information（查案选中项信息）" alt="" coords="408,321,525,348"/>
+<area shape="rect" id="node12" title=" " alt="" coords="5,372,79,399"/>
+<area shape="rect" id="node13" href="$class_justifier.html" title="类：Justifier（模型修改）" alt="" coords="433,372,500,399"/>
+<area shape="rect" id="node15" href="$classshoot__point.html" title="类：shoot_point设置瞄准中心" alt="" coords="295,424,384,451"/>
+<area shape="rect" id="node16" href="$class_sensitivity___adaptor.html" title="类：sensitivity_adaptor灵敏度调整" alt="" coords="549,493,683,520"/>
+<area shape="rect" id="node17" href="$class_viewer.html" title="类：观察者" alt="" coords="751,565,813,592"/>
+</map>

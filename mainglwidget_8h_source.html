@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VAMS: D:/QT_GL_Workspace/bs/VAMS/mainglwidget.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VAMS
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('mainglwidget_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">mainglwidget.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="mainglwidget_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef MAINGLWIDGET_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define MAINGLWIDGET_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include&lt;windows.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QKeyEvent&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QOpenGLWidget&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QOpenGLFunctions_3_3_Core&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QOpenGLShaderProgram&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QOpenGLTexture&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QOpenGLBuffer&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;GL/gl.h&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;GL/glu.h&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;<a class="code" href="viewer_8hpp.html">viewer.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &quot;<a class="code" href="justifier_8h.html">justifier.h</a>&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="operating__status_8hpp.html">operating_status.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;<a class="code" href="sensitivity__adaptor_8h.html">sensitivity_adaptor.h</a>&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;<a class="code" href="util_8hpp.html">util.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="modeltree_8h.html">modeltree.h</a>&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html">   36</a></span><span class="keyword">class </span><a class="code hl_class" href="class_main_g_l_widget.html">MainGLWidget</a> : <span class="keyword">public</span> QOpenGLWidget,QOpenGLFunctions_3_3_Core</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    Q_OBJECT</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_main_g_l_widget.html#a9549a76a5ed0b1628044577ada97a644">MainGLWidget</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_function" href="class_main_g_l_widget.html#a487d8aaa120922d8285e1ff43b999418">~MainGLWidget</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#abe0b0b15265660a0085efe97c3a23571">setWirefame</a>(<span class="keywordtype">bool</span> wireframe);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#ad08082e87f54d3e604aecdbacd44ef46">setModelfame</a>(<span class="keywordtype">bool</span> modelframe);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a4ce15f1a3fd4c6bfda850c4180f75963">setShowAxis</a>(<span class="keywordtype">bool</span> Axis);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a63d54ef2be4e67ae1eafca0011e6c5c1">setViewFromZ</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#ac2670f45d232547b8f23de58be085fff">setViewFromY</a>();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a0fb703ff2bacb007b9b67b25186d4ec3">setViewFromX</a>();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a13db09aad99baf0b0958e84f15fd5cc2">setDefaultView</a>();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a21d0d719f1f6fd1b95a6a8f4bcc97cc6">initializeGL</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#aba71d2997f47b364e4e7123093c909da">resizeGL</a>(<span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a27f17286dae2e9b062cc62812d144b41">paintGL</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a7d3f4eb3e93c5b102d74006518db819e">keyPressEvent</a>(QKeyEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a0a640f31c2a4bdee2547554f2fc51d58">keyReleaseEvent</a>(QKeyEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a5b39bca52efe6d9a70037830d60c2e37">mouseMoveEvent</a>(QMouseEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a24c8b9a38c39193a3922c83356349b08">wheelEvent</a>(QWheelEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a17179fd0fc33bfce008ccf9660d5d09d">mousePressEvent</a>(QMouseEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_main_g_l_widget.html#a7bfd0f847d487e03c49899e4b1050196">mouseReleaseEvent</a>(QMouseEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>signals:</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a3953798b273f23c26d09cff18b328412">   85</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="class_main_g_l_widget.html#a3953798b273f23c26d09cff18b328412">initTree</a>(QOpenGLContext *context, QOpenGLShaderProgram *<a class="code hl_variable" href="class_main_g_l_widget.html#a0069c44601bcb49362846b303edb0c07">shaderProgram</a>);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">public</span> slots:</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_g_l_widget.html#abc3bba2465fb629339a6372afc4e607f">sensitivityLM</a>(<span class="keywordtype">float</span> s);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_g_l_widget.html#a2c8deffd7f140d37cd67beac4360db2d">sensitivityLR</a>(<span class="keywordtype">float</span> s);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_g_l_widget.html#a34b101b065804cdb3daaa839da505fca">sensitivityRT</a>(<span class="keywordtype">float</span> s);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_g_l_widget.html#a8339f62da4426d68c9cc1fc03ef44caa">sensitivityRO</a>(<span class="keywordtype">float</span> s);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_g_l_widget.html#ac7b166e9dfd95fab911c6bd508d764d9">sensitivityS</a>(<span class="keywordtype">float</span> s);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a7569cd9ec4bd2852b1665620dec45242">  105</a></span>    <a class="code hl_class" href="class_model_tree.html">ModelTree</a>* <a class="code hl_variable" href="class_main_g_l_widget.html#a7569cd9ec4bd2852b1665620dec45242">MT</a>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#ac6a95ba803d3454e3782466bd8ed9409">  106</a></span>    <a class="code hl_class" href="class_sensitivity___adaptor.html">Sensitivity_Adaptor</a>* <a class="code hl_variable" href="class_main_g_l_widget.html#ac6a95ba803d3454e3782466bd8ed9409">SA</a>;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a5c33b311042f8ac0ae403449a5d71846">  107</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_main_g_l_widget.html#a5c33b311042f8ac0ae403449a5d71846">sensitivity_left_mov</a> = 1.0;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a0b6415179eb9ca32cf12f1c61f3de025">  108</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_main_g_l_widget.html#a0b6415179eb9ca32cf12f1c61f3de025">sensitivity_left_rot</a> = 1.0;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a0df90db09092ed8262516bfd98898ab9">  109</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_main_g_l_widget.html#a0df90db09092ed8262516bfd98898ab9">sensitivity_right_trans</a> = 1.0;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a75fa7ae68b8ca27e627d4d62ce51c868">  110</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_main_g_l_widget.html#a75fa7ae68b8ca27e627d4d62ce51c868">sensitivity_right_orient</a> = 1.0;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#ab5f0fbe6011947d4933f14ec6fa6154d">  111</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_main_g_l_widget.html#ab5f0fbe6011947d4933f14ec6fa6154d">sensitivity_roll</a> = 1.0;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="keyword">private</span>:   </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a0069c44601bcb49362846b303edb0c07">  116</a></span>    QOpenGLShaderProgram <a class="code hl_variable" href="class_main_g_l_widget.html#a0069c44601bcb49362846b303edb0c07">shaderProgram</a>;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#ad1e659b94a688614952c61867ecb5011">  117</a></span>    QOpenGLTexture* <a class="code hl_variable" href="class_main_g_l_widget.html#ad1e659b94a688614952c61867ecb5011">textureWall</a>;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a9e2882561f2e91d420a7fcbe84b753ed">  118</a></span>    QOpenGLTexture* <a class="code hl_variable" href="class_main_g_l_widget.html#a9e2882561f2e91d420a7fcbe84b753ed">textureAxis</a>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="comment">//坐标轴</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#acb16f17b21eb21ea72053d08a0561c3e">  120</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_main_g_l_widget.html#acb16f17b21eb21ea72053d08a0561c3e">showaxis</a> = 1;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#aad3a2beffe2e03c9bf551b85cd2a2672">  121</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_main_g_l_widget.html#a0be2f61810f79eb5f490cff37641f795">VBOaxis</a>, <a class="code hl_variable" href="class_main_g_l_widget.html#a24245d6d9266a33632dcb3eb402ea14e">VAOaxis</a>,<a class="code hl_variable" href="class_main_g_l_widget.html#aad3a2beffe2e03c9bf551b85cd2a2672">EBOaxis</a>;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">//MVP声明</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#aaf0c27be9605e0d22a8056b8154ac5d3">  123</a></span>    QMatrix4x4 <a class="code hl_variable" href="class_main_g_l_widget.html#aaf0c27be9605e0d22a8056b8154ac5d3">model</a>;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a58aa6ee74a7d72f28d995b8038385aa0">  124</a></span>    QMatrix4x4 <a class="code hl_variable" href="class_main_g_l_widget.html#a58aa6ee74a7d72f28d995b8038385aa0">view</a>;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a048b7b2d92b127015cd0a6bf54fe0210">  125</a></span>    QMatrix4x4 <a class="code hl_variable" href="class_main_g_l_widget.html#a048b7b2d92b127015cd0a6bf54fe0210">projection</a>;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="comment">//视角操作</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a525b2ecc0c048c0a3ada2c492b4b06df">  127</a></span>    <a class="code hl_class" href="class_viewer.html">Viewer</a> <a class="code hl_variable" href="class_main_g_l_widget.html#a525b2ecc0c048c0a3ada2c492b4b06df">m_viewer</a>;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="comment">//模型操作</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#af7ce3b778d2be9b62a5f3c293b86c770">  129</a></span>    <a class="code hl_class" href="class_justifier.html">Justifier</a> <a class="code hl_variable" href="class_main_g_l_widget.html#af7ce3b778d2be9b62a5f3c293b86c770">m_justifier</a>;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#af4fdb7d283dbe6ef71bd6a07ccee503c">  130</a></span>    QPoint <a class="code hl_variable" href="class_main_g_l_widget.html#af4fdb7d283dbe6ef71bd6a07ccee503c">deltaPos</a>;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#ab780e67fbdf3f23c724e898ec8831fa7">  131</a></span>    QPoint <a class="code hl_variable" href="class_main_g_l_widget.html#ab780e67fbdf3f23c724e898ec8831fa7">lastPos</a>;</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#abeacf0f49f1c7e76461ae819b6e055ff">  132</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_main_g_l_widget.html#abeacf0f49f1c7e76461ae819b6e055ff">ifMoveView</a> = 0;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#a86ae9c18c275945c115a37d2eea86d65">  133</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_main_g_l_widget.html#a86ae9c18c275945c115a37d2eea86d65">ifMoveModel</a> = 0;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="class_main_g_l_widget.html#af7d8bf9bc0e4a713a38fc3671ba63eba">  134</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_main_g_l_widget.html#af7d8bf9bc0e4a713a38fc3671ba63eba">ifShift</a> = 0;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>};</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="preprocessor">#endif </span><span class="comment">// MAINGLWIDGET_H</span></div>
+<div class="ttc" id="aclass_justifier_html"><div class="ttname"><a href="class_justifier.html">Justifier</a></div><div class="ttdoc">类：Justifier（模型修改）</div><div class="ttdef"><b>Definition:</b> justifier.h:40</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html"><div class="ttname"><a href="class_main_g_l_widget.html">MainGLWidget</a></div><div class="ttdoc">类：MainGL（GL绘图控件）</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:37</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a0069c44601bcb49362846b303edb0c07"><div class="ttname"><a href="class_main_g_l_widget.html#a0069c44601bcb49362846b303edb0c07">MainGLWidget::shaderProgram</a></div><div class="ttdeci">QOpenGLShaderProgram shaderProgram</div><div class="ttdoc">着色器指针</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:116</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a048b7b2d92b127015cd0a6bf54fe0210"><div class="ttname"><a href="class_main_g_l_widget.html#a048b7b2d92b127015cd0a6bf54fe0210">MainGLWidget::projection</a></div><div class="ttdeci">QMatrix4x4 projection</div><div class="ttdoc">projection矩阵</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:125</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a0a640f31c2a4bdee2547554f2fc51d58"><div class="ttname"><a href="class_main_g_l_widget.html#a0a640f31c2a4bdee2547554f2fc51d58">MainGLWidget::keyReleaseEvent</a></div><div class="ttdeci">void keyReleaseEvent(QKeyEvent *event) override</div><div class="ttdoc">键盘按键松开事件监控</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:357</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a0b6415179eb9ca32cf12f1c61f3de025"><div class="ttname"><a href="class_main_g_l_widget.html#a0b6415179eb9ca32cf12f1c61f3de025">MainGLWidget::sensitivity_left_rot</a></div><div class="ttdeci">float sensitivity_left_rot</div><div class="ttdoc">灵敏度参数（转动模型）</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:108</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a0be2f61810f79eb5f490cff37641f795"><div class="ttname"><a href="class_main_g_l_widget.html#a0be2f61810f79eb5f490cff37641f795">MainGLWidget::VBOaxis</a></div><div class="ttdeci">unsigned int VBOaxis</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:121</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a0df90db09092ed8262516bfd98898ab9"><div class="ttname"><a href="class_main_g_l_widget.html#a0df90db09092ed8262516bfd98898ab9">MainGLWidget::sensitivity_right_trans</a></div><div class="ttdeci">float sensitivity_right_trans</div><div class="ttdoc">灵敏度参数（移动视角）</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:109</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a0fb703ff2bacb007b9b67b25186d4ec3"><div class="ttname"><a href="class_main_g_l_widget.html#a0fb703ff2bacb007b9b67b25186d4ec3">MainGLWidget::setViewFromX</a></div><div class="ttdeci">void setViewFromX()</div><div class="ttdoc">重置视角（从X轴正方向看向原点）</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:160</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a13db09aad99baf0b0958e84f15fd5cc2"><div class="ttname"><a href="class_main_g_l_widget.html#a13db09aad99baf0b0958e84f15fd5cc2">MainGLWidget::setDefaultView</a></div><div class="ttdeci">void setDefaultView()</div><div class="ttdoc">恢复初始视角</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:168</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a17179fd0fc33bfce008ccf9660d5d09d"><div class="ttname"><a href="class_main_g_l_widget.html#a17179fd0fc33bfce008ccf9660d5d09d">MainGLWidget::mousePressEvent</a></div><div class="ttdeci">void mousePressEvent(QMouseEvent *event) override</div><div class="ttdoc">鼠标按键按下事件监控</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:371</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a21d0d719f1f6fd1b95a6a8f4bcc97cc6"><div class="ttname"><a href="class_main_g_l_widget.html#a21d0d719f1f6fd1b95a6a8f4bcc97cc6">MainGLWidget::initializeGL</a></div><div class="ttdeci">virtual void initializeGL() override</div><div class="ttdoc">初始化GL控件</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:205</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a24245d6d9266a33632dcb3eb402ea14e"><div class="ttname"><a href="class_main_g_l_widget.html#a24245d6d9266a33632dcb3eb402ea14e">MainGLWidget::VAOaxis</a></div><div class="ttdeci">unsigned int VAOaxis</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:121</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a24c8b9a38c39193a3922c83356349b08"><div class="ttname"><a href="class_main_g_l_widget.html#a24c8b9a38c39193a3922c83356349b08">MainGLWidget::wheelEvent</a></div><div class="ttdeci">void wheelEvent(QWheelEvent *event) override</div><div class="ttdoc">鼠标滚轮滚动事件监控</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:499</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a27f17286dae2e9b062cc62812d144b41"><div class="ttname"><a href="class_main_g_l_widget.html#a27f17286dae2e9b062cc62812d144b41">MainGLWidget::paintGL</a></div><div class="ttdeci">virtual void paintGL() override</div><div class="ttdoc">重绘GL窗口中的内容</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:280</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a2c8deffd7f140d37cd67beac4360db2d"><div class="ttname"><a href="class_main_g_l_widget.html#a2c8deffd7f140d37cd67beac4360db2d">MainGLWidget::sensitivityLR</a></div><div class="ttdeci">void sensitivityLR(float s)</div><div class="ttdoc">接收sensitivity_adopter的LR控件参数变化信号</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:409</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a34b101b065804cdb3daaa839da505fca"><div class="ttname"><a href="class_main_g_l_widget.html#a34b101b065804cdb3daaa839da505fca">MainGLWidget::sensitivityRT</a></div><div class="ttdeci">void sensitivityRT(float s)</div><div class="ttdoc">接收sensitivity_adopter的RT控件参数变化信号</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:416</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a3953798b273f23c26d09cff18b328412"><div class="ttname"><a href="class_main_g_l_widget.html#a3953798b273f23c26d09cff18b328412">MainGLWidget::initTree</a></div><div class="ttdeci">void initTree(QOpenGLContext *context, QOpenGLShaderProgram *shaderProgram)</div><div class="ttdoc">向ModelTree发信号送传送shader和context，用于最终放到ModelTree的Part和Model用于之后绘制图形</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a487d8aaa120922d8285e1ff43b999418"><div class="ttname"><a href="class_main_g_l_widget.html#a487d8aaa120922d8285e1ff43b999418">MainGLWidget::~MainGLWidget</a></div><div class="ttdeci">~MainGLWidget()</div><div class="ttdoc">析构函数</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:83</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a4ce15f1a3fd4c6bfda850c4180f75963"><div class="ttname"><a href="class_main_g_l_widget.html#a4ce15f1a3fd4c6bfda850c4180f75963">MainGLWidget::setShowAxis</a></div><div class="ttdeci">void setShowAxis(bool Axis)</div><div class="ttdoc">设置是否显式坐标轴</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:127</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a525b2ecc0c048c0a3ada2c492b4b06df"><div class="ttname"><a href="class_main_g_l_widget.html#a525b2ecc0c048c0a3ada2c492b4b06df">MainGLWidget::m_viewer</a></div><div class="ttdeci">Viewer m_viewer</div><div class="ttdoc">控制视角调整的对象</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:127</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a58aa6ee74a7d72f28d995b8038385aa0"><div class="ttname"><a href="class_main_g_l_widget.html#a58aa6ee74a7d72f28d995b8038385aa0">MainGLWidget::view</a></div><div class="ttdeci">QMatrix4x4 view</div><div class="ttdoc">view矩阵</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:124</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a5b39bca52efe6d9a70037830d60c2e37"><div class="ttname"><a href="class_main_g_l_widget.html#a5b39bca52efe6d9a70037830d60c2e37">MainGLWidget::mouseMoveEvent</a></div><div class="ttdeci">void mouseMoveEvent(QMouseEvent *event) override</div><div class="ttdoc">鼠标移动事件监控</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:437</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a5c33b311042f8ac0ae403449a5d71846"><div class="ttname"><a href="class_main_g_l_widget.html#a5c33b311042f8ac0ae403449a5d71846">MainGLWidget::sensitivity_left_mov</a></div><div class="ttdeci">float sensitivity_left_mov</div><div class="ttdoc">灵敏度参数（移动模型）</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:107</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a63d54ef2be4e67ae1eafca0011e6c5c1"><div class="ttname"><a href="class_main_g_l_widget.html#a63d54ef2be4e67ae1eafca0011e6c5c1">MainGLWidget::setViewFromZ</a></div><div class="ttdeci">void setViewFromZ()</div><div class="ttdoc">重置视角（从Z轴正方向看向原点）</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:143</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a7569cd9ec4bd2852b1665620dec45242"><div class="ttname"><a href="class_main_g_l_widget.html#a7569cd9ec4bd2852b1665620dec45242">MainGLWidget::MT</a></div><div class="ttdeci">ModelTree * MT</div><div class="ttdoc">ModelTree指针</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:105</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a75fa7ae68b8ca27e627d4d62ce51c868"><div class="ttname"><a href="class_main_g_l_widget.html#a75fa7ae68b8ca27e627d4d62ce51c868">MainGLWidget::sensitivity_right_orient</a></div><div class="ttdeci">float sensitivity_right_orient</div><div class="ttdoc">灵敏度参数（转动视角）</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:110</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a7bfd0f847d487e03c49899e4b1050196"><div class="ttname"><a href="class_main_g_l_widget.html#a7bfd0f847d487e03c49899e4b1050196">MainGLWidget::mouseReleaseEvent</a></div><div class="ttdeci">void mouseReleaseEvent(QMouseEvent *event) override</div><div class="ttdoc">鼠标按键松开事件监控</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:387</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a7d3f4eb3e93c5b102d74006518db819e"><div class="ttname"><a href="class_main_g_l_widget.html#a7d3f4eb3e93c5b102d74006518db819e">MainGLWidget::keyPressEvent</a></div><div class="ttdeci">void keyPressEvent(QKeyEvent *event) override</div><div class="ttdoc">键盘按键按下事件监控</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:344</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a8339f62da4426d68c9cc1fc03ef44caa"><div class="ttname"><a href="class_main_g_l_widget.html#a8339f62da4426d68c9cc1fc03ef44caa">MainGLWidget::sensitivityRO</a></div><div class="ttdeci">void sensitivityRO(float s)</div><div class="ttdoc">接收sensitivity_adopter的RO控件参数变化信号</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:423</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a86ae9c18c275945c115a37d2eea86d65"><div class="ttname"><a href="class_main_g_l_widget.html#a86ae9c18c275945c115a37d2eea86d65">MainGLWidget::ifMoveModel</a></div><div class="ttdeci">bool ifMoveModel</div><div class="ttdoc">标记是否允许移动物体,按下鼠标时置1松开鼠标置0，当1时视角随鼠标移动</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:133</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a9549a76a5ed0b1628044577ada97a644"><div class="ttname"><a href="class_main_g_l_widget.html#a9549a76a5ed0b1628044577ada97a644">MainGLWidget::MainGLWidget</a></div><div class="ttdeci">MainGLWidget(QWidget *parent=nullptr)</div><div class="ttdoc">构造函数</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:58</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_a9e2882561f2e91d420a7fcbe84b753ed"><div class="ttname"><a href="class_main_g_l_widget.html#a9e2882561f2e91d420a7fcbe84b753ed">MainGLWidget::textureAxis</a></div><div class="ttdeci">QOpenGLTexture * textureAxis</div><div class="ttdoc">纹理textureAxis</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:118</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_aad3a2beffe2e03c9bf551b85cd2a2672"><div class="ttname"><a href="class_main_g_l_widget.html#aad3a2beffe2e03c9bf551b85cd2a2672">MainGLWidget::EBOaxis</a></div><div class="ttdeci">unsigned int EBOaxis</div><div class="ttdoc">坐标轴的VAO、VBO、EBO</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:121</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_aaf0c27be9605e0d22a8056b8154ac5d3"><div class="ttname"><a href="class_main_g_l_widget.html#aaf0c27be9605e0d22a8056b8154ac5d3">MainGLWidget::model</a></div><div class="ttdeci">QMatrix4x4 model</div><div class="ttdoc">model矩阵</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:123</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_ab5f0fbe6011947d4933f14ec6fa6154d"><div class="ttname"><a href="class_main_g_l_widget.html#ab5f0fbe6011947d4933f14ec6fa6154d">MainGLWidget::sensitivity_roll</a></div><div class="ttdeci">float sensitivity_roll</div><div class="ttdoc">灵敏度参数（缩放视角）</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:111</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_ab780e67fbdf3f23c724e898ec8831fa7"><div class="ttname"><a href="class_main_g_l_widget.html#ab780e67fbdf3f23c724e898ec8831fa7">MainGLWidget::lastPos</a></div><div class="ttdeci">QPoint lastPos</div><div class="ttdoc">鼠标上一时刻的位置</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:131</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_aba71d2997f47b364e4e7123093c909da"><div class="ttname"><a href="class_main_g_l_widget.html#aba71d2997f47b364e4e7123093c909da">MainGLWidget::resizeGL</a></div><div class="ttdeci">virtual void resizeGL(int w, int h) override</div><div class="ttdoc">重设GL窗口参数（size等）</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:272</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_abc3bba2465fb629339a6372afc4e607f"><div class="ttname"><a href="class_main_g_l_widget.html#abc3bba2465fb629339a6372afc4e607f">MainGLWidget::sensitivityLM</a></div><div class="ttdeci">void sensitivityLM(float s)</div><div class="ttdoc">接收sensitivity_adopter的LM控件参数变化信号</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:402</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_abe0b0b15265660a0085efe97c3a23571"><div class="ttname"><a href="class_main_g_l_widget.html#abe0b0b15265660a0085efe97c3a23571">MainGLWidget::setWirefame</a></div><div class="ttdeci">void setWirefame(bool wireframe)</div><div class="ttdoc">设置为线框模式绘图</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:95</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_abeacf0f49f1c7e76461ae819b6e055ff"><div class="ttname"><a href="class_main_g_l_widget.html#abeacf0f49f1c7e76461ae819b6e055ff">MainGLWidget::ifMoveView</a></div><div class="ttdeci">bool ifMoveView</div><div class="ttdoc">标记是否允许移动视角,按下鼠标时置1松开鼠标置0，当1时视角随鼠标移动</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:132</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_ac2670f45d232547b8f23de58be085fff"><div class="ttname"><a href="class_main_g_l_widget.html#ac2670f45d232547b8f23de58be085fff">MainGLWidget::setViewFromY</a></div><div class="ttdeci">void setViewFromY()</div><div class="ttdoc">重置视角（从Y轴正方向看向原点）</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:152</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_ac6a95ba803d3454e3782466bd8ed9409"><div class="ttname"><a href="class_main_g_l_widget.html#ac6a95ba803d3454e3782466bd8ed9409">MainGLWidget::SA</a></div><div class="ttdeci">Sensitivity_Adaptor * SA</div><div class="ttdoc">灵敏度调节窗口指针</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:106</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_ac7b166e9dfd95fab911c6bd508d764d9"><div class="ttname"><a href="class_main_g_l_widget.html#ac7b166e9dfd95fab911c6bd508d764d9">MainGLWidget::sensitivityS</a></div><div class="ttdeci">void sensitivityS(float s)</div><div class="ttdoc">接收sensitivity_adopter的S控件参数变化信号</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:430</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_acb16f17b21eb21ea72053d08a0561c3e"><div class="ttname"><a href="class_main_g_l_widget.html#acb16f17b21eb21ea72053d08a0561c3e">MainGLWidget::showaxis</a></div><div class="ttdeci">bool showaxis</div><div class="ttdoc">是否绘制坐标轴</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:120</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_ad08082e87f54d3e604aecdbacd44ef46"><div class="ttname"><a href="class_main_g_l_widget.html#ad08082e87f54d3e604aecdbacd44ef46">MainGLWidget::setModelfame</a></div><div class="ttdeci">void setModelfame(bool modelframe)</div><div class="ttdoc">设置为填充模式绘图</div><div class="ttdef"><b>Definition:</b> mainglwidget.cpp:111</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_ad1e659b94a688614952c61867ecb5011"><div class="ttname"><a href="class_main_g_l_widget.html#ad1e659b94a688614952c61867ecb5011">MainGLWidget::textureWall</a></div><div class="ttdeci">QOpenGLTexture * textureWall</div><div class="ttdoc">纹理textureWall</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:117</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_af4fdb7d283dbe6ef71bd6a07ccee503c"><div class="ttname"><a href="class_main_g_l_widget.html#af4fdb7d283dbe6ef71bd6a07ccee503c">MainGLWidget::deltaPos</a></div><div class="ttdeci">QPoint deltaPos</div><div class="ttdoc">鼠标当前位置</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:130</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_af7ce3b778d2be9b62a5f3c293b86c770"><div class="ttname"><a href="class_main_g_l_widget.html#af7ce3b778d2be9b62a5f3c293b86c770">MainGLWidget::m_justifier</a></div><div class="ttdeci">Justifier m_justifier</div><div class="ttdoc">控制模型修改的对象</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:129</div></div>
+<div class="ttc" id="aclass_main_g_l_widget_html_af7d8bf9bc0e4a713a38fc3671ba63eba"><div class="ttname"><a href="class_main_g_l_widget.html#af7d8bf9bc0e4a713a38fc3671ba63eba">MainGLWidget::ifShift</a></div><div class="ttdeci">bool ifShift</div><div class="ttdoc">标记模型移动方向，当Shift键按下时置1，模型沿前向移动，否则沿UP和Right方向移动</div><div class="ttdef"><b>Definition:</b> mainglwidget.h:134</div></div>
+<div class="ttc" id="aclass_model_tree_html"><div class="ttname"><a href="class_model_tree.html">ModelTree</a></div><div class="ttdoc">类：型树类</div><div class="ttdef"><b>Definition:</b> modeltree.h:39</div></div>
+<div class="ttc" id="aclass_sensitivity___adaptor_html"><div class="ttname"><a href="class_sensitivity___adaptor.html">Sensitivity_Adaptor</a></div><div class="ttdoc">类：sensitivity_adaptor灵敏度调整</div><div class="ttdef"><b>Definition:</b> sensitivity_adaptor.h:27</div></div>
+<div class="ttc" id="aclass_viewer_html"><div class="ttname"><a href="class_viewer.html">Viewer</a></div><div class="ttdoc">类：观察者</div><div class="ttdef"><b>Definition:</b> viewer.hpp:53</div></div>
+<div class="ttc" id="ajustifier_8h_html"><div class="ttname"><a href="justifier_8h.html">justifier.h</a></div></div>
+<div class="ttc" id="amodeltree_8h_html"><div class="ttname"><a href="modeltree_8h.html">modeltree.h</a></div></div>
+<div class="ttc" id="aoperating__status_8hpp_html"><div class="ttname"><a href="operating__status_8hpp.html">operating_status.hpp</a></div></div>
+<div class="ttc" id="asensitivity__adaptor_8h_html"><div class="ttname"><a href="sensitivity__adaptor_8h.html">sensitivity_adaptor.h</a></div></div>
+<div class="ttc" id="autil_8hpp_html"><div class="ttname"><a href="util_8hpp.html">util.hpp</a></div></div>
+<div class="ttc" id="aviewer_8hpp_html"><div class="ttname"><a href="viewer_8hpp.html">viewer.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_038d7fc0aa58c8ee675df0cb4befd1bf.html">QT_GL_Workspace</a></li><li class="navelem"><a class="el" href="dir_365f36bfb38dd99a6c1fec73b30715a7.html">bs</a></li><li class="navelem"><a class="el" href="dir_d064e010914cc808985905912a23f409.html">VAMS</a></li><li class="navelem"><a class="el" href="mainglwidget_8h.html">mainglwidget.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

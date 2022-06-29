@@ -1,0 +1,9 @@
+<map id="engineer" name="engineer">
+<area shape="rect" id="node1" title="类：engineer（新建模型）" alt="" coords="130,184,201,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,112,121"/>
+<area shape="rect" id="node3" href="$class_model.html" title="类：Model(部件)" alt="" coords="137,95,194,121"/>
+<area shape="rect" id="node4" href="$struct_model_i_d.html" title="结构体：ModelID（模型ID）" alt="" coords="55,5,124,32"/>
+<area shape="rect" id="node5" href="$class_part.html" title="类：Part（分组）" alt="" coords="149,5,195,32"/>
+<area shape="rect" id="node6" href="$class_material_list.html" title="类：MaterialList（材质列表）" alt="" coords="218,95,307,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="226,5,299,32"/>
+</map>

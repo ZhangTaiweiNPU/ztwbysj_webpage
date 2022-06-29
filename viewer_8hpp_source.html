@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VAMS: D:/QT_GL_Workspace/bs/VAMS/viewer.hpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VAMS
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('viewer_8hpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">viewer.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="viewer_8hpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef m_ViewER_HPP</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define m_ViewER_HPP</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include&lt;cmath&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include&lt;vector&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include&lt;QMatrix4x4&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include&lt;GL/gl.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="util_8hpp.html">util.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="viewer_8hpp.html#a598a3330b3c21701223ee0ca14316eca">   11</a></span><span class="preprocessor">#define PI (3.1415926)</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="class_viewer.html">   52</a></span><span class="keyword">class </span><a class="code hl_class" href="class_viewer.html">Viewer</a></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_viewer.html#a4d0f54c16ae05390afa5c64f3b02ccbc">   56</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_viewer.html#a4d0f54c16ae05390afa5c64f3b02ccbc">Viewer</a>(QVector3D position = QVector3D(0.0f, 0.0f, 10.0f), QVector3D front = QVector3D(0.0f, 0.0f, -1.0f), QVector3D up = QVector3D(0.0f, 1.0f, 0.0f))</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        : <a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a>(position), <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a>(front), <a class="code hl_variable" href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">m_World_Up</a>(up){</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <a class="code hl_function" href="class_viewer.html#a8d45ecd5cd281c33770951b8bdd32d21">updateViewerVectors</a>();</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="class_viewer.html#a40723fa3d84524024dd9696171a01cfc">   61</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_viewer.html#a40723fa3d84524024dd9696171a01cfc">Viewer</a>(<span class="keywordtype">float</span> posX, <span class="keywordtype">float</span> posY, <span class="keywordtype">float</span> posZ, <span class="keywordtype">float</span> upX, <span class="keywordtype">float</span> upY, <span class="keywordtype">float</span> upZ, <span class="keywordtype">float</span> frontX, <span class="keywordtype">float</span> frontY, <span class="keywordtype">float</span> frontZ)</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        : <a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a>(QVector3D(posX, posY, posZ)), <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a>(QVector3D(frontX, frontY, frontZ)), <a class="code hl_variable" href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">m_World_Up</a>(QVector3D(upX, upY, upZ)){</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <a class="code hl_function" href="class_viewer.html#a8d45ecd5cd281c33770951b8bdd32d21">updateViewerVectors</a>();</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="class_viewer.html#af38fb5712d7970062cfcda6655704810">   67</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_viewer.html#af38fb5712d7970062cfcda6655704810">resetView</a>(QVector3D position = QVector3D(0.0f, 0.0f, 10.0f), QVector3D front = QVector3D(0.0f, 0.0f, -1.0f), QVector3D up = QVector3D(0.0f, 1.0f, 0.0f)){</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_variable" href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">m_View</a>.setToIdentity();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <a class="code hl_variable" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a>.setToIdentity();</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <a class="code hl_variable" href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">m_Plane_Rot</a>.setToIdentity();</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a> = position;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <a class="code hl_variable" href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">m_World_Up</a> = up;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a> = front;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <a class="code hl_function" href="class_viewer.html#a8d45ecd5cd281c33770951b8bdd32d21">updateViewerVectors</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    }</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="class_viewer.html#a2b9650f67e579ec83736ae0d9f3972be">   78</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_viewer.html#a2b9650f67e579ec83736ae0d9f3972be">resetView</a>(<span class="keyword">const</span> <span class="keywordtype">float</span>&amp; posX, <span class="keyword">const</span> <span class="keywordtype">float</span>&amp; posY, <span class="keyword">const</span> <span class="keywordtype">float</span>&amp; posZ,</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                   <span class="keyword">const</span> <span class="keywordtype">float</span>&amp; upX, <span class="keyword">const</span> <span class="keywordtype">float</span>&amp; upY, <span class="keyword">const</span> <span class="keywordtype">float</span>&amp; upZ,</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                   <span class="keyword">const</span> <span class="keywordtype">float</span>&amp; frontX, <span class="keyword">const</span> <span class="keywordtype">float</span>&amp; frontY, <span class="keyword">const</span> <span class="keywordtype">float</span>&amp; frontZ){</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <a class="code hl_variable" href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">m_View</a>.setToIdentity();</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <a class="code hl_variable" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a>.setToIdentity();</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <a class="code hl_variable" href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">m_Plane_Rot</a>.setToIdentity();</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a> = QVector3D(posX, posY, posZ);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <a class="code hl_variable" href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">m_World_Up</a> = QVector3D(upX, upY, upZ);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a> = QVector3D(frontX, frontY, frontZ);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <a class="code hl_function" href="class_viewer.html#a8d45ecd5cd281c33770951b8bdd32d21">updateViewerVectors</a>();</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="class_viewer.html#add20ace46ac9a0c6ec37ba561c4ec135">   94</a></span>    QVector3D <a class="code hl_function" href="class_viewer.html#add20ace46ac9a0c6ec37ba561c4ec135">getUP</a>(){</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">m_Up</a>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    }</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="class_viewer.html#a3dc75a5e96dfd19f83d783384273e5e4">   98</a></span>    QVector3D <a class="code hl_function" href="class_viewer.html#a3dc75a5e96dfd19f83d783384273e5e4">getRight</a>(){</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">m_Right</a>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    }</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="class_viewer.html#a3d2af2e386faa97cbeb4cfe5c7aedee4">  102</a></span>    QVector3D <a class="code hl_function" href="class_viewer.html#a3d2af2e386faa97cbeb4cfe5c7aedee4">getFront</a>(){</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    }</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_viewer.html#a612743e3540f6a814cb9fa89d33bba42">  106</a></span>    QMatrix4x4 <a class="code hl_function" href="class_viewer.html#a612743e3540f6a814cb9fa89d33bba42">getViewMatrix</a>()<span class="keyword">const</span>{</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        QMatrix4x4 qmTransView;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        qmTransView.lookAt(<a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a>, <a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a> + <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a>, <a class="code hl_variable" href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">m_Up</a>);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        qmTransView = qmTransView * <a class="code hl_variable" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a> * <a class="code hl_variable" href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">m_View</a>;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="comment">//qDebug()&lt;&lt;&quot;m_Position:&quot;&lt;&lt;m_Position&lt;&lt;endl;</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        <span class="keywordflow">return</span> qmTransView;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    }</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="comment">     * 此函数可能有用，也可能没用</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="comment">     * 其功能是：</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="comment">     * eg.视角初始化后旋转之前，屏幕坐标系下某一向量（x，y，z）,</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="comment">     *    经过各种&quot;视角&quot;旋转（不含移动！）之后,</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="comment">     *    会变成ScreenToPlane（QVector3D(x，y，z）)</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="comment">     */</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="class_viewer.html#a874cc61be166393d1b1080682f0c32d6">  120</a></span>    QVector3D <a class="code hl_function" href="class_viewer.html#a874cc61be166393d1b1080682f0c32d6">ScreenToPlane</a>(<span class="keyword">const</span> QVector3D&amp; atScreen)<span class="keyword">const</span>{</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        QVector4D temp = QVector4D(atScreen);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        temp = <a class="code hl_variable" href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">m_Plane_Rot</a> * temp;</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        <span class="keywordflow">return</span> temp.toVector3D();</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    }</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="class_viewer.html#a271043ad38e9d5add6e5f5a6beb3cad8">  129</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_viewer.html#a271043ad38e9d5add6e5f5a6beb3cad8">orientateView</a>(<span class="keywordtype">float</span> yoffset, <span class="keywordtype">float</span> xoffset, <span class="keywordtype">float</span> sensitivity = 0.5f){</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        <a class="code hl_variable" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a>.rotate(yoffset*sensitivity*<a class="code hl_variable" href="class_viewer.html#a206d215c8b58dd21104686847637f460">zoomtimes</a>,<a class="code hl_variable" href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">m_Up</a>);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        <a class="code hl_variable" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a>.rotate(xoffset*sensitivity*<a class="code hl_variable" href="class_viewer.html#a206d215c8b58dd21104686847637f460">zoomtimes</a>,<a class="code hl_variable" href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">m_Right</a>);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <a class="code hl_variable" href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">m_View</a> = <a class="code hl_variable" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a> * <a class="code hl_variable" href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">m_View</a>;<span class="comment">//解决万向锁的关键！</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <a class="code hl_variable" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a>.setToIdentity();<span class="comment">//解决万向锁的关键！</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        <a class="code hl_variable" href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">m_Plane_Rot</a> = <a class="code hl_variable" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a> * <a class="code hl_variable" href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">m_View</a> * <a class="code hl_variable" href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">m_Plane_Rot</a>;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    }</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="class_viewer.html#aa93fe0fc08c370a53549dcfb375839c5">  137</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_viewer.html#aa93fe0fc08c370a53549dcfb375839c5">transXYView</a>(<span class="keywordtype">float</span> xoffset, <span class="keywordtype">float</span> yoffset, <span class="keywordtype">float</span> sensitivity = 0.005f){</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>        xoffset *= sensitivity * <a class="code hl_variable" href="class_viewer.html#a206d215c8b58dd21104686847637f460">zoomtimes</a>;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>        yoffset *= sensitivity * <a class="code hl_variable" href="class_viewer.html#a206d215c8b58dd21104686847637f460">zoomtimes</a>;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        <a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a> -= <a class="code hl_variable" href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">m_Up</a> * yoffset;</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>        <a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a> -= <a class="code hl_variable" href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">m_Right</a> * xoffset;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    }</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="class_viewer.html#af7b762b0b8c0bdc812e58c91ec72031c">  145</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_viewer.html#af7b762b0b8c0bdc812e58c91ec72031c">transZView</a>(<span class="keywordtype">float</span> zoffset, <span class="keywordtype">float</span> speed = 0.05f)</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    {</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        <a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a> += <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a> * speed* zoffset;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    }</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">  153</a></span>    QVector3D <a class="code hl_variable" href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">m_Position</a>;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">  154</a></span>    QVector3D <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a>;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">  155</a></span>    QVector3D <a class="code hl_variable" href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">m_Up</a>;</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">  156</a></span>    QVector3D <a class="code hl_variable" href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">m_Right</a>;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno"><a class="line" href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">  157</a></span>    QVector3D <a class="code hl_variable" href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">m_World_Up</a>;</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">  158</a></span>    QMatrix4x4 <a class="code hl_variable" href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">m_Temp_View_Rot</a>;</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">  159</a></span>    QMatrix4x4 <a class="code hl_variable" href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">m_View</a>;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">  160</a></span>    QMatrix4x4 <a class="code hl_variable" href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">m_Plane_Rot</a>;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="class_viewer.html#a206d215c8b58dd21104686847637f460">  161</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_viewer.html#a206d215c8b58dd21104686847637f460">zoomtimes</a> = 1;</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="class_viewer.html#a8d45ecd5cd281c33770951b8bdd32d21">  166</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_viewer.html#a8d45ecd5cd281c33770951b8bdd32d21">updateViewerVectors</a>(){</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a>.normalize();</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        <a class="code hl_variable" href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">m_Right</a> = QVector3D::crossProduct(<a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a>, <a class="code hl_variable" href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">m_World_Up</a>);</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        <a class="code hl_variable" href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">m_Right</a>.normalize();</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        <a class="code hl_variable" href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">m_Up</a>    = QVector3D::crossProduct(<a class="code hl_variable" href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">m_Right</a>, <a class="code hl_variable" href="class_viewer.html#a4414e565395fc983c95d371d90955be1">m_Front</a>);</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        <a class="code hl_variable" href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">m_Up</a>.normalize();</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    }</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>};</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span><span class="preprocessor">#endif</span><span class="comment">// m_ViewER_HPP</span></div>
+<div class="ttc" id="aclass_viewer_html"><div class="ttname"><a href="class_viewer.html">Viewer</a></div><div class="ttdoc">类：观察者</div><div class="ttdef"><b>Definition:</b> viewer.hpp:53</div></div>
+<div class="ttc" id="aclass_viewer_html_a206d215c8b58dd21104686847637f460"><div class="ttname"><a href="class_viewer.html#a206d215c8b58dd21104686847637f460">Viewer::zoomtimes</a></div><div class="ttdeci">float zoomtimes</div><div class="ttdef"><b>Definition:</b> viewer.hpp:161</div></div>
+<div class="ttc" id="aclass_viewer_html_a20a841eb7e92f7206823c784b68894f9"><div class="ttname"><a href="class_viewer.html#a20a841eb7e92f7206823c784b68894f9">Viewer::m_Up</a></div><div class="ttdeci">QVector3D m_Up</div><div class="ttdoc">屏幕坐标系下Viewer的上向向量</div><div class="ttdef"><b>Definition:</b> viewer.hpp:155</div></div>
+<div class="ttc" id="aclass_viewer_html_a271043ad38e9d5add6e5f5a6beb3cad8"><div class="ttname"><a href="class_viewer.html#a271043ad38e9d5add6e5f5a6beb3cad8">Viewer::orientateView</a></div><div class="ttdeci">void orientateView(float yoffset, float xoffset, float sensitivity=0.5f)</div><div class="ttdoc">旋转视角</div><div class="ttdef"><b>Definition:</b> viewer.hpp:129</div></div>
+<div class="ttc" id="aclass_viewer_html_a2b9650f67e579ec83736ae0d9f3972be"><div class="ttname"><a href="class_viewer.html#a2b9650f67e579ec83736ae0d9f3972be">Viewer::resetView</a></div><div class="ttdeci">void resetView(const float &amp;posX, const float &amp;posY, const float &amp;posZ, const float &amp;upX, const float &amp;upY, const float &amp;upZ, const float &amp;frontX, const float &amp;frontY, const float &amp;frontZ)</div><div class="ttdoc">修改视角初始位置方式2（通过float，不含默认位置参数）</div><div class="ttdef"><b>Definition:</b> viewer.hpp:78</div></div>
+<div class="ttc" id="aclass_viewer_html_a3d2af2e386faa97cbeb4cfe5c7aedee4"><div class="ttname"><a href="class_viewer.html#a3d2af2e386faa97cbeb4cfe5c7aedee4">Viewer::getFront</a></div><div class="ttdeci">QVector3D getFront()</div><div class="ttdoc">获取UPVector</div><div class="ttdef"><b>Definition:</b> viewer.hpp:102</div></div>
+<div class="ttc" id="aclass_viewer_html_a3dc75a5e96dfd19f83d783384273e5e4"><div class="ttname"><a href="class_viewer.html#a3dc75a5e96dfd19f83d783384273e5e4">Viewer::getRight</a></div><div class="ttdeci">QVector3D getRight()</div><div class="ttdoc">获取RightVector</div><div class="ttdef"><b>Definition:</b> viewer.hpp:98</div></div>
+<div class="ttc" id="aclass_viewer_html_a40723fa3d84524024dd9696171a01cfc"><div class="ttname"><a href="class_viewer.html#a40723fa3d84524024dd9696171a01cfc">Viewer::Viewer</a></div><div class="ttdeci">Viewer(float posX, float posY, float posZ, float upX, float upY, float upZ, float frontX, float frontY, float frontZ)</div><div class="ttdoc">构造函数2（通过float构造，不含默认位置参数）</div><div class="ttdef"><b>Definition:</b> viewer.hpp:61</div></div>
+<div class="ttc" id="aclass_viewer_html_a4414e565395fc983c95d371d90955be1"><div class="ttname"><a href="class_viewer.html#a4414e565395fc983c95d371d90955be1">Viewer::m_Front</a></div><div class="ttdeci">QVector3D m_Front</div><div class="ttdoc">屏幕坐标系下Viewer的前向向量</div><div class="ttdef"><b>Definition:</b> viewer.hpp:154</div></div>
+<div class="ttc" id="aclass_viewer_html_a4d0f54c16ae05390afa5c64f3b02ccbc"><div class="ttname"><a href="class_viewer.html#a4d0f54c16ae05390afa5c64f3b02ccbc">Viewer::Viewer</a></div><div class="ttdeci">Viewer(QVector3D position=QVector3D(0.0f, 0.0f, 10.0f), QVector3D front=QVector3D(0.0f, 0.0f, -1.0f), QVector3D up=QVector3D(0.0f, 1.0f, 0.0f))</div><div class="ttdoc">构造函数1（通过QVector构造，含默认位置参数）</div><div class="ttdef"><b>Definition:</b> viewer.hpp:56</div></div>
+<div class="ttc" id="aclass_viewer_html_a5365fb8398b776a6e43faf6f9bc2a956"><div class="ttname"><a href="class_viewer.html#a5365fb8398b776a6e43faf6f9bc2a956">Viewer::m_View</a></div><div class="ttdeci">QMatrix4x4 m_View</div><div class="ttdoc">用于实现旋转视角的矩阵之一</div><div class="ttdef"><b>Definition:</b> viewer.hpp:159</div></div>
+<div class="ttc" id="aclass_viewer_html_a612743e3540f6a814cb9fa89d33bba42"><div class="ttname"><a href="class_viewer.html#a612743e3540f6a814cb9fa89d33bba42">Viewer::getViewMatrix</a></div><div class="ttdeci">QMatrix4x4 getViewMatrix() const</div><div class="ttdoc">获取当前m_View矩阵</div><div class="ttdef"><b>Definition:</b> viewer.hpp:106</div></div>
+<div class="ttc" id="aclass_viewer_html_a83b28a388bb264c4018b203beec13eda"><div class="ttname"><a href="class_viewer.html#a83b28a388bb264c4018b203beec13eda">Viewer::m_Plane_Rot</a></div><div class="ttdeci">QMatrix4x4 m_Plane_Rot</div><div class="ttdoc">用于记录自初始位置起(初始化或重置之后)，共进行了那些旋转的矩阵</div><div class="ttdef"><b>Definition:</b> viewer.hpp:160</div></div>
+<div class="ttc" id="aclass_viewer_html_a874cc61be166393d1b1080682f0c32d6"><div class="ttname"><a href="class_viewer.html#a874cc61be166393d1b1080682f0c32d6">Viewer::ScreenToPlane</a></div><div class="ttdeci">QVector3D ScreenToPlane(const QVector3D &amp;atScreen) const</div><div class="ttdef"><b>Definition:</b> viewer.hpp:120</div></div>
+<div class="ttc" id="aclass_viewer_html_a8d45ecd5cd281c33770951b8bdd32d21"><div class="ttname"><a href="class_viewer.html#a8d45ecd5cd281c33770951b8bdd32d21">Viewer::updateViewerVectors</a></div><div class="ttdeci">void updateViewerVectors()</div><div class="ttdoc">缩放倍率，当缩放时调整倍率，移动旋转时根据此倍率调整灵敏度</div><div class="ttdef"><b>Definition:</b> viewer.hpp:166</div></div>
+<div class="ttc" id="aclass_viewer_html_a97325fd7926234b5aeb018ad64d81a41"><div class="ttname"><a href="class_viewer.html#a97325fd7926234b5aeb018ad64d81a41">Viewer::m_Position</a></div><div class="ttdeci">QVector3D m_Position</div><div class="ttdoc">屏幕坐标系下Viewer的位置向量</div><div class="ttdef"><b>Definition:</b> viewer.hpp:153</div></div>
+<div class="ttc" id="aclass_viewer_html_aa93fe0fc08c370a53549dcfb375839c5"><div class="ttname"><a href="class_viewer.html#aa93fe0fc08c370a53549dcfb375839c5">Viewer::transXYView</a></div><div class="ttdeci">void transXYView(float xoffset, float yoffset, float sensitivity=0.005f)</div><div class="ttdoc">沿着m_Up和m_Right方向移动视角</div><div class="ttdef"><b>Definition:</b> viewer.hpp:137</div></div>
+<div class="ttc" id="aclass_viewer_html_ab77d97200763d9e253baa3790aead0a6"><div class="ttname"><a href="class_viewer.html#ab77d97200763d9e253baa3790aead0a6">Viewer::m_Temp_View_Rot</a></div><div class="ttdeci">QMatrix4x4 m_Temp_View_Rot</div><div class="ttdoc">用于实现旋转视角的矩阵之一</div><div class="ttdef"><b>Definition:</b> viewer.hpp:158</div></div>
+<div class="ttc" id="aclass_viewer_html_ab81fe3dbbfb3c5d851fb7e878ee5e830"><div class="ttname"><a href="class_viewer.html#ab81fe3dbbfb3c5d851fb7e878ee5e830">Viewer::m_World_Up</a></div><div class="ttdeci">QVector3D m_World_Up</div><div class="ttdoc">屏幕坐标系下Viewer的上向向量(此程序中用到的m_World_Up，可以完全替换为m_Up）</div><div class="ttdef"><b>Definition:</b> viewer.hpp:157</div></div>
+<div class="ttc" id="aclass_viewer_html_add20ace46ac9a0c6ec37ba561c4ec135"><div class="ttname"><a href="class_viewer.html#add20ace46ac9a0c6ec37ba561c4ec135">Viewer::getUP</a></div><div class="ttdeci">QVector3D getUP()</div><div class="ttdoc">获取UPVector</div><div class="ttdef"><b>Definition:</b> viewer.hpp:94</div></div>
+<div class="ttc" id="aclass_viewer_html_ae1ffb20ca34bff77fc04aaa8ab1652b8"><div class="ttname"><a href="class_viewer.html#ae1ffb20ca34bff77fc04aaa8ab1652b8">Viewer::m_Right</a></div><div class="ttdeci">QVector3D m_Right</div><div class="ttdoc">屏幕坐标系下Viewer的右向向量</div><div class="ttdef"><b>Definition:</b> viewer.hpp:156</div></div>
+<div class="ttc" id="aclass_viewer_html_af38fb5712d7970062cfcda6655704810"><div class="ttname"><a href="class_viewer.html#af38fb5712d7970062cfcda6655704810">Viewer::resetView</a></div><div class="ttdeci">void resetView(QVector3D position=QVector3D(0.0f, 0.0f, 10.0f), QVector3D front=QVector3D(0.0f, 0.0f, -1.0f), QVector3D up=QVector3D(0.0f, 1.0f, 0.0f))</div><div class="ttdoc">修改视角初始位置方式1（通过QVector，含默认位置参数）</div><div class="ttdef"><b>Definition:</b> viewer.hpp:67</div></div>
+<div class="ttc" id="aclass_viewer_html_af7b762b0b8c0bdc812e58c91ec72031c"><div class="ttname"><a href="class_viewer.html#af7b762b0b8c0bdc812e58c91ec72031c">Viewer::transZView</a></div><div class="ttdeci">void transZView(float zoffset, float speed=0.05f)</div><div class="ttdoc">沿着m_Front方向移动视角，实际功能为缩放</div><div class="ttdef"><b>Definition:</b> viewer.hpp:145</div></div>
+<div class="ttc" id="autil_8hpp_html"><div class="ttname"><a href="util_8hpp.html">util.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_038d7fc0aa58c8ee675df0cb4befd1bf.html">QT_GL_Workspace</a></li><li class="navelem"><a class="el" href="dir_365f36bfb38dd99a6c1fec73b30715a7.html">bs</a></li><li class="navelem"><a class="el" href="dir_d064e010914cc808985905912a23f409.html">VAMS</a></li><li class="navelem"><a class="el" href="viewer_8hpp.html">viewer.hpp</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

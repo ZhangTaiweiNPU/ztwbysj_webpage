@@ -1,0 +1,5 @@
+<map id="Model" name="Model">
+<area shape="rect" id="node1" title="类：Model(部件)" alt="" coords="53,95,110,121"/>
+<area shape="rect" id="node2" href="$struct_model_i_d.html" title="结构体：ModelID（模型ID）" alt="" coords="5,5,75,32"/>
+<area shape="rect" id="node3" href="$class_part.html" title="类：Part（分组）" alt="" coords="99,5,146,32"/>
+</map>

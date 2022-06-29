@@ -1,0 +1,2169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VAMS: ModelTree类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VAMS
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_model_tree.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="class_model_tree-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">ModelTree类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>类：型树类  
+ <a href="class_model_tree.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="modeltree_8h_source.html">modeltree.h</a>&gt;</code></p>
+<div class="dynheader">
+类 ModelTree 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_model_tree__inherit__graph.png" border="0" usemap="#a_model_tree_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_model_tree_inherit__map" id="a_model_tree_inherit__map">
+<area shape="rect" title="类：型树类" alt="" coords="13,80,96,107"/>
+<area shape="rect" title=" " alt="" coords="5,5,104,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+ModelTree 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_model_tree__coll__graph.png" border="0" usemap="#a_model_tree_coll__map" alt="Collaboration graph"/></div>
+<map name="a_model_tree_coll__map" id="a_model_tree_coll__map">
+<area shape="rect" title="类：型树类" alt="" coords="291,288,373,315"/>
+<area shape="rect" title=" " alt="" coords="5,197,104,224"/>
+<area shape="rect" href="class_model.html" title="类：Model(部件)" alt="" coords="209,95,266,121"/>
+<area shape="rect" href="classengineer.html" title="类：engineer（新建模型）" alt="" coords="335,197,406,224"/>
+<area shape="rect" href="struct_model_i_d.html" title="结构体：ModelID（模型ID）" alt="" coords="219,5,288,32"/>
+<area shape="rect" href="class_part.html" title="类：Part（分组）" alt="" coords="133,5,179,32"/>
+<area shape="rect" title=" " alt="" coords="296,95,403,121"/>
+<area shape="rect" href="class_material_list.html" title="类：MaterialList（材质列表）" alt="" coords="427,95,517,121"/>
+<area shape="rect" href="class_item___information.html" title="类：Item_Information（查案选中项信息）" alt="" coords="497,197,615,224"/>
+<area shape="rect" title=" " alt="" coords="543,5,617,32"/>
+<area shape="rect" href="class_justifier.html" title="类：Justifier（模型修改）" alt="" coords="628,145,695,172"/>
+<area shape="rect" href="classshoot__point.html" title="类：shoot_point设置瞄准中心" alt="" coords="423,145,513,172"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:a5137cbcec73cce95c9317908050ea288"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a5137cbcec73cce95c9317908050ea288">AddMenuSection</a> ()</td></tr>
+<tr class="memdesc:a5137cbcec73cce95c9317908050ea288"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单添加Part信号  <a href="class_model_tree.html#a5137cbcec73cce95c9317908050ea288">更多...</a><br /></td></tr>
+<tr class="separator:a5137cbcec73cce95c9317908050ea288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb6feaa0d457015068c371c1db0e446b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#afb6feaa0d457015068c371c1db0e446b">AddMenuModel</a> ()</td></tr>
+<tr class="memdesc:afb6feaa0d457015068c371c1db0e446b"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单新建几何体模型信号  <a href="class_model_tree.html#afb6feaa0d457015068c371c1db0e446b">更多...</a><br /></td></tr>
+<tr class="separator:afb6feaa0d457015068c371c1db0e446b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add65f843f7c382e65916f762e2ebdbfe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#add65f843f7c382e65916f762e2ebdbfe">AddMenuSurface</a> ()</td></tr>
+<tr class="memdesc:add65f843f7c382e65916f762e2ebdbfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单新建几何面信号  <a href="class_model_tree.html#add65f843f7c382e65916f762e2ebdbfe">更多...</a><br /></td></tr>
+<tr class="separator:add65f843f7c382e65916f762e2ebdbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a3c51b0b3f46b6f52c3400493cf8893"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a7a3c51b0b3f46b6f52c3400493cf8893">AddMenuImport</a> ()</td></tr>
+<tr class="memdesc:a7a3c51b0b3f46b6f52c3400493cf8893"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单从文件导入模型信号  <a href="class_model_tree.html#a7a3c51b0b3f46b6f52c3400493cf8893">更多...</a><br /></td></tr>
+<tr class="separator:a7a3c51b0b3f46b6f52c3400493cf8893"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca7b785aa4aad80500c045327e80966"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a4ca7b785aa4aad80500c045327e80966">Justif_Model</a> ()</td></tr>
+<tr class="memdesc:a4ca7b785aa4aad80500c045327e80966"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单调整模型信号  <a href="class_model_tree.html#a4ca7b785aa4aad80500c045327e80966">更多...</a><br /></td></tr>
+<tr class="separator:a4ca7b785aa4aad80500c045327e80966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b720497c386d192d61a6be73fde4e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a24b720497c386d192d61a6be73fde4e0">DelMenuObj</a> ()</td></tr>
+<tr class="memdesc:a24b720497c386d192d61a6be73fde4e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单删除模型信号  <a href="class_model_tree.html#a24b720497c386d192d61a6be73fde4e0">更多...</a><br /></td></tr>
+<tr class="separator:a24b720497c386d192d61a6be73fde4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34d8d383682f0be5c4d40730f98f7abf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a34d8d383682f0be5c4d40730f98f7abf">CheckModel</a> ()</td></tr>
+<tr class="memdesc:a34d8d383682f0be5c4d40730f98f7abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单查看信息信号  <a href="class_model_tree.html#a34d8d383682f0be5c4d40730f98f7abf">更多...</a><br /></td></tr>
+<tr class="separator:a34d8d383682f0be5c4d40730f98f7abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bce9de18be01dde5698c52b4b2b3b5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a5bce9de18be01dde5698c52b4b2b3b5a">RenameObj</a> ()</td></tr>
+<tr class="memdesc:a5bce9de18be01dde5698c52b4b2b3b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单重命名信号  <a href="class_model_tree.html#a5bce9de18be01dde5698c52b4b2b3b5a">更多...</a><br /></td></tr>
+<tr class="separator:a5bce9de18be01dde5698c52b4b2b3b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af703c486d2c1c0cc693483d1c697b379"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#af703c486d2c1c0cc693483d1c697b379">Copy</a> ()</td></tr>
+<tr class="memdesc:af703c486d2c1c0cc693483d1c697b379"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单复制信号  <a href="class_model_tree.html#af703c486d2c1c0cc693483d1c697b379">更多...</a><br /></td></tr>
+<tr class="separator:af703c486d2c1c0cc693483d1c697b379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1604f48978f2060cd65cb7baf3fff2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a8d1604f48978f2060cd65cb7baf3fff2">Move</a> ()</td></tr>
+<tr class="memdesc:a8d1604f48978f2060cd65cb7baf3fff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单剪切信号  <a href="class_model_tree.html#a8d1604f48978f2060cd65cb7baf3fff2">更多...</a><br /></td></tr>
+<tr class="separator:a8d1604f48978f2060cd65cb7baf3fff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f0f2e480691ddfd5c86a96a523725f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a4f0f2e480691ddfd5c86a96a523725f9">ToSection</a> ()</td></tr>
+<tr class="memdesc:a4f0f2e480691ddfd5c86a96a523725f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单粘贴信号  <a href="class_model_tree.html#a4f0f2e480691ddfd5c86a96a523725f9">更多...</a><br /></td></tr>
+<tr class="separator:a4f0f2e480691ddfd5c86a96a523725f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aad6752291cc62653ce813ea6232528"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a8aad6752291cc62653ce813ea6232528">onSetLebelText</a> (QTreeWidgetItem *item, int x)</td></tr>
+<tr class="memdesc:a8aad6752291cc62653ce813ea6232528"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收选中的TreeWidget项的信号  <a href="class_model_tree.html#a8aad6752291cc62653ce813ea6232528">更多...</a><br /></td></tr>
+<tr class="separator:a8aad6752291cc62653ce813ea6232528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386c408831e08ecd17cb5b31ed30d573"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a386c408831e08ecd17cb5b31ed30d573">changeInfo</a> (unsigned int id, int thickness, bool mp)</td></tr>
+<tr class="memdesc:a386c408831e08ecd17cb5b31ed30d573"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收Item_Information控件发来的修改信息信号  <a href="class_model_tree.html#a386c408831e08ecd17cb5b31ed30d573">更多...</a><br /></td></tr>
+<tr class="separator:a386c408831e08ecd17cb5b31ed30d573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc9b78ef56197c001c9c6bcd0373e66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a9bc9b78ef56197c001c9c6bcd0373e66">setShootPoint</a> (float x, float y, float z)</td></tr>
+<tr class="memdesc:a9bc9b78ef56197c001c9c6bcd0373e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收shoot_point设置瞄准中西信号  <a href="class_model_tree.html#a9bc9b78ef56197c001c9c6bcd0373e66">更多...</a><br /></td></tr>
+<tr class="separator:a9bc9b78ef56197c001c9c6bcd0373e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31323397d5f5b2b47263570ffad2fe62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a31323397d5f5b2b47263570ffad2fe62">moveDistance</a> (QVector3D D)</td></tr>
+<tr class="memdesc:a31323397d5f5b2b47263570ffad2fe62"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收justifier信号移动一段距离  <a href="class_model_tree.html#a31323397d5f5b2b47263570ffad2fe62">更多...</a><br /></td></tr>
+<tr class="separator:a31323397d5f5b2b47263570ffad2fe62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b960f383212bc44dfcbc20e77b09f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a81b960f383212bc44dfcbc20e77b09f7">rotateIntX</a> (int iax)</td></tr>
+<tr class="memdesc:a81b960f383212bc44dfcbc20e77b09f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收justifier信号绕X轴旋转一定角度  <a href="class_model_tree.html#a81b960f383212bc44dfcbc20e77b09f7">更多...</a><br /></td></tr>
+<tr class="separator:a81b960f383212bc44dfcbc20e77b09f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe560b25ebe8d5f5da587e21b8c500ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#abe560b25ebe8d5f5da587e21b8c500ae">rotateIntY</a> (int iay)</td></tr>
+<tr class="memdesc:abe560b25ebe8d5f5da587e21b8c500ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收justifier信号绕Y轴旋转一定角度  <a href="class_model_tree.html#abe560b25ebe8d5f5da587e21b8c500ae">更多...</a><br /></td></tr>
+<tr class="separator:abe560b25ebe8d5f5da587e21b8c500ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637f9124f505b279075c0ac26165b0e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a637f9124f505b279075c0ac26165b0e2">rotateIntZ</a> (int iaz)</td></tr>
+<tr class="memdesc:a637f9124f505b279075c0ac26165b0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收justifier信号绕Z轴旋转一定角度  <a href="class_model_tree.html#a637f9124f505b279075c0ac26165b0e2">更多...</a><br /></td></tr>
+<tr class="separator:a637f9124f505b279075c0ac26165b0e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acccc8efcb80b7cdafbbf6d404f8778c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#acccc8efcb80b7cdafbbf6d404f8778c2">rotateFloatAngle</a> (QVector3D axis, float fa)</td></tr>
+<tr class="memdesc:acccc8efcb80b7cdafbbf6d404f8778c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收justifier信号绕指定轴axis旋转fa角度  <a href="class_model_tree.html#acccc8efcb80b7cdafbbf6d404f8778c2">更多...</a><br /></td></tr>
+<tr class="separator:acccc8efcb80b7cdafbbf6d404f8778c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f174a756774d0816c0963e540103079"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a8f174a756774d0816c0963e540103079">zoomAll</a> (float zoomTimes)</td></tr>
+<tr class="memdesc:a8f174a756774d0816c0963e540103079"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收justifier信号各方向缩放同一倍率  <a href="class_model_tree.html#a8f174a756774d0816c0963e540103079">更多...</a><br /></td></tr>
+<tr class="separator:a8f174a756774d0816c0963e540103079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf7cc1ca8603438b6a264d2a7d38d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#adbf7cc1ca8603438b6a264d2a7d38d1a">zoomModelXYZ</a> (float zoomTimesX, float zoomTimesY, float zoomTimesZ)</td></tr>
+<tr class="memdesc:adbf7cc1ca8603438b6a264d2a7d38d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收justifier信号xyz方向分别缩放不同倍率  <a href="class_model_tree.html#adbf7cc1ca8603438b6a264d2a7d38d1a">更多...</a><br /></td></tr>
+<tr class="separator:adbf7cc1ca8603438b6a264d2a7d38d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f6a5338bb15299e1757d057da3c2778"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a9f6a5338bb15299e1757d057da3c2778">initLimit</a> ()</td></tr>
+<tr class="memdesc:a9f6a5338bb15299e1757d057da3c2778"><td class="mdescLeft">&#160;</td><td class="mdescRight">重新计算选中部件或分组的范围  <a href="class_model_tree.html#a9f6a5338bb15299e1757d057da3c2778">更多...</a><br /></td></tr>
+<tr class="separator:a9f6a5338bb15299e1757d057da3c2778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a58336ab31a6a977923a149b67d95bea1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a58336ab31a6a977923a149b67d95bea1">ModelTree</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a58336ab31a6a977923a149b67d95bea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">构造函数  <a href="class_model_tree.html#a58336ab31a6a977923a149b67d95bea1">更多...</a><br /></td></tr>
+<tr class="separator:a58336ab31a6a977923a149b67d95bea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296bee60a946627efe54807740bcd8d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a296bee60a946627efe54807740bcd8d1">~ModelTree</a> ()</td></tr>
+<tr class="memdesc:a296bee60a946627efe54807740bcd8d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">析构函数  <a href="class_model_tree.html#a296bee60a946627efe54807740bcd8d1">更多...</a><br /></td></tr>
+<tr class="separator:a296bee60a946627efe54807740bcd8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2981e76438d396931650d0150b0dca05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a2981e76438d396931650d0150b0dca05">initialtree</a> (QOpenGLContext *<a class="el" href="class_model_tree.html#a90968c8bf43e4c5e9b1cdd2c04063315">context</a>, QOpenGLShaderProgram *<a class="el" href="class_model_tree.html#a2005fb2e6267230ada5d4bf5602a6271">shaderProgram</a>)</td></tr>
+<tr class="memdesc:a2981e76438d396931650d0150b0dca05"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化ModelTree（实际上被上级MainWindow调用，传过来ModelTree需要的两个参数）  <a href="class_model_tree.html#a2981e76438d396931650d0150b0dca05">更多...</a><br /></td></tr>
+<tr class="separator:a2981e76438d396931650d0150b0dca05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c310893c6b83f893726c5fcb8f31854"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a2c310893c6b83f893726c5fcb8f31854">CreateModelMenu</a> ()</td></tr>
+<tr class="memdesc:a2c310893c6b83f893726c5fcb8f31854"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单创建  <a href="class_model_tree.html#a2c310893c6b83f893726c5fcb8f31854">更多...</a><br /></td></tr>
+<tr class="separator:a2c310893c6b83f893726c5fcb8f31854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1116c0b23ce9730270ab9cb60496a7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#ab1116c0b23ce9730270ab9cb60496a7c">Import</a> ()</td></tr>
+<tr class="memdesc:ab1116c0b23ce9730270ab9cb60496a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单从文件导入模型（用户指定路径）  <a href="class_model_tree.html#ab1116c0b23ce9730270ab9cb60496a7c">更多...</a><br /></td></tr>
+<tr class="separator:ab1116c0b23ce9730270ab9cb60496a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d92075133f9cdf624153e03c4400708"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a0d92075133f9cdf624153e03c4400708">UpdateExportInfo</a> ()</td></tr>
+<tr class="memdesc:a0d92075133f9cdf624153e03c4400708"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单导出为文件之前进行的数据准备  <a href="class_model_tree.html#a0d92075133f9cdf624153e03c4400708">更多...</a><br /></td></tr>
+<tr class="separator:a0d92075133f9cdf624153e03c4400708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b3ad0a3490ac493b7bed833466cd0ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a9b3ad0a3490ac493b7bed833466cd0ee">Open</a> ()</td></tr>
+<tr class="memdesc:a9b3ad0a3490ac493b7bed833466cd0ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单打开项目（用户指定路径）  <a href="class_model_tree.html#a9b3ad0a3490ac493b7bed833466cd0ee">更多...</a><br /></td></tr>
+<tr class="separator:a9b3ad0a3490ac493b7bed833466cd0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc66e780c7cdf30bdf6bd771d8e9166"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#addc66e780c7cdf30bdf6bd771d8e9166">Export</a> (bool version)</td></tr>
+<tr class="memdesc:addc66e780c7cdf30bdf6bd771d8e9166"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单导出为文件  <a href="class_model_tree.html#addc66e780c7cdf30bdf6bd771d8e9166">更多...</a><br /></td></tr>
+<tr class="separator:addc66e780c7cdf30bdf6bd771d8e9166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74e3733ec59e689df69abc47c8971031"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a74e3733ec59e689df69abc47c8971031">Save</a> ()</td></tr>
+<tr class="memdesc:a74e3733ec59e689df69abc47c8971031"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单保存项目  <a href="class_model_tree.html#a74e3733ec59e689df69abc47c8971031">更多...</a><br /></td></tr>
+<tr class="separator:a74e3733ec59e689df69abc47c8971031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31111fcc20b7932ecd1ade3d9a56aed4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a31111fcc20b7932ecd1ade3d9a56aed4">DelSeledObj</a> ()</td></tr>
+<tr class="memdesc:a31111fcc20b7932ecd1ade3d9a56aed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单删除选中的模型  <a href="class_model_tree.html#a31111fcc20b7932ecd1ade3d9a56aed4">更多...</a><br /></td></tr>
+<tr class="separator:a31111fcc20b7932ecd1ade3d9a56aed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36deb03286839c564f3708187353d08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#ae36deb03286839c564f3708187353d08">reNew</a> ()</td></tr>
+<tr class="memdesc:ae36deb03286839c564f3708187353d08"><td class="mdescLeft">&#160;</td><td class="mdescRight">清空项目  <a href="class_model_tree.html#ae36deb03286839c564f3708187353d08">更多...</a><br /></td></tr>
+<tr class="separator:ae36deb03286839c564f3708187353d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53fbf2d3e30ef3286f4c56f2c29ec817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a53fbf2d3e30ef3286f4c56f2c29ec817">loadDemo</a> (QString str)</td></tr>
+<tr class="memdesc:a53fbf2d3e30ef3286f4c56f2c29ec817"><td class="mdescLeft">&#160;</td><td class="mdescRight">从路径加载项目  <a href="class_model_tree.html#a53fbf2d3e30ef3286f4c56f2c29ec817">更多...</a><br /></td></tr>
+<tr class="separator:a53fbf2d3e30ef3286f4c56f2c29ec817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89db139dd99348b194e7808f9d7a44d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a89db139dd99348b194e7808f9d7a44d0">loadModel</a> (QString str)</td></tr>
+<tr class="memdesc:a89db139dd99348b194e7808f9d7a44d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键从指定路径倒入模型  <a href="class_model_tree.html#a89db139dd99348b194e7808f9d7a44d0">更多...</a><br /></td></tr>
+<tr class="separator:a89db139dd99348b194e7808f9d7a44d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90bbd90b8d0dd1dfdd04560f17c3b13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#aa90bbd90b8d0dd1dfdd04560f17c3b13">setSelectNum</a> (bool n)</td></tr>
+<tr class="memdesc:aa90bbd90b8d0dd1dfdd04560f17c3b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置单选/多选  <a href="class_model_tree.html#aa90bbd90b8d0dd1dfdd04560f17c3b13">更多...</a><br /></td></tr>
+<tr class="separator:aa90bbd90b8d0dd1dfdd04560f17c3b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab90778fea736a12bf0519e45ad8540df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#ab90778fea736a12bf0519e45ad8540df">draw</a> ()</td></tr>
+<tr class="memdesc:ab90778fea736a12bf0519e45ad8540df"><td class="mdescLeft">&#160;</td><td class="mdescRight">绘制ModelTree的所有Part中的所有Model  <a href="class_model_tree.html#ab90778fea736a12bf0519e45ad8540df">更多...</a><br /></td></tr>
+<tr class="separator:ab90778fea736a12bf0519e45ad8540df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fa45f421b075fc80ea16a6d27c4d07d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a2fa45f421b075fc80ea16a6d27c4d07d">recalculateMm</a> ()</td></tr>
+<tr class="memdesc:a2fa45f421b075fc80ea16a6d27c4d07d"><td class="mdescLeft">&#160;</td><td class="mdescRight">重新计算刚刚修改（选中）的模型的xyz范围  <a href="class_model_tree.html#a2fa45f421b075fc80ea16a6d27c4d07d">更多...</a><br /></td></tr>
+<tr class="separator:a2fa45f421b075fc80ea16a6d27c4d07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c2f07a8f8d4bf44f73a7783ad10448"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#ae0c2f07a8f8d4bf44f73a7783ad10448">rotateModelMtx</a> (QMatrix4x4 &amp;mtx)</td></tr>
+<tr class="memdesc:ae0c2f07a8f8d4bf44f73a7783ad10448"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收旋转变换矩阵，用于旋转  <a href="class_model_tree.html#ae0c2f07a8f8d4bf44f73a7783ad10448">更多...</a><br /></td></tr>
+<tr class="separator:ae0c2f07a8f8d4bf44f73a7783ad10448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1de38ad49c4a00072d86f42b0dbf7d8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a1de38ad49c4a00072d86f42b0dbf7d8d">zoomModel</a> (float zoomTimes)</td></tr>
+<tr class="memdesc:a1de38ad49c4a00072d86f42b0dbf7d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">缩放模型  <a href="class_model_tree.html#a1de38ad49c4a00072d86f42b0dbf7d8d">更多...</a><br /></td></tr>
+<tr class="separator:a1de38ad49c4a00072d86f42b0dbf7d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a762b7527ec7912e912a1da22349b2e47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a762b7527ec7912e912a1da22349b2e47">printpartsinfo</a> ()</td></tr>
+<tr class="memdesc:a762b7527ec7912e912a1da22349b2e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">测试用函数，输出ModelTree中所有Part的信息  <a href="class_model_tree.html#a762b7527ec7912e912a1da22349b2e47">更多...</a><br /></td></tr>
+<tr class="separator:a762b7527ec7912e912a1da22349b2e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a60cbe437d5efcdedf6efa4496a5e3a58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_model.html">Model</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a60cbe437d5efcdedf6efa4496a5e3a58">singleSelMdl</a></td></tr>
+<tr class="memdesc:a60cbe437d5efcdedf6efa4496a5e3a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">记录单选选中的Model  <a href="class_model_tree.html#a60cbe437d5efcdedf6efa4496a5e3a58">更多...</a><br /></td></tr>
+<tr class="separator:a60cbe437d5efcdedf6efa4496a5e3a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf6272216a60b9009d28bd7f7adc5fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_part.html">Part</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#adbf6272216a60b9009d28bd7f7adc5fa">singleSelPrt</a></td></tr>
+<tr class="memdesc:adbf6272216a60b9009d28bd7f7adc5fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">记录单选选中的Part  <a href="class_model_tree.html#adbf6272216a60b9009d28bd7f7adc5fa">更多...</a><br /></td></tr>
+<tr class="separator:adbf6272216a60b9009d28bd7f7adc5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab505c29d0b35f147c28f582f8cab244"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="class_model.html">Model</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#aab505c29d0b35f147c28f582f8cab244">selMdls</a></td></tr>
+<tr class="memdesc:aab505c29d0b35f147c28f582f8cab244"><td class="mdescLeft">&#160;</td><td class="mdescRight">记录多选选中的Model  <a href="class_model_tree.html#aab505c29d0b35f147c28f582f8cab244">更多...</a><br /></td></tr>
+<tr class="separator:aab505c29d0b35f147c28f582f8cab244"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8463fc84b07484b2bb3a0f0f75549df6"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="class_part.html">Part</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a8463fc84b07484b2bb3a0f0f75549df6">selPrt</a></td></tr>
+<tr class="memdesc:a8463fc84b07484b2bb3a0f0f75549df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">记录多选选中的Part  <a href="class_model_tree.html#a8463fc84b07484b2bb3a0f0f75549df6">更多...</a><br /></td></tr>
+<tr class="separator:a8463fc84b07484b2bb3a0f0f75549df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390809eb4da25f507aba7b1dd03b75ba"><td class="memItemLeft" align="right" valign="top">QVector&lt; QTreeWidgetItem * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a390809eb4da25f507aba7b1dd03b75ba">seledobj</a></td></tr>
+<tr class="memdesc:a390809eb4da25f507aba7b1dd03b75ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">记录多选选中的Model对应的TreeWidget项  <a href="class_model_tree.html#a390809eb4da25f507aba7b1dd03b75ba">更多...</a><br /></td></tr>
+<tr class="separator:a390809eb4da25f507aba7b1dd03b75ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a635ed9b26d7d6f37dd9244f184bcf3fd"><td class="memItemLeft" align="right" valign="top">QVector&lt; QTreeWidgetItem * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a635ed9b26d7d6f37dd9244f184bcf3fd">seledprt</a></td></tr>
+<tr class="memdesc:a635ed9b26d7d6f37dd9244f184bcf3fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">记录多选选中的Part对应的TreeWidget项  <a href="class_model_tree.html#a635ed9b26d7d6f37dd9244f184bcf3fd">更多...</a><br /></td></tr>
+<tr class="separator:a635ed9b26d7d6f37dd9244f184bcf3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7157b56a12bd3de6dbd7be39f4d8befc"><td class="memItemLeft" align="right" valign="top">QTreeWidgetItem *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a7157b56a12bd3de6dbd7be39f4d8befc">singleseledobj</a></td></tr>
+<tr class="memdesc:a7157b56a12bd3de6dbd7be39f4d8befc"><td class="mdescLeft">&#160;</td><td class="mdescRight">记录单选选中的项目对应的TreeWidget项  <a href="class_model_tree.html#a7157b56a12bd3de6dbd7be39f4d8befc">更多...</a><br /></td></tr>
+<tr class="separator:a7157b56a12bd3de6dbd7be39f4d8befc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f89ff8d478414121c79341d0ce6cebe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a0f89ff8d478414121c79341d0ce6cebe">selectnum</a> = 0</td></tr>
+<tr class="memdesc:a0f89ff8d478414121c79341d0ce6cebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">模型选择数目，0单选1多选  <a href="class_model_tree.html#a0f89ff8d478414121c79341d0ce6cebe">更多...</a><br /></td></tr>
+<tr class="separator:a0f89ff8d478414121c79341d0ce6cebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5b61fa6970c7a706bef148637200b7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_model.html">Model</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#ad5b61fa6970c7a706bef148637200b7d">copyModel</a></td></tr>
+<tr class="memdesc:ad5b61fa6970c7a706bef148637200b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">复制剪切时临时存放Model对象  <a href="class_model_tree.html#ad5b61fa6970c7a706bef148637200b7d">更多...</a><br /></td></tr>
+<tr class="separator:ad5b61fa6970c7a706bef148637200b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ef5a4d4b01e9fa1e90a7e2cb06f250"><td class="memItemLeft" align="right" valign="top">QVector3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a41ef5a4d4b01e9fa1e90a7e2cb06f250">shootPoint</a> = QVector3D(0,0,0)</td></tr>
+<tr class="memdesc:a41ef5a4d4b01e9fa1e90a7e2cb06f250"><td class="mdescLeft">&#160;</td><td class="mdescRight">整个模型（ModelTree）的瞄准中心  <a href="class_model_tree.html#a41ef5a4d4b01e9fa1e90a7e2cb06f250">更多...</a><br /></td></tr>
+<tr class="separator:a41ef5a4d4b01e9fa1e90a7e2cb06f250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a987d5b600351187131efb8bddad78300"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classengineer.html">engineer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a987d5b600351187131efb8bddad78300">engineer_window</a></td></tr>
+<tr class="memdesc:a987d5b600351187131efb8bddad78300"><td class="mdescLeft">&#160;</td><td class="mdescRight">engineer窗口  <a href="class_model_tree.html#a987d5b600351187131efb8bddad78300">更多...</a><br /></td></tr>
+<tr class="separator:a987d5b600351187131efb8bddad78300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaab12b4c063c5cbac1618c5013407a80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_justifier.html">Justifier</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#aaab12b4c063c5cbac1618c5013407a80">justifier_window</a></td></tr>
+<tr class="memdesc:aaab12b4c063c5cbac1618c5013407a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">justifier窗口  <a href="class_model_tree.html#aaab12b4c063c5cbac1618c5013407a80">更多...</a><br /></td></tr>
+<tr class="separator:aaab12b4c063c5cbac1618c5013407a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f2960e441b30f0fe497919203704c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_item___information.html">Item_Information</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a57f2960e441b30f0fe497919203704c4">II</a></td></tr>
+<tr class="memdesc:a57f2960e441b30f0fe497919203704c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Item_Information窗口  <a href="class_model_tree.html#a57f2960e441b30f0fe497919203704c4">更多...</a><br /></td></tr>
+<tr class="separator:a57f2960e441b30f0fe497919203704c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a949245f677f8d39467d2f4317695dd64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classshoot__point.html">shoot_point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a949245f677f8d39467d2f4317695dd64">sp</a></td></tr>
+<tr class="memdesc:a949245f677f8d39467d2f4317695dd64"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置瞄准中心窗口  <a href="class_model_tree.html#a949245f677f8d39467d2f4317695dd64">更多...</a><br /></td></tr>
+<tr class="separator:a949245f677f8d39467d2f4317695dd64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:ae4d23b10b61e12a243c77a6f45a33e66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#ae4d23b10b61e12a243c77a6f45a33e66">contextMenuEvent</a> (QContextMenuEvent *event)</td></tr>
+<tr class="memdesc:ae4d23b10b61e12a243c77a6f45a33e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">选中TreeWidget控件中的项的事件监控  <a href="class_model_tree.html#ae4d23b10b61e12a243c77a6f45a33e66">更多...</a><br /></td></tr>
+<tr class="separator:ae4d23b10b61e12a243c77a6f45a33e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:a90968c8bf43e4c5e9b1cdd2c04063315"><td class="memItemLeft" align="right" valign="top">QOpenGLContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a90968c8bf43e4c5e9b1cdd2c04063315">context</a></td></tr>
+<tr class="memdesc:a90968c8bf43e4c5e9b1cdd2c04063315"><td class="mdescLeft">&#160;</td><td class="mdescRight">opengl函数入口  <a href="class_model_tree.html#a90968c8bf43e4c5e9b1cdd2c04063315">更多...</a><br /></td></tr>
+<tr class="separator:a90968c8bf43e4c5e9b1cdd2c04063315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2005fb2e6267230ada5d4bf5602a6271"><td class="memItemLeft" align="right" valign="top">QOpenGLShaderProgram *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a2005fb2e6267230ada5d4bf5602a6271">shaderProgram</a></td></tr>
+<tr class="memdesc:a2005fb2e6267230ada5d4bf5602a6271"><td class="mdescLeft">&#160;</td><td class="mdescRight">着色器程序  <a href="class_model_tree.html#a2005fb2e6267230ada5d4bf5602a6271">更多...</a><br /></td></tr>
+<tr class="separator:a2005fb2e6267230ada5d4bf5602a6271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8741ae79b613bef981a0bf6b49b4e376"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a8741ae79b613bef981a0bf6b49b4e376">m_New_Menu</a></td></tr>
+<tr class="memdesc:a8741ae79b613bef981a0bf6b49b4e376"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单那  <a href="class_model_tree.html#a8741ae79b613bef981a0bf6b49b4e376">更多...</a><br /></td></tr>
+<tr class="separator:a8741ae79b613bef981a0bf6b49b4e376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f33035ab64fc722cd7e6a10c91f12d5"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a2f33035ab64fc722cd7e6a10c91f12d5">m_Add_Menu_Section</a></td></tr>
+<tr class="memdesc:a2f33035ab64fc722cd7e6a10c91f12d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单那新建分组  <a href="class_model_tree.html#a2f33035ab64fc722cd7e6a10c91f12d5">更多...</a><br /></td></tr>
+<tr class="separator:a2f33035ab64fc722cd7e6a10c91f12d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf070b6b1dfd8d99e1481af71e3d34f9"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#acf070b6b1dfd8d99e1481af71e3d34f9">m_Add_Menu_Model</a></td></tr>
+<tr class="memdesc:acf070b6b1dfd8d99e1481af71e3d34f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单那新建几何体  <a href="class_model_tree.html#acf070b6b1dfd8d99e1481af71e3d34f9">更多...</a><br /></td></tr>
+<tr class="separator:acf070b6b1dfd8d99e1481af71e3d34f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde97cb89c89e4f6ad76dafcd0d1bc53"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#adde97cb89c89e4f6ad76dafcd0d1bc53">m_Add_Menu_Surface</a></td></tr>
+<tr class="memdesc:adde97cb89c89e4f6ad76dafcd0d1bc53"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单那新建几何面  <a href="class_model_tree.html#adde97cb89c89e4f6ad76dafcd0d1bc53">更多...</a><br /></td></tr>
+<tr class="separator:adde97cb89c89e4f6ad76dafcd0d1bc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a658e9108dcf9d55b3cce7bd00397173e"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a658e9108dcf9d55b3cce7bd00397173e">m_Add_Menu_Import</a></td></tr>
+<tr class="memdesc:a658e9108dcf9d55b3cce7bd00397173e"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单从文件导入  <a href="class_model_tree.html#a658e9108dcf9d55b3cce7bd00397173e">更多...</a><br /></td></tr>
+<tr class="separator:a658e9108dcf9d55b3cce7bd00397173e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee5b41aa6bfa01c8ebdf97c8fdf05a9a"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#aee5b41aa6bfa01c8ebdf97c8fdf05a9a">m_Del_Menu_Obj</a></td></tr>
+<tr class="memdesc:aee5b41aa6bfa01c8ebdf97c8fdf05a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单删除  <a href="class_model_tree.html#aee5b41aa6bfa01c8ebdf97c8fdf05a9a">更多...</a><br /></td></tr>
+<tr class="separator:aee5b41aa6bfa01c8ebdf97c8fdf05a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9af58a964b77e5d89bf5e971d2cfef"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a7d9af58a964b77e5d89bf5e971d2cfef">m_Check_Model</a></td></tr>
+<tr class="memdesc:a7d9af58a964b77e5d89bf5e971d2cfef"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单查看信息  <a href="class_model_tree.html#a7d9af58a964b77e5d89bf5e971d2cfef">更多...</a><br /></td></tr>
+<tr class="separator:a7d9af58a964b77e5d89bf5e971d2cfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa997cff49522991c656f2aebc810a69b"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#aa997cff49522991c656f2aebc810a69b">m_Justify_Model</a></td></tr>
+<tr class="memdesc:aa997cff49522991c656f2aebc810a69b"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单调整部件  <a href="class_model_tree.html#aa997cff49522991c656f2aebc810a69b">更多...</a><br /></td></tr>
+<tr class="separator:aa997cff49522991c656f2aebc810a69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4bbc2caed0d83c17f33ee40594e620b"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#af4bbc2caed0d83c17f33ee40594e620b">m_Copy</a></td></tr>
+<tr class="memdesc:af4bbc2caed0d83c17f33ee40594e620b"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单复制  <a href="class_model_tree.html#af4bbc2caed0d83c17f33ee40594e620b">更多...</a><br /></td></tr>
+<tr class="separator:af4bbc2caed0d83c17f33ee40594e620b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c47df314b550bed63e32bb3ed3a373"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a05c47df314b550bed63e32bb3ed3a373">m_Move</a></td></tr>
+<tr class="memdesc:a05c47df314b550bed63e32bb3ed3a373"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单剪切  <a href="class_model_tree.html#a05c47df314b550bed63e32bb3ed3a373">更多...</a><br /></td></tr>
+<tr class="separator:a05c47df314b550bed63e32bb3ed3a373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b53b49cc85ef5db9942029cc930228"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a97b53b49cc85ef5db9942029cc930228">m_To_Section</a></td></tr>
+<tr class="memdesc:a97b53b49cc85ef5db9942029cc930228"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单黏贴  <a href="class_model_tree.html#a97b53b49cc85ef5db9942029cc930228">更多...</a><br /></td></tr>
+<tr class="separator:a97b53b49cc85ef5db9942029cc930228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ca08501bed64edede0586be945eb2ae"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a1ca08501bed64edede0586be945eb2ae">m_Rename_Obj</a></td></tr>
+<tr class="memdesc:a1ca08501bed64edede0586be945eb2ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">右键菜单重命名  <a href="class_model_tree.html#a1ca08501bed64edede0586be945eb2ae">更多...</a><br /></td></tr>
+<tr class="separator:a1ca08501bed64edede0586be945eb2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98376f81221c63a840b5a58e3b865a0a"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="class_part.html">Part</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a98376f81221c63a840b5a58e3b865a0a">parts</a></td></tr>
+<tr class="memdesc:a98376f81221c63a840b5a58e3b865a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">存储ModelTree下的各个Part的容器  <a href="class_model_tree.html#a98376f81221c63a840b5a58e3b865a0a">更多...</a><br /></td></tr>
+<tr class="separator:a98376f81221c63a840b5a58e3b865a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9e5b76c98905d6a2549eadf878f9a4"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a9e9e5b76c98905d6a2549eadf878f9a4">numofparts</a></td></tr>
+<tr class="memdesc:a9e9e5b76c98905d6a2549eadf878f9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">MOdelTree中的Part对象数目,添加Part时++，删除ModelPart时&ndash;  <a href="class_model_tree.html#a9e9e5b76c98905d6a2549eadf878f9a4">更多...</a><br /></td></tr>
+<tr class="separator:a9e9e5b76c98905d6a2549eadf878f9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f1d6245d0c49ebf583ca6540a843702"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a5f1d6245d0c49ebf583ca6540a843702">partID</a></td></tr>
+<tr class="memdesc:a5f1d6245d0c49ebf583ca6540a843702"><td class="mdescLeft">&#160;</td><td class="mdescRight">用于为新添加的Part对象赋予ID,仅在添加Part时++（为了方便后续redo、undo功能，虽然目前还没开发这两个功能）  <a href="class_model_tree.html#a5f1d6245d0c49ebf583ca6540a843702">更多...</a><br /></td></tr>
+<tr class="separator:a5f1d6245d0c49ebf583ca6540a843702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174fdcb8ad4da0f50f42e0a36bac0f90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a174fdcb8ad4da0f50f42e0a36bac0f90">modelNum</a> = 0</td></tr>
+<tr class="memdesc:a174fdcb8ad4da0f50f42e0a36bac0f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">所有Model数目  <a href="class_model_tree.html#a174fdcb8ad4da0f50f42e0a36bac0f90">更多...</a><br /></td></tr>
+<tr class="separator:a174fdcb8ad4da0f50f42e0a36bac0f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054289344d5627604866ac19e9212aac"><td class="memItemLeft" align="right" valign="top">long unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_tree.html#a054289344d5627604866ac19e9212aac">vertexNum</a> = 0</td></tr>
+<tr class="memdesc:a054289344d5627604866ac19e9212aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">所有Model的所有顶点数目  <a href="class_model_tree.html#a054289344d5627604866ac19e9212aac">更多...</a><br /></td></tr>
+<tr class="separator:a054289344d5627604866ac19e9212aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p >类：型树类 </p>
+<pre>
+包含一个窗口控件
+用于表示模型的组织结构（通过Part）和存储模型数据（通过叶子节点Model对象）
+一个ModelTree含有一个或多个Part（分组）
+一个Part含有一个或多个Model（部件）
+</pre> </div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a58336ab31a6a977923a149b67d95bea1" name="a58336ab31a6a977923a149b67d95bea1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58336ab31a6a977923a149b67d95bea1">&#9670;&nbsp;</a></span>ModelTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ModelTree::ModelTree </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>构造函数 </p>
+
+</div>
+</div>
+<a id="a296bee60a946627efe54807740bcd8d1" name="a296bee60a946627efe54807740bcd8d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a296bee60a946627efe54807740bcd8d1">&#9670;&nbsp;</a></span>~ModelTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ModelTree::~ModelTree </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>析构函数 </p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a7a3c51b0b3f46b6f52c3400493cf8893" name="a7a3c51b0b3f46b6f52c3400493cf8893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a3c51b0b3f46b6f52c3400493cf8893">&#9670;&nbsp;</a></span>AddMenuImport</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::AddMenuImport </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单从文件导入模型信号 </p>
+
+</div>
+</div>
+<a id="afb6feaa0d457015068c371c1db0e446b" name="afb6feaa0d457015068c371c1db0e446b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb6feaa0d457015068c371c1db0e446b">&#9670;&nbsp;</a></span>AddMenuModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::AddMenuModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单新建几何体模型信号 </p>
+
+</div>
+</div>
+<a id="a5137cbcec73cce95c9317908050ea288" name="a5137cbcec73cce95c9317908050ea288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5137cbcec73cce95c9317908050ea288">&#9670;&nbsp;</a></span>AddMenuSection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::AddMenuSection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单添加Part信号 </p>
+
+</div>
+</div>
+<a id="add65f843f7c382e65916f762e2ebdbfe" name="add65f843f7c382e65916f762e2ebdbfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add65f843f7c382e65916f762e2ebdbfe">&#9670;&nbsp;</a></span>AddMenuSurface</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::AddMenuSurface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单新建几何面信号 </p>
+
+</div>
+</div>
+<a id="a386c408831e08ecd17cb5b31ed30d573" name="a386c408831e08ecd17cb5b31ed30d573"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a386c408831e08ecd17cb5b31ed30d573">&#9670;&nbsp;</a></span>changeInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::changeInfo </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>thickness</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收Item_Information控件发来的修改信息信号 </p>
+
+</div>
+</div>
+<a id="a34d8d383682f0be5c4d40730f98f7abf" name="a34d8d383682f0be5c4d40730f98f7abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34d8d383682f0be5c4d40730f98f7abf">&#9670;&nbsp;</a></span>CheckModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::CheckModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单查看信息信号 </p>
+
+</div>
+</div>
+<a id="ae4d23b10b61e12a243c77a6f45a33e66" name="ae4d23b10b61e12a243c77a6f45a33e66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d23b10b61e12a243c77a6f45a33e66">&#9670;&nbsp;</a></span>contextMenuEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::contextMenuEvent </td>
+          <td>(</td>
+          <td class="paramtype">QContextMenuEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>选中TreeWidget控件中的项的事件监控 </p>
+
+</div>
+</div>
+<a id="af703c486d2c1c0cc693483d1c697b379" name="af703c486d2c1c0cc693483d1c697b379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af703c486d2c1c0cc693483d1c697b379">&#9670;&nbsp;</a></span>Copy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::Copy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单复制信号 </p>
+
+</div>
+</div>
+<a id="a2c310893c6b83f893726c5fcb8f31854" name="a2c310893c6b83f893726c5fcb8f31854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c310893c6b83f893726c5fcb8f31854">&#9670;&nbsp;</a></span>CreateModelMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::CreateModelMenu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>右键菜单创建 </p>
+
+</div>
+</div>
+<a id="a24b720497c386d192d61a6be73fde4e0" name="a24b720497c386d192d61a6be73fde4e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24b720497c386d192d61a6be73fde4e0">&#9670;&nbsp;</a></span>DelMenuObj</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::DelMenuObj </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单删除模型信号 </p>
+
+</div>
+</div>
+<a id="a31111fcc20b7932ecd1ade3d9a56aed4" name="a31111fcc20b7932ecd1ade3d9a56aed4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31111fcc20b7932ecd1ade3d9a56aed4">&#9670;&nbsp;</a></span>DelSeledObj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::DelSeledObj </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>右键菜单删除选中的模型 </p>
+
+</div>
+</div>
+<a id="ab90778fea736a12bf0519e45ad8540df" name="ab90778fea736a12bf0519e45ad8540df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab90778fea736a12bf0519e45ad8540df">&#9670;&nbsp;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::draw </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>绘制ModelTree的所有Part中的所有Model </p>
+
+</div>
+</div>
+<a id="addc66e780c7cdf30bdf6bd771d8e9166" name="addc66e780c7cdf30bdf6bd771d8e9166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addc66e780c7cdf30bdf6bd771d8e9166">&#9670;&nbsp;</a></span>Export()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::Export </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>version</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>右键菜单导出为文件 </p>
+
+</div>
+</div>
+<a id="ab1116c0b23ce9730270ab9cb60496a7c" name="ab1116c0b23ce9730270ab9cb60496a7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1116c0b23ce9730270ab9cb60496a7c">&#9670;&nbsp;</a></span>Import()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::Import </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>右键菜单从文件导入模型（用户指定路径） </p>
+
+</div>
+</div>
+<a id="a2981e76438d396931650d0150b0dca05" name="a2981e76438d396931650d0150b0dca05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2981e76438d396931650d0150b0dca05">&#9670;&nbsp;</a></span>initialtree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::initialtree </td>
+          <td>(</td>
+          <td class="paramtype">QOpenGLContext *&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QOpenGLShaderProgram *&#160;</td>
+          <td class="paramname"><em>shaderProgram</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初始化ModelTree（实际上被上级MainWindow调用，传过来ModelTree需要的两个参数） </p>
+
+</div>
+</div>
+<a id="a9f6a5338bb15299e1757d057da3c2778" name="a9f6a5338bb15299e1757d057da3c2778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f6a5338bb15299e1757d057da3c2778">&#9670;&nbsp;</a></span>initLimit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::initLimit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重新计算选中部件或分组的范围 </p>
+
+</div>
+</div>
+<a id="a4ca7b785aa4aad80500c045327e80966" name="a4ca7b785aa4aad80500c045327e80966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ca7b785aa4aad80500c045327e80966">&#9670;&nbsp;</a></span>Justif_Model</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::Justif_Model </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单调整模型信号 </p>
+
+</div>
+</div>
+<a id="a53fbf2d3e30ef3286f4c56f2c29ec817" name="a53fbf2d3e30ef3286f4c56f2c29ec817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53fbf2d3e30ef3286f4c56f2c29ec817">&#9670;&nbsp;</a></span>loadDemo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::loadDemo </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>从路径加载项目 </p>
+
+</div>
+</div>
+<a id="a89db139dd99348b194e7808f9d7a44d0" name="a89db139dd99348b194e7808f9d7a44d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89db139dd99348b194e7808f9d7a44d0">&#9670;&nbsp;</a></span>loadModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::loadModel </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>右键从指定路径倒入模型 </p>
+
+</div>
+</div>
+<a id="a8d1604f48978f2060cd65cb7baf3fff2" name="a8d1604f48978f2060cd65cb7baf3fff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1604f48978f2060cd65cb7baf3fff2">&#9670;&nbsp;</a></span>Move</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::Move </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单剪切信号 </p>
+
+</div>
+</div>
+<a id="a31323397d5f5b2b47263570ffad2fe62" name="a31323397d5f5b2b47263570ffad2fe62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31323397d5f5b2b47263570ffad2fe62">&#9670;&nbsp;</a></span>moveDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::moveDistance </td>
+          <td>(</td>
+          <td class="paramtype">QVector3D&#160;</td>
+          <td class="paramname"><em>D</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收justifier信号移动一段距离 </p>
+
+</div>
+</div>
+<a id="a8aad6752291cc62653ce813ea6232528" name="a8aad6752291cc62653ce813ea6232528"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aad6752291cc62653ce813ea6232528">&#9670;&nbsp;</a></span>onSetLebelText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::onSetLebelText </td>
+          <td>(</td>
+          <td class="paramtype">QTreeWidgetItem *&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收选中的TreeWidget项的信号 </p>
+
+</div>
+</div>
+<a id="a9b3ad0a3490ac493b7bed833466cd0ee" name="a9b3ad0a3490ac493b7bed833466cd0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b3ad0a3490ac493b7bed833466cd0ee">&#9670;&nbsp;</a></span>Open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::Open </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>右键菜单打开项目（用户指定路径） </p>
+
+</div>
+</div>
+<a id="a762b7527ec7912e912a1da22349b2e47" name="a762b7527ec7912e912a1da22349b2e47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a762b7527ec7912e912a1da22349b2e47">&#9670;&nbsp;</a></span>printpartsinfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::printpartsinfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>测试用函数，输出ModelTree中所有Part的信息 </p>
+
+</div>
+</div>
+<a id="a2fa45f421b075fc80ea16a6d27c4d07d" name="a2fa45f421b075fc80ea16a6d27c4d07d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fa45f421b075fc80ea16a6d27c4d07d">&#9670;&nbsp;</a></span>recalculateMm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::recalculateMm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>重新计算刚刚修改（选中）的模型的xyz范围 </p>
+
+</div>
+</div>
+<a id="a5bce9de18be01dde5698c52b4b2b3b5a" name="a5bce9de18be01dde5698c52b4b2b3b5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bce9de18be01dde5698c52b4b2b3b5a">&#9670;&nbsp;</a></span>RenameObj</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::RenameObj </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单重命名信号 </p>
+
+</div>
+</div>
+<a id="ae36deb03286839c564f3708187353d08" name="ae36deb03286839c564f3708187353d08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36deb03286839c564f3708187353d08">&#9670;&nbsp;</a></span>reNew()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::reNew </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>清空项目 </p>
+
+</div>
+</div>
+<a id="acccc8efcb80b7cdafbbf6d404f8778c2" name="acccc8efcb80b7cdafbbf6d404f8778c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acccc8efcb80b7cdafbbf6d404f8778c2">&#9670;&nbsp;</a></span>rotateFloatAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::rotateFloatAngle </td>
+          <td>(</td>
+          <td class="paramtype">QVector3D&#160;</td>
+          <td class="paramname"><em>axis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收justifier信号绕指定轴axis旋转fa角度 </p>
+
+</div>
+</div>
+<a id="a81b960f383212bc44dfcbc20e77b09f7" name="a81b960f383212bc44dfcbc20e77b09f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81b960f383212bc44dfcbc20e77b09f7">&#9670;&nbsp;</a></span>rotateIntX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::rotateIntX </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收justifier信号绕X轴旋转一定角度 </p>
+
+</div>
+</div>
+<a id="abe560b25ebe8d5f5da587e21b8c500ae" name="abe560b25ebe8d5f5da587e21b8c500ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe560b25ebe8d5f5da587e21b8c500ae">&#9670;&nbsp;</a></span>rotateIntY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::rotateIntY </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收justifier信号绕Y轴旋转一定角度 </p>
+
+</div>
+</div>
+<a id="a637f9124f505b279075c0ac26165b0e2" name="a637f9124f505b279075c0ac26165b0e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a637f9124f505b279075c0ac26165b0e2">&#9670;&nbsp;</a></span>rotateIntZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::rotateIntZ </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iaz</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收justifier信号绕Z轴旋转一定角度 </p>
+
+</div>
+</div>
+<a id="ae0c2f07a8f8d4bf44f73a7783ad10448" name="ae0c2f07a8f8d4bf44f73a7783ad10448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0c2f07a8f8d4bf44f73a7783ad10448">&#9670;&nbsp;</a></span>rotateModelMtx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::rotateModelMtx </td>
+          <td>(</td>
+          <td class="paramtype">QMatrix4x4 &amp;&#160;</td>
+          <td class="paramname"><em>mtx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>接收旋转变换矩阵，用于旋转 </p>
+
+</div>
+</div>
+<a id="a74e3733ec59e689df69abc47c8971031" name="a74e3733ec59e689df69abc47c8971031"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e3733ec59e689df69abc47c8971031">&#9670;&nbsp;</a></span>Save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::Save </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>右键菜单保存项目 </p>
+
+</div>
+</div>
+<a id="aa90bbd90b8d0dd1dfdd04560f17c3b13" name="aa90bbd90b8d0dd1dfdd04560f17c3b13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa90bbd90b8d0dd1dfdd04560f17c3b13">&#9670;&nbsp;</a></span>setSelectNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::setSelectNum </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置单选/多选 </p>
+
+</div>
+</div>
+<a id="a9bc9b78ef56197c001c9c6bcd0373e66" name="a9bc9b78ef56197c001c9c6bcd0373e66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc9b78ef56197c001c9c6bcd0373e66">&#9670;&nbsp;</a></span>setShootPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::setShootPoint </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收shoot_point设置瞄准中西信号 </p>
+
+</div>
+</div>
+<a id="a4f0f2e480691ddfd5c86a96a523725f9" name="a4f0f2e480691ddfd5c86a96a523725f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f0f2e480691ddfd5c86a96a523725f9">&#9670;&nbsp;</a></span>ToSection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::ToSection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单粘贴信号 </p>
+
+</div>
+</div>
+<a id="a0d92075133f9cdf624153e03c4400708" name="a0d92075133f9cdf624153e03c4400708"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d92075133f9cdf624153e03c4400708">&#9670;&nbsp;</a></span>UpdateExportInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::UpdateExportInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>右键菜单导出为文件之前进行的数据准备 </p>
+
+</div>
+</div>
+<a id="a8f174a756774d0816c0963e540103079" name="a8f174a756774d0816c0963e540103079"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f174a756774d0816c0963e540103079">&#9670;&nbsp;</a></span>zoomAll</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::zoomAll </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>zoomTimes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收justifier信号各方向缩放同一倍率 </p>
+
+</div>
+</div>
+<a id="a1de38ad49c4a00072d86f42b0dbf7d8d" name="a1de38ad49c4a00072d86f42b0dbf7d8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1de38ad49c4a00072d86f42b0dbf7d8d">&#9670;&nbsp;</a></span>zoomModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::zoomModel </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>zoomTimes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>缩放模型 </p>
+
+</div>
+</div>
+<a id="adbf7cc1ca8603438b6a264d2a7d38d1a" name="adbf7cc1ca8603438b6a264d2a7d38d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf7cc1ca8603438b6a264d2a7d38d1a">&#9670;&nbsp;</a></span>zoomModelXYZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTree::zoomModelXYZ </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>zoomTimesX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>zoomTimesY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>zoomTimesZ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收justifier信号xyz方向分别缩放不同倍率 </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a90968c8bf43e4c5e9b1cdd2c04063315" name="a90968c8bf43e4c5e9b1cdd2c04063315"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90968c8bf43e4c5e9b1cdd2c04063315">&#9670;&nbsp;</a></span>context</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QOpenGLContext* ModelTree::context</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>opengl函数入口 </p>
+
+</div>
+</div>
+<a id="ad5b61fa6970c7a706bef148637200b7d" name="ad5b61fa6970c7a706bef148637200b7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5b61fa6970c7a706bef148637200b7d">&#9670;&nbsp;</a></span>copyModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_model.html">Model</a>* ModelTree::copyModel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>复制剪切时临时存放Model对象 </p>
+
+</div>
+</div>
+<a id="a987d5b600351187131efb8bddad78300" name="a987d5b600351187131efb8bddad78300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a987d5b600351187131efb8bddad78300">&#9670;&nbsp;</a></span>engineer_window</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classengineer.html">engineer</a>* ModelTree::engineer_window</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>engineer窗口 </p>
+
+</div>
+</div>
+<a id="a57f2960e441b30f0fe497919203704c4" name="a57f2960e441b30f0fe497919203704c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f2960e441b30f0fe497919203704c4">&#9670;&nbsp;</a></span>II</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_item___information.html">Item_Information</a>* ModelTree::II</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Item_Information窗口 </p>
+
+</div>
+</div>
+<a id="aaab12b4c063c5cbac1618c5013407a80" name="aaab12b4c063c5cbac1618c5013407a80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaab12b4c063c5cbac1618c5013407a80">&#9670;&nbsp;</a></span>justifier_window</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_justifier.html">Justifier</a>* ModelTree::justifier_window</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>justifier窗口 </p>
+
+</div>
+</div>
+<a id="a658e9108dcf9d55b3cce7bd00397173e" name="a658e9108dcf9d55b3cce7bd00397173e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a658e9108dcf9d55b3cce7bd00397173e">&#9670;&nbsp;</a></span>m_Add_Menu_Import</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Add_Menu_Import</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单从文件导入 </p>
+
+</div>
+</div>
+<a id="acf070b6b1dfd8d99e1481af71e3d34f9" name="acf070b6b1dfd8d99e1481af71e3d34f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf070b6b1dfd8d99e1481af71e3d34f9">&#9670;&nbsp;</a></span>m_Add_Menu_Model</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Add_Menu_Model</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单那新建几何体 </p>
+
+</div>
+</div>
+<a id="a2f33035ab64fc722cd7e6a10c91f12d5" name="a2f33035ab64fc722cd7e6a10c91f12d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f33035ab64fc722cd7e6a10c91f12d5">&#9670;&nbsp;</a></span>m_Add_Menu_Section</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Add_Menu_Section</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单那新建分组 </p>
+
+</div>
+</div>
+<a id="adde97cb89c89e4f6ad76dafcd0d1bc53" name="adde97cb89c89e4f6ad76dafcd0d1bc53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adde97cb89c89e4f6ad76dafcd0d1bc53">&#9670;&nbsp;</a></span>m_Add_Menu_Surface</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Add_Menu_Surface</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单那新建几何面 </p>
+
+</div>
+</div>
+<a id="a7d9af58a964b77e5d89bf5e971d2cfef" name="a7d9af58a964b77e5d89bf5e971d2cfef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9af58a964b77e5d89bf5e971d2cfef">&#9670;&nbsp;</a></span>m_Check_Model</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Check_Model</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单查看信息 </p>
+
+</div>
+</div>
+<a id="af4bbc2caed0d83c17f33ee40594e620b" name="af4bbc2caed0d83c17f33ee40594e620b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4bbc2caed0d83c17f33ee40594e620b">&#9670;&nbsp;</a></span>m_Copy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Copy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单复制 </p>
+
+</div>
+</div>
+<a id="aee5b41aa6bfa01c8ebdf97c8fdf05a9a" name="aee5b41aa6bfa01c8ebdf97c8fdf05a9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee5b41aa6bfa01c8ebdf97c8fdf05a9a">&#9670;&nbsp;</a></span>m_Del_Menu_Obj</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Del_Menu_Obj</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单删除 </p>
+
+</div>
+</div>
+<a id="aa997cff49522991c656f2aebc810a69b" name="aa997cff49522991c656f2aebc810a69b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa997cff49522991c656f2aebc810a69b">&#9670;&nbsp;</a></span>m_Justify_Model</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Justify_Model</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单调整部件 </p>
+
+</div>
+</div>
+<a id="a05c47df314b550bed63e32bb3ed3a373" name="a05c47df314b550bed63e32bb3ed3a373"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c47df314b550bed63e32bb3ed3a373">&#9670;&nbsp;</a></span>m_Move</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Move</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单剪切 </p>
+
+</div>
+</div>
+<a id="a8741ae79b613bef981a0bf6b49b4e376" name="a8741ae79b613bef981a0bf6b49b4e376"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8741ae79b613bef981a0bf6b49b4e376">&#9670;&nbsp;</a></span>m_New_Menu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMenu* ModelTree::m_New_Menu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单那 </p>
+
+</div>
+</div>
+<a id="a1ca08501bed64edede0586be945eb2ae" name="a1ca08501bed64edede0586be945eb2ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ca08501bed64edede0586be945eb2ae">&#9670;&nbsp;</a></span>m_Rename_Obj</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_Rename_Obj</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单重命名 </p>
+
+</div>
+</div>
+<a id="a97b53b49cc85ef5db9942029cc930228" name="a97b53b49cc85ef5db9942029cc930228"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97b53b49cc85ef5db9942029cc930228">&#9670;&nbsp;</a></span>m_To_Section</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* ModelTree::m_To_Section</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右键菜单黏贴 </p>
+
+</div>
+</div>
+<a id="a174fdcb8ad4da0f50f42e0a36bac0f90" name="a174fdcb8ad4da0f50f42e0a36bac0f90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a174fdcb8ad4da0f50f42e0a36bac0f90">&#9670;&nbsp;</a></span>modelNum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ModelTree::modelNum = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>所有Model数目 </p>
+
+</div>
+</div>
+<a id="a9e9e5b76c98905d6a2549eadf878f9a4" name="a9e9e5b76c98905d6a2549eadf878f9a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9e5b76c98905d6a2549eadf878f9a4">&#9670;&nbsp;</a></span>numofparts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int ModelTree::numofparts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>MOdelTree中的Part对象数目,添加Part时++，删除ModelPart时&ndash; </p>
+
+</div>
+</div>
+<a id="a5f1d6245d0c49ebf583ca6540a843702" name="a5f1d6245d0c49ebf583ca6540a843702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1d6245d0c49ebf583ca6540a843702">&#9670;&nbsp;</a></span>partID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int ModelTree::partID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>用于为新添加的Part对象赋予ID,仅在添加Part时++（为了方便后续redo、undo功能，虽然目前还没开发这两个功能） </p>
+
+</div>
+</div>
+<a id="a98376f81221c63a840b5a58e3b865a0a" name="a98376f81221c63a840b5a58e3b865a0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98376f81221c63a840b5a58e3b865a0a">&#9670;&nbsp;</a></span>parts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;<a class="el" href="class_part.html">Part</a> *&gt; ModelTree::parts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>存储ModelTree下的各个Part的容器 </p>
+
+</div>
+</div>
+<a id="a0f89ff8d478414121c79341d0ce6cebe" name="a0f89ff8d478414121c79341d0ce6cebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f89ff8d478414121c79341d0ce6cebe">&#9670;&nbsp;</a></span>selectnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModelTree::selectnum = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>模型选择数目，0单选1多选 </p>
+
+</div>
+</div>
+<a id="a390809eb4da25f507aba7b1dd03b75ba" name="a390809eb4da25f507aba7b1dd03b75ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390809eb4da25f507aba7b1dd03b75ba">&#9670;&nbsp;</a></span>seledobj</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;QTreeWidgetItem*&gt; ModelTree::seledobj</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>记录多选选中的Model对应的TreeWidget项 </p>
+
+</div>
+</div>
+<a id="a635ed9b26d7d6f37dd9244f184bcf3fd" name="a635ed9b26d7d6f37dd9244f184bcf3fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a635ed9b26d7d6f37dd9244f184bcf3fd">&#9670;&nbsp;</a></span>seledprt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;QTreeWidgetItem*&gt; ModelTree::seledprt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>记录多选选中的Part对应的TreeWidget项 </p>
+
+</div>
+</div>
+<a id="aab505c29d0b35f147c28f582f8cab244" name="aab505c29d0b35f147c28f582f8cab244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab505c29d0b35f147c28f582f8cab244">&#9670;&nbsp;</a></span>selMdls</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;<a class="el" href="class_model.html">Model</a>* &gt; ModelTree::selMdls</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>记录多选选中的Model </p>
+
+</div>
+</div>
+<a id="a8463fc84b07484b2bb3a0f0f75549df6" name="a8463fc84b07484b2bb3a0f0f75549df6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8463fc84b07484b2bb3a0f0f75549df6">&#9670;&nbsp;</a></span>selPrt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;<a class="el" href="class_part.html">Part</a>*&gt; ModelTree::selPrt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>记录多选选中的Part </p>
+
+</div>
+</div>
+<a id="a2005fb2e6267230ada5d4bf5602a6271" name="a2005fb2e6267230ada5d4bf5602a6271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2005fb2e6267230ada5d4bf5602a6271">&#9670;&nbsp;</a></span>shaderProgram</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QOpenGLShaderProgram* ModelTree::shaderProgram</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>着色器程序 </p>
+
+</div>
+</div>
+<a id="a41ef5a4d4b01e9fa1e90a7e2cb06f250" name="a41ef5a4d4b01e9fa1e90a7e2cb06f250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ef5a4d4b01e9fa1e90a7e2cb06f250">&#9670;&nbsp;</a></span>shootPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector3D ModelTree::shootPoint = QVector3D(0,0,0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>整个模型（ModelTree）的瞄准中心 </p>
+
+</div>
+</div>
+<a id="a7157b56a12bd3de6dbd7be39f4d8befc" name="a7157b56a12bd3de6dbd7be39f4d8befc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7157b56a12bd3de6dbd7be39f4d8befc">&#9670;&nbsp;</a></span>singleseledobj</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTreeWidgetItem* ModelTree::singleseledobj</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>记录单选选中的项目对应的TreeWidget项 </p>
+
+</div>
+</div>
+<a id="a60cbe437d5efcdedf6efa4496a5e3a58" name="a60cbe437d5efcdedf6efa4496a5e3a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60cbe437d5efcdedf6efa4496a5e3a58">&#9670;&nbsp;</a></span>singleSelMdl</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_model.html">Model</a>* ModelTree::singleSelMdl</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>记录单选选中的Model </p>
+
+</div>
+</div>
+<a id="adbf6272216a60b9009d28bd7f7adc5fa" name="adbf6272216a60b9009d28bd7f7adc5fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf6272216a60b9009d28bd7f7adc5fa">&#9670;&nbsp;</a></span>singleSelPrt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_part.html">Part</a>* ModelTree::singleSelPrt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>记录单选选中的Part </p>
+
+</div>
+</div>
+<a id="a949245f677f8d39467d2f4317695dd64" name="a949245f677f8d39467d2f4317695dd64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a949245f677f8d39467d2f4317695dd64">&#9670;&nbsp;</a></span>sp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classshoot__point.html">shoot_point</a>* ModelTree::sp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置瞄准中心窗口 </p>
+
+</div>
+</div>
+<a id="a054289344d5627604866ac19e9212aac" name="a054289344d5627604866ac19e9212aac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a054289344d5627604866ac19e9212aac">&#9670;&nbsp;</a></span>vertexNum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long unsigned int ModelTree::vertexNum = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>所有Model的所有顶点数目 </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>D:/QT_GL_Workspace/bs/VAMS/<a class="el" href="modeltree_8h_source.html">modeltree.h</a></li>
+<li>D:/QT_GL_Workspace/bs/VAMS/<a class="el" href="modeltree_8cpp.html">modeltree.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_model_tree.html">ModelTree</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

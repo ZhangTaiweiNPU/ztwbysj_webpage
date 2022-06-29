@@ -1,0 +1,1464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VAMS: MainGLWidget类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VAMS
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_main_g_l_widget.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="class_main_g_l_widget-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">MainGLWidget类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>类：MainGL（GL绘图控件）  
+ <a href="class_main_g_l_widget.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="mainglwidget_8h_source.html">mainglwidget.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MainGLWidget 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_main_g_l_widget__inherit__graph.png" border="0" usemap="#a_main_g_l_widget_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_main_g_l_widget_inherit__map" id="a_main_g_l_widget_inherit__map">
+<area shape="rect" title="类：MainGL（GL绘图控件）" alt="" coords="92,95,200,121"/>
+<area shape="rect" title=" " alt="" coords="5,13,127,39"/>
+<area shape="rect" title=" " alt="" coords="151,5,301,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+MainGLWidget 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_main_g_l_widget__coll__graph.png" border="0" usemap="#a_main_g_l_widget_coll__map" alt="Collaboration graph"/></div>
+<map name="a_main_g_l_widget_coll__map" id="a_main_g_l_widget_coll__map">
+<area shape="rect" title="类：MainGL（GL绘图控件）" alt="" coords="963,413,1071,440"/>
+<area shape="rect" title=" " alt="" coords="721,225,843,252"/>
+<area shape="rect" title=" " alt="" coords="707,277,857,318"/>
+<area shape="rect" href="class_model_tree.html" title="类：型树类" alt="" coords="741,343,823,369"/>
+<area shape="rect" title=" " alt="" coords="417,271,516,297"/>
+<area shape="rect" href="class_model.html" title="类：Model(部件)" alt="" coords="189,136,246,163"/>
+<area shape="rect" href="classengineer.html" title="类：engineer（新建模型）" alt="" coords="431,131,502,157"/>
+<area shape="rect" href="struct_model_i_d.html" title="结构体：ModelID（模型ID）" alt="" coords="7,136,77,163"/>
+<area shape="rect" href="class_part.html" title="类：Part（分组）" alt="" coords="19,56,65,83"/>
+<area shape="rect" title=" " alt="" coords="164,85,271,112"/>
+<area shape="rect" href="class_material_list.html" title="类：MaterialList（材质列表）" alt="" coords="173,271,262,297"/>
+<area shape="rect" href="class_item___information.html" title="类：Item_Information（查案选中项信息）" alt="" coords="408,321,525,348"/>
+<area shape="rect" title=" " alt="" coords="5,372,79,399"/>
+<area shape="rect" href="class_justifier.html" title="类：Justifier（模型修改）" alt="" coords="433,372,500,399"/>
+<area shape="rect" href="classshoot__point.html" title="类：shoot_point设置瞄准中心" alt="" coords="295,424,384,451"/>
+<area shape="rect" href="class_sensitivity___adaptor.html" title="类：sensitivity_adaptor灵敏度调整" alt="" coords="549,493,683,520"/>
+<area shape="rect" href="class_viewer.html" title="类：观察者" alt="" coords="751,565,813,592"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:abc3bba2465fb629339a6372afc4e607f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#abc3bba2465fb629339a6372afc4e607f">sensitivityLM</a> (float s)</td></tr>
+<tr class="memdesc:abc3bba2465fb629339a6372afc4e607f"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收sensitivity_adopter的LM控件参数变化信号  <a href="class_main_g_l_widget.html#abc3bba2465fb629339a6372afc4e607f">更多...</a><br /></td></tr>
+<tr class="separator:abc3bba2465fb629339a6372afc4e607f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c8deffd7f140d37cd67beac4360db2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a2c8deffd7f140d37cd67beac4360db2d">sensitivityLR</a> (float s)</td></tr>
+<tr class="memdesc:a2c8deffd7f140d37cd67beac4360db2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收sensitivity_adopter的LR控件参数变化信号  <a href="class_main_g_l_widget.html#a2c8deffd7f140d37cd67beac4360db2d">更多...</a><br /></td></tr>
+<tr class="separator:a2c8deffd7f140d37cd67beac4360db2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b101b065804cdb3daaa839da505fca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a34b101b065804cdb3daaa839da505fca">sensitivityRT</a> (float s)</td></tr>
+<tr class="memdesc:a34b101b065804cdb3daaa839da505fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收sensitivity_adopter的RT控件参数变化信号  <a href="class_main_g_l_widget.html#a34b101b065804cdb3daaa839da505fca">更多...</a><br /></td></tr>
+<tr class="separator:a34b101b065804cdb3daaa839da505fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8339f62da4426d68c9cc1fc03ef44caa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a8339f62da4426d68c9cc1fc03ef44caa">sensitivityRO</a> (float s)</td></tr>
+<tr class="memdesc:a8339f62da4426d68c9cc1fc03ef44caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收sensitivity_adopter的RO控件参数变化信号  <a href="class_main_g_l_widget.html#a8339f62da4426d68c9cc1fc03ef44caa">更多...</a><br /></td></tr>
+<tr class="separator:a8339f62da4426d68c9cc1fc03ef44caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7b166e9dfd95fab911c6bd508d764d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#ac7b166e9dfd95fab911c6bd508d764d9">sensitivityS</a> (float s)</td></tr>
+<tr class="memdesc:ac7b166e9dfd95fab911c6bd508d764d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">接收sensitivity_adopter的S控件参数变化信号  <a href="class_main_g_l_widget.html#ac7b166e9dfd95fab911c6bd508d764d9">更多...</a><br /></td></tr>
+<tr class="separator:ac7b166e9dfd95fab911c6bd508d764d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:a3953798b273f23c26d09cff18b328412"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a3953798b273f23c26d09cff18b328412">initTree</a> (QOpenGLContext *context, QOpenGLShaderProgram *<a class="el" href="class_main_g_l_widget.html#a0069c44601bcb49362846b303edb0c07">shaderProgram</a>)</td></tr>
+<tr class="memdesc:a3953798b273f23c26d09cff18b328412"><td class="mdescLeft">&#160;</td><td class="mdescRight">向ModelTree发信号送传送shader和context，用于最终放到ModelTree的Part和Model用于之后绘制图形  <a href="class_main_g_l_widget.html#a3953798b273f23c26d09cff18b328412">更多...</a><br /></td></tr>
+<tr class="separator:a3953798b273f23c26d09cff18b328412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a9549a76a5ed0b1628044577ada97a644"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a9549a76a5ed0b1628044577ada97a644">MainGLWidget</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a9549a76a5ed0b1628044577ada97a644"><td class="mdescLeft">&#160;</td><td class="mdescRight">构造函数  <a href="class_main_g_l_widget.html#a9549a76a5ed0b1628044577ada97a644">更多...</a><br /></td></tr>
+<tr class="separator:a9549a76a5ed0b1628044577ada97a644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a487d8aaa120922d8285e1ff43b999418"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a487d8aaa120922d8285e1ff43b999418">~MainGLWidget</a> ()</td></tr>
+<tr class="memdesc:a487d8aaa120922d8285e1ff43b999418"><td class="mdescLeft">&#160;</td><td class="mdescRight">析构函数  <a href="class_main_g_l_widget.html#a487d8aaa120922d8285e1ff43b999418">更多...</a><br /></td></tr>
+<tr class="separator:a487d8aaa120922d8285e1ff43b999418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe0b0b15265660a0085efe97c3a23571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#abe0b0b15265660a0085efe97c3a23571">setWirefame</a> (bool wireframe)</td></tr>
+<tr class="memdesc:abe0b0b15265660a0085efe97c3a23571"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置为线框模式绘图  <a href="class_main_g_l_widget.html#abe0b0b15265660a0085efe97c3a23571">更多...</a><br /></td></tr>
+<tr class="separator:abe0b0b15265660a0085efe97c3a23571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad08082e87f54d3e604aecdbacd44ef46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#ad08082e87f54d3e604aecdbacd44ef46">setModelfame</a> (bool modelframe)</td></tr>
+<tr class="memdesc:ad08082e87f54d3e604aecdbacd44ef46"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置为填充模式绘图  <a href="class_main_g_l_widget.html#ad08082e87f54d3e604aecdbacd44ef46">更多...</a><br /></td></tr>
+<tr class="separator:ad08082e87f54d3e604aecdbacd44ef46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce15f1a3fd4c6bfda850c4180f75963"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a4ce15f1a3fd4c6bfda850c4180f75963">setShowAxis</a> (bool Axis)</td></tr>
+<tr class="memdesc:a4ce15f1a3fd4c6bfda850c4180f75963"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置是否显式坐标轴  <a href="class_main_g_l_widget.html#a4ce15f1a3fd4c6bfda850c4180f75963">更多...</a><br /></td></tr>
+<tr class="separator:a4ce15f1a3fd4c6bfda850c4180f75963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d54ef2be4e67ae1eafca0011e6c5c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a63d54ef2be4e67ae1eafca0011e6c5c1">setViewFromZ</a> ()</td></tr>
+<tr class="memdesc:a63d54ef2be4e67ae1eafca0011e6c5c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">重置视角（从Z轴正方向看向原点）  <a href="class_main_g_l_widget.html#a63d54ef2be4e67ae1eafca0011e6c5c1">更多...</a><br /></td></tr>
+<tr class="separator:a63d54ef2be4e67ae1eafca0011e6c5c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2670f45d232547b8f23de58be085fff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#ac2670f45d232547b8f23de58be085fff">setViewFromY</a> ()</td></tr>
+<tr class="memdesc:ac2670f45d232547b8f23de58be085fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">重置视角（从Y轴正方向看向原点）  <a href="class_main_g_l_widget.html#ac2670f45d232547b8f23de58be085fff">更多...</a><br /></td></tr>
+<tr class="separator:ac2670f45d232547b8f23de58be085fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb703ff2bacb007b9b67b25186d4ec3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a0fb703ff2bacb007b9b67b25186d4ec3">setViewFromX</a> ()</td></tr>
+<tr class="memdesc:a0fb703ff2bacb007b9b67b25186d4ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">重置视角（从X轴正方向看向原点）  <a href="class_main_g_l_widget.html#a0fb703ff2bacb007b9b67b25186d4ec3">更多...</a><br /></td></tr>
+<tr class="separator:a0fb703ff2bacb007b9b67b25186d4ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13db09aad99baf0b0958e84f15fd5cc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a13db09aad99baf0b0958e84f15fd5cc2">setDefaultView</a> ()</td></tr>
+<tr class="memdesc:a13db09aad99baf0b0958e84f15fd5cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">恢复初始视角  <a href="class_main_g_l_widget.html#a13db09aad99baf0b0958e84f15fd5cc2">更多...</a><br /></td></tr>
+<tr class="separator:a13db09aad99baf0b0958e84f15fd5cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a7569cd9ec4bd2852b1665620dec45242"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_model_tree.html">ModelTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a7569cd9ec4bd2852b1665620dec45242">MT</a></td></tr>
+<tr class="memdesc:a7569cd9ec4bd2852b1665620dec45242"><td class="mdescLeft">&#160;</td><td class="mdescRight">ModelTree指针  <a href="class_main_g_l_widget.html#a7569cd9ec4bd2852b1665620dec45242">更多...</a><br /></td></tr>
+<tr class="separator:a7569cd9ec4bd2852b1665620dec45242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6a95ba803d3454e3782466bd8ed9409"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sensitivity___adaptor.html">Sensitivity_Adaptor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#ac6a95ba803d3454e3782466bd8ed9409">SA</a></td></tr>
+<tr class="memdesc:ac6a95ba803d3454e3782466bd8ed9409"><td class="mdescLeft">&#160;</td><td class="mdescRight">灵敏度调节窗口指针  <a href="class_main_g_l_widget.html#ac6a95ba803d3454e3782466bd8ed9409">更多...</a><br /></td></tr>
+<tr class="separator:ac6a95ba803d3454e3782466bd8ed9409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c33b311042f8ac0ae403449a5d71846"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a5c33b311042f8ac0ae403449a5d71846">sensitivity_left_mov</a> = 1.0</td></tr>
+<tr class="memdesc:a5c33b311042f8ac0ae403449a5d71846"><td class="mdescLeft">&#160;</td><td class="mdescRight">灵敏度参数（移动模型）  <a href="class_main_g_l_widget.html#a5c33b311042f8ac0ae403449a5d71846">更多...</a><br /></td></tr>
+<tr class="separator:a5c33b311042f8ac0ae403449a5d71846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6415179eb9ca32cf12f1c61f3de025"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a0b6415179eb9ca32cf12f1c61f3de025">sensitivity_left_rot</a> = 1.0</td></tr>
+<tr class="memdesc:a0b6415179eb9ca32cf12f1c61f3de025"><td class="mdescLeft">&#160;</td><td class="mdescRight">灵敏度参数（转动模型）  <a href="class_main_g_l_widget.html#a0b6415179eb9ca32cf12f1c61f3de025">更多...</a><br /></td></tr>
+<tr class="separator:a0b6415179eb9ca32cf12f1c61f3de025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0df90db09092ed8262516bfd98898ab9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a0df90db09092ed8262516bfd98898ab9">sensitivity_right_trans</a> = 1.0</td></tr>
+<tr class="memdesc:a0df90db09092ed8262516bfd98898ab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">灵敏度参数（移动视角）  <a href="class_main_g_l_widget.html#a0df90db09092ed8262516bfd98898ab9">更多...</a><br /></td></tr>
+<tr class="separator:a0df90db09092ed8262516bfd98898ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75fa7ae68b8ca27e627d4d62ce51c868"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a75fa7ae68b8ca27e627d4d62ce51c868">sensitivity_right_orient</a> = 1.0</td></tr>
+<tr class="memdesc:a75fa7ae68b8ca27e627d4d62ce51c868"><td class="mdescLeft">&#160;</td><td class="mdescRight">灵敏度参数（转动视角）  <a href="class_main_g_l_widget.html#a75fa7ae68b8ca27e627d4d62ce51c868">更多...</a><br /></td></tr>
+<tr class="separator:a75fa7ae68b8ca27e627d4d62ce51c868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f0fbe6011947d4933f14ec6fa6154d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#ab5f0fbe6011947d4933f14ec6fa6154d">sensitivity_roll</a> = 1.0</td></tr>
+<tr class="memdesc:ab5f0fbe6011947d4933f14ec6fa6154d"><td class="mdescLeft">&#160;</td><td class="mdescRight">灵敏度参数（缩放视角）  <a href="class_main_g_l_widget.html#ab5f0fbe6011947d4933f14ec6fa6154d">更多...</a><br /></td></tr>
+<tr class="separator:ab5f0fbe6011947d4933f14ec6fa6154d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a21d0d719f1f6fd1b95a6a8f4bcc97cc6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a21d0d719f1f6fd1b95a6a8f4bcc97cc6">initializeGL</a> () override</td></tr>
+<tr class="memdesc:a21d0d719f1f6fd1b95a6a8f4bcc97cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化GL控件  <a href="class_main_g_l_widget.html#a21d0d719f1f6fd1b95a6a8f4bcc97cc6">更多...</a><br /></td></tr>
+<tr class="separator:a21d0d719f1f6fd1b95a6a8f4bcc97cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba71d2997f47b364e4e7123093c909da"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#aba71d2997f47b364e4e7123093c909da">resizeGL</a> (int w, int h) override</td></tr>
+<tr class="memdesc:aba71d2997f47b364e4e7123093c909da"><td class="mdescLeft">&#160;</td><td class="mdescRight">重设GL窗口参数（size等）  <a href="class_main_g_l_widget.html#aba71d2997f47b364e4e7123093c909da">更多...</a><br /></td></tr>
+<tr class="separator:aba71d2997f47b364e4e7123093c909da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27f17286dae2e9b062cc62812d144b41"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a27f17286dae2e9b062cc62812d144b41">paintGL</a> () override</td></tr>
+<tr class="memdesc:a27f17286dae2e9b062cc62812d144b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">重绘GL窗口中的内容  <a href="class_main_g_l_widget.html#a27f17286dae2e9b062cc62812d144b41">更多...</a><br /></td></tr>
+<tr class="separator:a27f17286dae2e9b062cc62812d144b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3f4eb3e93c5b102d74006518db819e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a7d3f4eb3e93c5b102d74006518db819e">keyPressEvent</a> (QKeyEvent *event) override</td></tr>
+<tr class="memdesc:a7d3f4eb3e93c5b102d74006518db819e"><td class="mdescLeft">&#160;</td><td class="mdescRight">键盘按键按下事件监控  <a href="class_main_g_l_widget.html#a7d3f4eb3e93c5b102d74006518db819e">更多...</a><br /></td></tr>
+<tr class="separator:a7d3f4eb3e93c5b102d74006518db819e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a640f31c2a4bdee2547554f2fc51d58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a0a640f31c2a4bdee2547554f2fc51d58">keyReleaseEvent</a> (QKeyEvent *event) override</td></tr>
+<tr class="memdesc:a0a640f31c2a4bdee2547554f2fc51d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">键盘按键松开事件监控  <a href="class_main_g_l_widget.html#a0a640f31c2a4bdee2547554f2fc51d58">更多...</a><br /></td></tr>
+<tr class="separator:a0a640f31c2a4bdee2547554f2fc51d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b39bca52efe6d9a70037830d60c2e37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a5b39bca52efe6d9a70037830d60c2e37">mouseMoveEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="memdesc:a5b39bca52efe6d9a70037830d60c2e37"><td class="mdescLeft">&#160;</td><td class="mdescRight">鼠标移动事件监控  <a href="class_main_g_l_widget.html#a5b39bca52efe6d9a70037830d60c2e37">更多...</a><br /></td></tr>
+<tr class="separator:a5b39bca52efe6d9a70037830d60c2e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c8b9a38c39193a3922c83356349b08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a24c8b9a38c39193a3922c83356349b08">wheelEvent</a> (QWheelEvent *event) override</td></tr>
+<tr class="memdesc:a24c8b9a38c39193a3922c83356349b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">鼠标滚轮滚动事件监控  <a href="class_main_g_l_widget.html#a24c8b9a38c39193a3922c83356349b08">更多...</a><br /></td></tr>
+<tr class="separator:a24c8b9a38c39193a3922c83356349b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17179fd0fc33bfce008ccf9660d5d09d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a17179fd0fc33bfce008ccf9660d5d09d">mousePressEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="memdesc:a17179fd0fc33bfce008ccf9660d5d09d"><td class="mdescLeft">&#160;</td><td class="mdescRight">鼠标按键按下事件监控  <a href="class_main_g_l_widget.html#a17179fd0fc33bfce008ccf9660d5d09d">更多...</a><br /></td></tr>
+<tr class="separator:a17179fd0fc33bfce008ccf9660d5d09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bfd0f847d487e03c49899e4b1050196"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a7bfd0f847d487e03c49899e4b1050196">mouseReleaseEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="memdesc:a7bfd0f847d487e03c49899e4b1050196"><td class="mdescLeft">&#160;</td><td class="mdescRight">鼠标按键松开事件监控  <a href="class_main_g_l_widget.html#a7bfd0f847d487e03c49899e4b1050196">更多...</a><br /></td></tr>
+<tr class="separator:a7bfd0f847d487e03c49899e4b1050196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:a0069c44601bcb49362846b303edb0c07"><td class="memItemLeft" align="right" valign="top">QOpenGLShaderProgram&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a0069c44601bcb49362846b303edb0c07">shaderProgram</a></td></tr>
+<tr class="memdesc:a0069c44601bcb49362846b303edb0c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">着色器指针  <a href="class_main_g_l_widget.html#a0069c44601bcb49362846b303edb0c07">更多...</a><br /></td></tr>
+<tr class="separator:a0069c44601bcb49362846b303edb0c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e659b94a688614952c61867ecb5011"><td class="memItemLeft" align="right" valign="top">QOpenGLTexture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#ad1e659b94a688614952c61867ecb5011">textureWall</a></td></tr>
+<tr class="memdesc:ad1e659b94a688614952c61867ecb5011"><td class="mdescLeft">&#160;</td><td class="mdescRight">纹理textureWall  <a href="class_main_g_l_widget.html#ad1e659b94a688614952c61867ecb5011">更多...</a><br /></td></tr>
+<tr class="separator:ad1e659b94a688614952c61867ecb5011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e2882561f2e91d420a7fcbe84b753ed"><td class="memItemLeft" align="right" valign="top">QOpenGLTexture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a9e2882561f2e91d420a7fcbe84b753ed">textureAxis</a></td></tr>
+<tr class="memdesc:a9e2882561f2e91d420a7fcbe84b753ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">纹理textureAxis  <a href="class_main_g_l_widget.html#a9e2882561f2e91d420a7fcbe84b753ed">更多...</a><br /></td></tr>
+<tr class="separator:a9e2882561f2e91d420a7fcbe84b753ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb16f17b21eb21ea72053d08a0561c3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#acb16f17b21eb21ea72053d08a0561c3e">showaxis</a> = 1</td></tr>
+<tr class="memdesc:acb16f17b21eb21ea72053d08a0561c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否绘制坐标轴  <a href="class_main_g_l_widget.html#acb16f17b21eb21ea72053d08a0561c3e">更多...</a><br /></td></tr>
+<tr class="separator:acb16f17b21eb21ea72053d08a0561c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be2f61810f79eb5f490cff37641f795"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a0be2f61810f79eb5f490cff37641f795">VBOaxis</a></td></tr>
+<tr class="separator:a0be2f61810f79eb5f490cff37641f795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24245d6d9266a33632dcb3eb402ea14e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a24245d6d9266a33632dcb3eb402ea14e">VAOaxis</a></td></tr>
+<tr class="separator:a24245d6d9266a33632dcb3eb402ea14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad3a2beffe2e03c9bf551b85cd2a2672"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#aad3a2beffe2e03c9bf551b85cd2a2672">EBOaxis</a></td></tr>
+<tr class="memdesc:aad3a2beffe2e03c9bf551b85cd2a2672"><td class="mdescLeft">&#160;</td><td class="mdescRight">坐标轴的VAO、VBO、EBO  <a href="class_main_g_l_widget.html#aad3a2beffe2e03c9bf551b85cd2a2672">更多...</a><br /></td></tr>
+<tr class="separator:aad3a2beffe2e03c9bf551b85cd2a2672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0c27be9605e0d22a8056b8154ac5d3"><td class="memItemLeft" align="right" valign="top">QMatrix4x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#aaf0c27be9605e0d22a8056b8154ac5d3">model</a></td></tr>
+<tr class="memdesc:aaf0c27be9605e0d22a8056b8154ac5d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">model矩阵  <a href="class_main_g_l_widget.html#aaf0c27be9605e0d22a8056b8154ac5d3">更多...</a><br /></td></tr>
+<tr class="separator:aaf0c27be9605e0d22a8056b8154ac5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58aa6ee74a7d72f28d995b8038385aa0"><td class="memItemLeft" align="right" valign="top">QMatrix4x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a58aa6ee74a7d72f28d995b8038385aa0">view</a></td></tr>
+<tr class="memdesc:a58aa6ee74a7d72f28d995b8038385aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">view矩阵  <a href="class_main_g_l_widget.html#a58aa6ee74a7d72f28d995b8038385aa0">更多...</a><br /></td></tr>
+<tr class="separator:a58aa6ee74a7d72f28d995b8038385aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a048b7b2d92b127015cd0a6bf54fe0210"><td class="memItemLeft" align="right" valign="top">QMatrix4x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a048b7b2d92b127015cd0a6bf54fe0210">projection</a></td></tr>
+<tr class="memdesc:a048b7b2d92b127015cd0a6bf54fe0210"><td class="mdescLeft">&#160;</td><td class="mdescRight">projection矩阵  <a href="class_main_g_l_widget.html#a048b7b2d92b127015cd0a6bf54fe0210">更多...</a><br /></td></tr>
+<tr class="separator:a048b7b2d92b127015cd0a6bf54fe0210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a525b2ecc0c048c0a3ada2c492b4b06df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_viewer.html">Viewer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a525b2ecc0c048c0a3ada2c492b4b06df">m_viewer</a></td></tr>
+<tr class="memdesc:a525b2ecc0c048c0a3ada2c492b4b06df"><td class="mdescLeft">&#160;</td><td class="mdescRight">控制视角调整的对象  <a href="class_main_g_l_widget.html#a525b2ecc0c048c0a3ada2c492b4b06df">更多...</a><br /></td></tr>
+<tr class="separator:a525b2ecc0c048c0a3ada2c492b4b06df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ce3b778d2be9b62a5f3c293b86c770"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_justifier.html">Justifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#af7ce3b778d2be9b62a5f3c293b86c770">m_justifier</a></td></tr>
+<tr class="memdesc:af7ce3b778d2be9b62a5f3c293b86c770"><td class="mdescLeft">&#160;</td><td class="mdescRight">控制模型修改的对象  <a href="class_main_g_l_widget.html#af7ce3b778d2be9b62a5f3c293b86c770">更多...</a><br /></td></tr>
+<tr class="separator:af7ce3b778d2be9b62a5f3c293b86c770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4fdb7d283dbe6ef71bd6a07ccee503c"><td class="memItemLeft" align="right" valign="top">QPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#af4fdb7d283dbe6ef71bd6a07ccee503c">deltaPos</a></td></tr>
+<tr class="memdesc:af4fdb7d283dbe6ef71bd6a07ccee503c"><td class="mdescLeft">&#160;</td><td class="mdescRight">鼠标当前位置  <a href="class_main_g_l_widget.html#af4fdb7d283dbe6ef71bd6a07ccee503c">更多...</a><br /></td></tr>
+<tr class="separator:af4fdb7d283dbe6ef71bd6a07ccee503c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab780e67fbdf3f23c724e898ec8831fa7"><td class="memItemLeft" align="right" valign="top">QPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#ab780e67fbdf3f23c724e898ec8831fa7">lastPos</a></td></tr>
+<tr class="memdesc:ab780e67fbdf3f23c724e898ec8831fa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">鼠标上一时刻的位置  <a href="class_main_g_l_widget.html#ab780e67fbdf3f23c724e898ec8831fa7">更多...</a><br /></td></tr>
+<tr class="separator:ab780e67fbdf3f23c724e898ec8831fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeacf0f49f1c7e76461ae819b6e055ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#abeacf0f49f1c7e76461ae819b6e055ff">ifMoveView</a> = 0</td></tr>
+<tr class="memdesc:abeacf0f49f1c7e76461ae819b6e055ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">标记是否允许移动视角,按下鼠标时置1松开鼠标置0，当1时视角随鼠标移动  <a href="class_main_g_l_widget.html#abeacf0f49f1c7e76461ae819b6e055ff">更多...</a><br /></td></tr>
+<tr class="separator:abeacf0f49f1c7e76461ae819b6e055ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86ae9c18c275945c115a37d2eea86d65"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#a86ae9c18c275945c115a37d2eea86d65">ifMoveModel</a> = 0</td></tr>
+<tr class="memdesc:a86ae9c18c275945c115a37d2eea86d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">标记是否允许移动物体,按下鼠标时置1松开鼠标置0，当1时视角随鼠标移动  <a href="class_main_g_l_widget.html#a86ae9c18c275945c115a37d2eea86d65">更多...</a><br /></td></tr>
+<tr class="separator:a86ae9c18c275945c115a37d2eea86d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d8bf9bc0e4a713a38fc3671ba63eba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_g_l_widget.html#af7d8bf9bc0e4a713a38fc3671ba63eba">ifShift</a> = 0</td></tr>
+<tr class="memdesc:af7d8bf9bc0e4a713a38fc3671ba63eba"><td class="mdescLeft">&#160;</td><td class="mdescRight">标记模型移动方向，当Shift键按下时置1，模型沿前向移动，否则沿UP和Right方向移动  <a href="class_main_g_l_widget.html#af7d8bf9bc0e4a713a38fc3671ba63eba">更多...</a><br /></td></tr>
+<tr class="separator:af7d8bf9bc0e4a713a38fc3671ba63eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p >类：MainGL（GL绘图控件） </p>
+<pre>
+包含一个GL绘图控件
+用于绘制模型
+</pre> </div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a9549a76a5ed0b1628044577ada97a644" name="a9549a76a5ed0b1628044577ada97a644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9549a76a5ed0b1628044577ada97a644">&#9670;&nbsp;</a></span>MainGLWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MainGLWidget::MainGLWidget </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>构造函数 </p>
+
+</div>
+</div>
+<a id="a487d8aaa120922d8285e1ff43b999418" name="a487d8aaa120922d8285e1ff43b999418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a487d8aaa120922d8285e1ff43b999418">&#9670;&nbsp;</a></span>~MainGLWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MainGLWidget::~MainGLWidget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>析构函数 </p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a21d0d719f1f6fd1b95a6a8f4bcc97cc6" name="a21d0d719f1f6fd1b95a6a8f4bcc97cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21d0d719f1f6fd1b95a6a8f4bcc97cc6">&#9670;&nbsp;</a></span>initializeGL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::initializeGL </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>初始化GL控件 </p>
+
+</div>
+</div>
+<a id="a3953798b273f23c26d09cff18b328412" name="a3953798b273f23c26d09cff18b328412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3953798b273f23c26d09cff18b328412">&#9670;&nbsp;</a></span>initTree</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::initTree </td>
+          <td>(</td>
+          <td class="paramtype">QOpenGLContext *&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QOpenGLShaderProgram *&#160;</td>
+          <td class="paramname"><em>shaderProgram</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>向ModelTree发信号送传送shader和context，用于最终放到ModelTree的Part和Model用于之后绘制图形 </p>
+
+</div>
+</div>
+<a id="a7d3f4eb3e93c5b102d74006518db819e" name="a7d3f4eb3e93c5b102d74006518db819e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d3f4eb3e93c5b102d74006518db819e">&#9670;&nbsp;</a></span>keyPressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::keyPressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>键盘按键按下事件监控 </p>
+
+</div>
+</div>
+<a id="a0a640f31c2a4bdee2547554f2fc51d58" name="a0a640f31c2a4bdee2547554f2fc51d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a640f31c2a4bdee2547554f2fc51d58">&#9670;&nbsp;</a></span>keyReleaseEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::keyReleaseEvent </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>键盘按键松开事件监控 </p>
+
+</div>
+</div>
+<a id="a5b39bca52efe6d9a70037830d60c2e37" name="a5b39bca52efe6d9a70037830d60c2e37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b39bca52efe6d9a70037830d60c2e37">&#9670;&nbsp;</a></span>mouseMoveEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::mouseMoveEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>鼠标移动事件监控 </p>
+
+</div>
+</div>
+<a id="a17179fd0fc33bfce008ccf9660d5d09d" name="a17179fd0fc33bfce008ccf9660d5d09d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17179fd0fc33bfce008ccf9660d5d09d">&#9670;&nbsp;</a></span>mousePressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>鼠标按键按下事件监控 </p>
+
+</div>
+</div>
+<a id="a7bfd0f847d487e03c49899e4b1050196" name="a7bfd0f847d487e03c49899e4b1050196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bfd0f847d487e03c49899e4b1050196">&#9670;&nbsp;</a></span>mouseReleaseEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::mouseReleaseEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>鼠标按键松开事件监控 </p>
+
+</div>
+</div>
+<a id="a27f17286dae2e9b062cc62812d144b41" name="a27f17286dae2e9b062cc62812d144b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27f17286dae2e9b062cc62812d144b41">&#9670;&nbsp;</a></span>paintGL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::paintGL </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重绘GL窗口中的内容 </p>
+
+</div>
+</div>
+<a id="aba71d2997f47b364e4e7123093c909da" name="aba71d2997f47b364e4e7123093c909da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba71d2997f47b364e4e7123093c909da">&#9670;&nbsp;</a></span>resizeGL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::resizeGL </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重设GL窗口参数（size等） </p>
+
+</div>
+</div>
+<a id="abc3bba2465fb629339a6372afc4e607f" name="abc3bba2465fb629339a6372afc4e607f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc3bba2465fb629339a6372afc4e607f">&#9670;&nbsp;</a></span>sensitivityLM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::sensitivityLM </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收sensitivity_adopter的LM控件参数变化信号 </p>
+
+</div>
+</div>
+<a id="a2c8deffd7f140d37cd67beac4360db2d" name="a2c8deffd7f140d37cd67beac4360db2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8deffd7f140d37cd67beac4360db2d">&#9670;&nbsp;</a></span>sensitivityLR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::sensitivityLR </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收sensitivity_adopter的LR控件参数变化信号 </p>
+
+</div>
+</div>
+<a id="a8339f62da4426d68c9cc1fc03ef44caa" name="a8339f62da4426d68c9cc1fc03ef44caa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8339f62da4426d68c9cc1fc03ef44caa">&#9670;&nbsp;</a></span>sensitivityRO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::sensitivityRO </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收sensitivity_adopter的RO控件参数变化信号 </p>
+
+</div>
+</div>
+<a id="a34b101b065804cdb3daaa839da505fca" name="a34b101b065804cdb3daaa839da505fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34b101b065804cdb3daaa839da505fca">&#9670;&nbsp;</a></span>sensitivityRT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::sensitivityRT </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收sensitivity_adopter的RT控件参数变化信号 </p>
+
+</div>
+</div>
+<a id="ac7b166e9dfd95fab911c6bd508d764d9" name="ac7b166e9dfd95fab911c6bd508d764d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7b166e9dfd95fab911c6bd508d764d9">&#9670;&nbsp;</a></span>sensitivityS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::sensitivityS </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接收sensitivity_adopter的S控件参数变化信号 </p>
+
+</div>
+</div>
+<a id="a13db09aad99baf0b0958e84f15fd5cc2" name="a13db09aad99baf0b0958e84f15fd5cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13db09aad99baf0b0958e84f15fd5cc2">&#9670;&nbsp;</a></span>setDefaultView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::setDefaultView </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>恢复初始视角 </p>
+
+</div>
+</div>
+<a id="ad08082e87f54d3e604aecdbacd44ef46" name="ad08082e87f54d3e604aecdbacd44ef46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad08082e87f54d3e604aecdbacd44ef46">&#9670;&nbsp;</a></span>setModelfame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::setModelfame </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>modelframe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置为填充模式绘图 </p>
+
+</div>
+</div>
+<a id="a4ce15f1a3fd4c6bfda850c4180f75963" name="a4ce15f1a3fd4c6bfda850c4180f75963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ce15f1a3fd4c6bfda850c4180f75963">&#9670;&nbsp;</a></span>setShowAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::setShowAxis </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>Axis</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置是否显式坐标轴 </p>
+
+</div>
+</div>
+<a id="a0fb703ff2bacb007b9b67b25186d4ec3" name="a0fb703ff2bacb007b9b67b25186d4ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fb703ff2bacb007b9b67b25186d4ec3">&#9670;&nbsp;</a></span>setViewFromX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::setViewFromX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>重置视角（从X轴正方向看向原点） </p>
+
+</div>
+</div>
+<a id="ac2670f45d232547b8f23de58be085fff" name="ac2670f45d232547b8f23de58be085fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2670f45d232547b8f23de58be085fff">&#9670;&nbsp;</a></span>setViewFromY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::setViewFromY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>重置视角（从Y轴正方向看向原点） </p>
+
+</div>
+</div>
+<a id="a63d54ef2be4e67ae1eafca0011e6c5c1" name="a63d54ef2be4e67ae1eafca0011e6c5c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63d54ef2be4e67ae1eafca0011e6c5c1">&#9670;&nbsp;</a></span>setViewFromZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::setViewFromZ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>重置视角（从Z轴正方向看向原点） </p>
+
+</div>
+</div>
+<a id="abe0b0b15265660a0085efe97c3a23571" name="abe0b0b15265660a0085efe97c3a23571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe0b0b15265660a0085efe97c3a23571">&#9670;&nbsp;</a></span>setWirefame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::setWirefame </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>wireframe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置为线框模式绘图 </p>
+
+</div>
+</div>
+<a id="a24c8b9a38c39193a3922c83356349b08" name="a24c8b9a38c39193a3922c83356349b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24c8b9a38c39193a3922c83356349b08">&#9670;&nbsp;</a></span>wheelEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainGLWidget::wheelEvent </td>
+          <td>(</td>
+          <td class="paramtype">QWheelEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>鼠标滚轮滚动事件监控 </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="af4fdb7d283dbe6ef71bd6a07ccee503c" name="af4fdb7d283dbe6ef71bd6a07ccee503c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4fdb7d283dbe6ef71bd6a07ccee503c">&#9670;&nbsp;</a></span>deltaPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPoint MainGLWidget::deltaPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>鼠标当前位置 </p>
+
+</div>
+</div>
+<a id="aad3a2beffe2e03c9bf551b85cd2a2672" name="aad3a2beffe2e03c9bf551b85cd2a2672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3a2beffe2e03c9bf551b85cd2a2672">&#9670;&nbsp;</a></span>EBOaxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int MainGLWidget::EBOaxis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>坐标轴的VAO、VBO、EBO </p>
+
+</div>
+</div>
+<a id="a86ae9c18c275945c115a37d2eea86d65" name="a86ae9c18c275945c115a37d2eea86d65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86ae9c18c275945c115a37d2eea86d65">&#9670;&nbsp;</a></span>ifMoveModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainGLWidget::ifMoveModel = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>标记是否允许移动物体,按下鼠标时置1松开鼠标置0，当1时视角随鼠标移动 </p>
+
+</div>
+</div>
+<a id="abeacf0f49f1c7e76461ae819b6e055ff" name="abeacf0f49f1c7e76461ae819b6e055ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeacf0f49f1c7e76461ae819b6e055ff">&#9670;&nbsp;</a></span>ifMoveView</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainGLWidget::ifMoveView = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>标记是否允许移动视角,按下鼠标时置1松开鼠标置0，当1时视角随鼠标移动 </p>
+
+</div>
+</div>
+<a id="af7d8bf9bc0e4a713a38fc3671ba63eba" name="af7d8bf9bc0e4a713a38fc3671ba63eba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d8bf9bc0e4a713a38fc3671ba63eba">&#9670;&nbsp;</a></span>ifShift</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainGLWidget::ifShift = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>标记模型移动方向，当Shift键按下时置1，模型沿前向移动，否则沿UP和Right方向移动 </p>
+
+</div>
+</div>
+<a id="ab780e67fbdf3f23c724e898ec8831fa7" name="ab780e67fbdf3f23c724e898ec8831fa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab780e67fbdf3f23c724e898ec8831fa7">&#9670;&nbsp;</a></span>lastPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPoint MainGLWidget::lastPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>鼠标上一时刻的位置 </p>
+
+</div>
+</div>
+<a id="af7ce3b778d2be9b62a5f3c293b86c770" name="af7ce3b778d2be9b62a5f3c293b86c770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7ce3b778d2be9b62a5f3c293b86c770">&#9670;&nbsp;</a></span>m_justifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_justifier.html">Justifier</a> MainGLWidget::m_justifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>控制模型修改的对象 </p>
+
+</div>
+</div>
+<a id="a525b2ecc0c048c0a3ada2c492b4b06df" name="a525b2ecc0c048c0a3ada2c492b4b06df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a525b2ecc0c048c0a3ada2c492b4b06df">&#9670;&nbsp;</a></span>m_viewer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_viewer.html">Viewer</a> MainGLWidget::m_viewer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>控制视角调整的对象 </p>
+
+</div>
+</div>
+<a id="aaf0c27be9605e0d22a8056b8154ac5d3" name="aaf0c27be9605e0d22a8056b8154ac5d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf0c27be9605e0d22a8056b8154ac5d3">&#9670;&nbsp;</a></span>model</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMatrix4x4 MainGLWidget::model</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>model矩阵 </p>
+
+</div>
+</div>
+<a id="a7569cd9ec4bd2852b1665620dec45242" name="a7569cd9ec4bd2852b1665620dec45242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7569cd9ec4bd2852b1665620dec45242">&#9670;&nbsp;</a></span>MT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_model_tree.html">ModelTree</a>* MainGLWidget::MT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ModelTree指针 </p>
+
+</div>
+</div>
+<a id="a048b7b2d92b127015cd0a6bf54fe0210" name="a048b7b2d92b127015cd0a6bf54fe0210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a048b7b2d92b127015cd0a6bf54fe0210">&#9670;&nbsp;</a></span>projection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMatrix4x4 MainGLWidget::projection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>projection矩阵 </p>
+
+</div>
+</div>
+<a id="ac6a95ba803d3454e3782466bd8ed9409" name="ac6a95ba803d3454e3782466bd8ed9409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6a95ba803d3454e3782466bd8ed9409">&#9670;&nbsp;</a></span>SA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_sensitivity___adaptor.html">Sensitivity_Adaptor</a>* MainGLWidget::SA</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>灵敏度调节窗口指针 </p>
+
+</div>
+</div>
+<a id="a5c33b311042f8ac0ae403449a5d71846" name="a5c33b311042f8ac0ae403449a5d71846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c33b311042f8ac0ae403449a5d71846">&#9670;&nbsp;</a></span>sensitivity_left_mov</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MainGLWidget::sensitivity_left_mov = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>灵敏度参数（移动模型） </p>
+
+</div>
+</div>
+<a id="a0b6415179eb9ca32cf12f1c61f3de025" name="a0b6415179eb9ca32cf12f1c61f3de025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b6415179eb9ca32cf12f1c61f3de025">&#9670;&nbsp;</a></span>sensitivity_left_rot</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MainGLWidget::sensitivity_left_rot = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>灵敏度参数（转动模型） </p>
+
+</div>
+</div>
+<a id="a75fa7ae68b8ca27e627d4d62ce51c868" name="a75fa7ae68b8ca27e627d4d62ce51c868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75fa7ae68b8ca27e627d4d62ce51c868">&#9670;&nbsp;</a></span>sensitivity_right_orient</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MainGLWidget::sensitivity_right_orient = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>灵敏度参数（转动视角） </p>
+
+</div>
+</div>
+<a id="a0df90db09092ed8262516bfd98898ab9" name="a0df90db09092ed8262516bfd98898ab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0df90db09092ed8262516bfd98898ab9">&#9670;&nbsp;</a></span>sensitivity_right_trans</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MainGLWidget::sensitivity_right_trans = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>灵敏度参数（移动视角） </p>
+
+</div>
+</div>
+<a id="ab5f0fbe6011947d4933f14ec6fa6154d" name="ab5f0fbe6011947d4933f14ec6fa6154d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f0fbe6011947d4933f14ec6fa6154d">&#9670;&nbsp;</a></span>sensitivity_roll</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MainGLWidget::sensitivity_roll = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>灵敏度参数（缩放视角） </p>
+
+</div>
+</div>
+<a id="a0069c44601bcb49362846b303edb0c07" name="a0069c44601bcb49362846b303edb0c07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0069c44601bcb49362846b303edb0c07">&#9670;&nbsp;</a></span>shaderProgram</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QOpenGLShaderProgram MainGLWidget::shaderProgram</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>着色器指针 </p>
+
+</div>
+</div>
+<a id="acb16f17b21eb21ea72053d08a0561c3e" name="acb16f17b21eb21ea72053d08a0561c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb16f17b21eb21ea72053d08a0561c3e">&#9670;&nbsp;</a></span>showaxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainGLWidget::showaxis = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>是否绘制坐标轴 </p>
+
+</div>
+</div>
+<a id="a9e2882561f2e91d420a7fcbe84b753ed" name="a9e2882561f2e91d420a7fcbe84b753ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e2882561f2e91d420a7fcbe84b753ed">&#9670;&nbsp;</a></span>textureAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QOpenGLTexture* MainGLWidget::textureAxis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>纹理textureAxis </p>
+
+</div>
+</div>
+<a id="ad1e659b94a688614952c61867ecb5011" name="ad1e659b94a688614952c61867ecb5011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1e659b94a688614952c61867ecb5011">&#9670;&nbsp;</a></span>textureWall</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QOpenGLTexture* MainGLWidget::textureWall</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>纹理textureWall </p>
+
+</div>
+</div>
+<a id="a24245d6d9266a33632dcb3eb402ea14e" name="a24245d6d9266a33632dcb3eb402ea14e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24245d6d9266a33632dcb3eb402ea14e">&#9670;&nbsp;</a></span>VAOaxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int MainGLWidget::VAOaxis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0be2f61810f79eb5f490cff37641f795" name="a0be2f61810f79eb5f490cff37641f795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0be2f61810f79eb5f490cff37641f795">&#9670;&nbsp;</a></span>VBOaxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int MainGLWidget::VBOaxis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58aa6ee74a7d72f28d995b8038385aa0" name="a58aa6ee74a7d72f28d995b8038385aa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58aa6ee74a7d72f28d995b8038385aa0">&#9670;&nbsp;</a></span>view</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMatrix4x4 MainGLWidget::view</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>view矩阵 </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>D:/QT_GL_Workspace/bs/VAMS/<a class="el" href="mainglwidget_8h_source.html">mainglwidget.h</a></li>
+<li>D:/QT_GL_Workspace/bs/VAMS/<a class="el" href="mainglwidget_8cpp.html">mainglwidget.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_main_g_l_widget.html">MainGLWidget</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>
